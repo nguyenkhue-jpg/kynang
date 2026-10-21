@@ -1,0 +1,1003 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Part 5 – Incomplete Sentences | TOEIC Thầy Khuê</title>
+<meta name="description" content="Hướng dẫn kỹ năng và lưu ý làm bài TOEIC Part 5 – Incomplete Sentences.">
+<meta name="theme-color" content="#1a3399">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#16297f; --brand:#1d3cb5; --brand-2:#2457e6; --brand-3:#3d72f5;
+  --brand-50:#eef3ff; --brand-100:#dfe8ff;
+  --ink:#18203a; --ink-2:#3a4560; --muted:#69738c;
+  --bg:#f3f5fb; --card:#ffffff; --line:#e2e7f2; --line-2:#cfd8ea;
+  --en:#1b3fa6;
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --shadow:0 1px 2px rgba(22,41,127,.06),0 6px 22px rgba(22,41,127,.07);
+  --bar-h:58px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.72 "Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+img{max-width:100%;height:auto;display:block}
+button{font:inherit;color:inherit}
+a{color:var(--brand-2)}
+strong{font-weight:700;color:#0f1733}
+em{font-style:italic}
+
+/* ---------- thanh trên ---------- */
+.bar{position:sticky;top:0;z-index:50;height:var(--bar-h);background:linear-gradient(90deg,var(--navy),var(--brand));color:#fff;
+  display:flex;align-items:center;gap:12px;padding:0 max(14px,env(safe-area-inset-left));box-shadow:0 2px 12px rgba(10,20,70,.18)}
+.brand{font-weight:800;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.22);padding:5px 11px;border-radius:999px;white-space:nowrap}
+.bar-title{flex:1;min-width:0;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.95}
+.icon-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:12px;border:1px solid rgba(255,255,255,.28);
+  background:rgba(255,255,255,.12);color:#fff;cursor:pointer;font-size:14px;font-weight:600}
+.icon-btn:hover{background:rgba(255,255,255,.22)}
+.icon-btn svg{width:18px;height:18px}
+.progress{position:fixed;top:var(--bar-h);left:0;height:3px;width:0;background:linear-gradient(90deg,#7fb0ff,#ffffff);z-index:51;transition:width .1s linear}
+
+/* ---------- bố cục ---------- */
+.layout{max-width:1220px;margin:0 auto;padding:18px 14px 80px;display:block}
+.toc{display:none}
+@media (max-width:1023.98px){.toc-count{display:none}}
+@media (min-width:1024px){
+  .layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:28px;padding:26px 24px 90px}
+  .toc{display:block;position:sticky;top:calc(var(--bar-h) + 18px);align-self:start;max-height:calc(100vh - var(--bar-h) - 36px);overflow:auto}
+  .toc-btn{display:none!important}
+  .toc-close{display:none}
+}
+main{min-width:0;max-width:820px}
+
+/* ---------- mục lục ---------- */
+.toc-card{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:0 1px 2px rgba(22,41,127,.05),0 10px 30px rgba(22,41,127,.08);padding:16px 12px 14px}
+.toc-head{display:flex;align-items:center;gap:11px;padding:2px 6px 14px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.toc-ico{flex:none;width:36px;height:36px;border-radius:11px;background:var(--brand-50);color:var(--brand);display:grid;place-items:center}
+.toc-ico svg{width:19px;height:19px}
+.toc-head b{flex:1;font-size:14px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.toc-count{font-size:12.5px;font-weight:600;color:var(--muted);background:#f3f5fa;padding:3px 10px;border-radius:999px}
+.toc ul{list-style:none;margin:0;padding:0}
+.toc > .toc-card > ul > li{margin:3px 0}
+.toc a{text-decoration:none;-webkit-tap-highlight-color:transparent}
+.toc-p{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:14px;color:var(--ink);font-weight:600;font-size:14.5px;line-height:1.4;transition:background .18s,color .18s}
+.toc-p:hover{background:#f3f6ff}
+.toc-n{flex:none;width:32px;height:32px;border-radius:10px;background:var(--brand-50);color:var(--brand);font-weight:800;font-size:14px;display:grid;place-items:center;transition:background .18s,color .18s}
+.toc-t{flex:1;min-width:0}
+.toc-chev{flex:none;width:8px;height:8px;border-right:2px solid #9aa6c2;border-bottom:2px solid #9aa6c2;transform:rotate(-45deg);margin-right:6px;transition:transform .2s}
+.toc li.expanded > .toc-p,.toc li.active > .toc-p{background:linear-gradient(135deg,var(--brand) 0%,var(--brand-2) 100%);color:#fff;box-shadow:0 6px 16px rgba(36,87,230,.28)}
+.toc li.expanded > .toc-p .toc-n,.toc li.active > .toc-p .toc-n{background:rgba(255,255,255,.18);color:#fff}
+.toc li.expanded > .toc-p .toc-chev,.toc li.active > .toc-p .toc-chev{border-color:#fff;transform:rotate(45deg);margin-top:-4px}
+.toc li ul{display:none;margin:6px 0 8px 12px;padding:2px 0}
+.toc li.active > ul,.toc li.expanded > ul{display:block}
+.toc li ul a{position:relative;display:flex;gap:10px;align-items:flex-start;padding:7px 10px 7px 26px;border-radius:11px;font-size:13.5px;line-height:1.45;color:var(--ink-2)}
+.toc li ul a::before{content:"";position:absolute;left:10px;top:.95em;width:6px;height:6px;border-radius:50%;background:#c9d5f2}
+.toc li ul a:hover{background:#f3f6ff;color:var(--brand)}
+.toc li ul a.current{background:var(--brand-50);color:var(--brand);font-weight:600}
+.toc li ul a.current::before{background:var(--brand-2);box-shadow:0 0 0 3px rgba(36,87,230,.15)}
+.toc-sn{flex:none;color:var(--brand-2);font-weight:700;min-width:2.2em}
+.toc-prog{margin-top:12px;padding:14px 14px 15px;border-radius:16px;background:linear-gradient(135deg,#eef3ff 0%,#f7f9ff 100%);border:1px solid var(--brand-100)}
+.toc-prog-top{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--ink-2);font-weight:600}
+.toc-prog-top b{font-size:15px;color:var(--brand)}
+.toc-prog-bar{height:7px;border-radius:99px;background:#dbe4fb;margin-top:9px;overflow:hidden}
+.toc-prog-bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--brand),var(--brand-3));transition:width .15s linear}
+.toc-close{border:0;background:var(--brand-50);color:var(--brand);width:36px;height:36px;border-radius:10px;font-size:20px;cursor:pointer}
+.toc::-webkit-scrollbar{width:6px}.toc::-webkit-scrollbar-thumb{background:#cfd8ea;border-radius:9px}
+@media (max-width:1023.98px){
+  .toc{display:block;position:fixed;z-index:80;top:0;bottom:0;left:0;width:min(88vw,370px);transform:translateX(-104%);
+    transition:transform .28s ease;overflow:auto;padding:12px;background:var(--bg)}
+  .toc-card{min-height:100%;border-radius:18px}
+  body.toc-open .toc{transform:none;box-shadow:12px 0 40px rgba(0,0,0,.25)}
+  .scrim{position:fixed;inset:0;background:rgba(12,20,50,.42);z-index:70;opacity:0;pointer-events:none;transition:opacity .25s}
+  body.toc-open .scrim{opacity:1;pointer-events:auto}
+  body.toc-open{overflow:hidden}
+}
+
+/* ---------- đầu trang ---------- */
+.hero{position:relative;overflow:hidden;border-radius:24px;padding:26px 22px 22px;color:#fff;
+  background:radial-gradient(120% 140% at 100% 0%,#4d86ff 0%,rgba(77,134,255,0) 55%),linear-gradient(135deg,var(--navy) 0%,var(--brand) 60%,var(--brand-2) 100%);box-shadow:0 10px 30px rgba(29,60,181,.25)}
+.hero::after{content:"";position:absolute;right:-60px;bottom:-80px;width:240px;height:240px;border-radius:50%;border:34px solid rgba(255,255,255,.07)}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.hero h1{margin:6px 0 4px;font-size:clamp(30px,7vw,44px);line-height:1.12;font-weight:800;letter-spacing:-.01em}
+.hero h1 span{display:block;font-size:.55em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.92;margin-top:6px}
+.hero .tagline{margin:8px 0 0;font-size:14px;font-weight:600;letter-spacing:.04em;opacity:.85}
+.hero p{margin:12px 0 0;font-size:16px;opacity:.95;max-width:560px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;position:relative;z-index:1}
+.chip{font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25)}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:18px 2px 14px}
+.tools .hint{font-size:14px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-2);background:var(--card);color:var(--brand);font-weight:600;font-size:14px;
+  height:40px;padding:0 15px;border-radius:12px;cursor:pointer;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.btn:hover{border-color:var(--brand-3);background:var(--brand-50)}
+.btn svg{width:17px;height:17px}
+
+/* ---------- Phần (accordion cấp 1) ---------- */
+.part{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);margin:0 0 14px;scroll-margin-top:calc(var(--bar-h) + 12px)}
+.part-h,.sub-h{margin:0;font-size:inherit}
+.part-btn{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:none;border:0;cursor:pointer;padding:16px 16px;border-radius:var(--r-lg)}
+.part-num{flex:none;width:52px;height:52px;border-radius:15px;background:var(--brand-50);color:var(--brand);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:21px;line-height:1}
+.part-num small{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:3px;opacity:.8}
+.part-tt{flex:1;min-width:0;display:flex;flex-direction:column}
+.part-t{font-weight:700;font-size:17px;line-height:1.38;color:var(--ink)}
+.part-meta{font-size:13px;color:var(--muted);margin-top:3px}
+.chev{flex:none;width:32px;height:32px;border-radius:10px;background:var(--brand-50);position:relative;transition:transform .25s ease,background .2s}
+.chev::before{content:"";position:absolute;left:50%;top:46%;width:8px;height:8px;border-right:2.4px solid var(--brand);border-bottom:2.4px solid var(--brand);transform:translate(-50%,-50%) rotate(45deg)}
+.open > h2 > button .chev,.open > h3 > button .chev{transform:rotate(180deg)}
+.part.open > .part-h .part-num{background:var(--brand);color:#fff}
+.part.open > .part-h .part-btn{border-bottom-left-radius:0;border-bottom-right-radius:0}
+.part-btn:hover .chev,.sub-btn:hover .chev{background:var(--brand-100)}
+.collapse{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.open > .collapse{grid-template-rows:1fr}
+.collapse-in{overflow:hidden;min-height:0}
+.part-body{padding:2px 16px 16px;border-top:1px solid var(--line)}
+.part-intro{padding:8px 2px 4px}
+
+/* ---------- Mục (accordion cấp 2) ---------- */
+.sub{border:1px solid var(--line);border-radius:var(--r-md);margin:12px 0 0;background:#fbfcff;scroll-margin-top:calc(var(--bar-h) + 12px)}
+.sub.open{background:#fff;border-color:var(--line-2)}
+.sub-btn{width:100%;display:flex;gap:12px;align-items:center;text-align:left;border:0;background:none;cursor:pointer;padding:12px 12px 12px 14px;border-radius:var(--r-md)}
+.sub-num{flex:none;font-size:13px;font-weight:700;color:var(--brand);background:var(--brand-50);border:1px solid var(--brand-100);padding:3px 9px;border-radius:999px;white-space:nowrap}
+.sub-t{flex:1;min-width:0;font-weight:600;font-size:16px;line-height:1.45}
+.sub .chev{width:28px;height:28px;border-radius:9px}
+.sub-body{padding:2px 16px 16px}
+
+/* ---------- nội dung ---------- */
+.part-body p,.sub-body p{margin:10px 0}
+.en,.en-list li{color:var(--en)}
+/* ---- điểm nhấn ---- */
+em{color:var(--en);font-weight:500}
+.part-body p strong,.part-body .bullets strong,.part-body .steps strong{color:#14267a}
+.callout strong,.tbl strong,.answer strong,.c-body .flow strong{background:none!important;color:#0f1a4d}
+.tag{display:inline-block;font-size:.86em;font-weight:700;color:var(--brand);background:var(--brand-50);border:1px solid var(--brand-100);padding:0 9px;border-radius:999px;margin-right:2px;line-height:1.7}
+.tag-ok{color:#11703c;background:#e3f6ea;border-color:#bfe6cd}
+.wrong{color:#b42d31;font-weight:600}
+.options li.is-key{background:#ecf9f1;box-shadow:inset 0 0 0 1.5px #5cc08a}
+.options li.is-key .opt{background:#1f9d57;border-color:#1f9d57;color:#fff}
+.en strong,.en-list li strong{color:#0b2378}
+.bullets{margin:10px 0;padding:0;list-style:none}
+.bullets li{position:relative;padding-left:22px;margin:7px 0}
+.bullets li::before{content:"";position:absolute;left:5px;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--brand-3)}
+.steps,.flow{list-style:none;margin:12px 0;padding:0;counter-reset:none}
+.steps li,.flow li{display:flex;gap:12px;align-items:flex-start;margin:9px 0}
+.steps .n,.flow .n{flex:none;width:28px;height:28px;border-radius:9px;background:var(--brand);color:#fff;font-weight:700;font-size:14px;display:grid;place-items:center;margin-top:1px}
+.en-list{list-style:none;margin:12px 0;padding:12px 14px;background:var(--brand-50);border-radius:var(--r-sm);border:1px solid var(--brand-100)}
+.en-list li{margin:4px 0;font-weight:500}
+.en-list li::before{content:"🔊";font-size:12px;margin-right:8px;opacity:.6}
+
+/* ảnh + phương án */
+.figs{display:grid;gap:12px;margin:14px 0 10px}
+@media (min-width:640px){.figs.n2{grid-template-columns:1fr 1fr}}
+figure{margin:0}
+.zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:var(--r-md);overflow:hidden;box-shadow:0 2px 10px rgba(20,30,70,.12)}
+.figs.n1 figure{max-width:560px;margin:0 auto}
+figcaption{text-align:center;font-weight:700;font-size:14px;margin-top:8px;color:var(--ink-2)}
+.fig-note{text-align:center;font-size:14.5px;color:var(--ink-2);max-width:600px;margin:6px auto 12px!important}
+.options{list-style:none;margin:10px auto 8px;padding:6px;max-width:560px;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-md)}
+.options li{display:flex;gap:12px;align-items:center;padding:8px 8px;border-radius:10px}
+.options li + li{border-top:1px dashed var(--line)}
+.opt{flex:none;width:30px;height:30px;border-radius:50%;border:2px solid var(--brand-3);color:var(--brand);font-weight:800;font-size:14px;display:grid;place-items:center}
+.options .en{font-weight:500}
+.answer{max-width:560px;margin:8px auto 14px;border-radius:var(--r-md);border:1px solid #bfe3cc;background:#f1fbf5;overflow:hidden}
+.answer summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:11px 14px;font-weight:700;color:#147a43;font-size:15px}
+.answer summary::-webkit-details-marker{display:none}
+.answer summary::before{content:"👀";font-size:16px}
+.answer summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2.4px solid #147a43;border-bottom:2.4px solid #147a43;transform:rotate(45deg);transition:transform .2s;margin-right:4px}
+.answer[open] summary::after{transform:rotate(-135deg)}
+.answer .s-open{display:none}.answer[open] .s-open{display:inline}.answer[open] .s-closed{display:none}
+.xref{font-weight:600;text-decoration:none;border-bottom:1.5px solid rgba(36,87,230,.35)}
+.bar-title b{font-weight:700}
+@media (max-width:420px){.bar-title .nm{display:none}.brand{font-size:11.5px;padding:5px 9px}}
+.ans-body{padding:0 14px 6px;border-top:1px solid #cdebd8}
+
+/* bảng */
+.tbl-wrap{margin:14px 0;border:1px solid var(--line-2);border-radius:var(--r-md);overflow:hidden;background:#fff}
+table.tbl{width:100%;border-collapse:collapse;font-size:15px;line-height:1.55}
+.tbl th{background:var(--brand);color:#fff;text-align:left;font-weight:600;padding:10px 12px;font-size:14px}
+.tbl td{padding:10px 12px;vertical-align:top;border-top:1px solid var(--line)}
+.tbl tbody tr:nth-child(even) td{background:#f7f9fe}
+.tbl td:first-child{font-weight:600}
+.tbl td.stepnum::before{content:"Bước ";}
+@media (max-width:719.98px){
+  .tbl-wrap{border:0;background:none;overflow:visible}
+  table.tbl,.tbl tbody,.tbl tr,.tbl td{display:block;width:100%}
+  .tbl thead{display:none}
+  .tbl tr{background:#fff;border:1px solid var(--line-2);border-radius:var(--r-md);margin:0 0 10px;padding:4px 0;box-shadow:0 1px 3px rgba(20,30,70,.04)}
+  .tbl tbody tr:nth-child(even) td{background:none}
+  .tbl td{border:0;padding:6px 14px}
+  .tbl td:first-child{font-size:15.5px;padding-top:9px;border-bottom:1px dashed var(--line);padding-bottom:8px}
+  .tbl td:not(:first-child)::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+  .tbl.cols-2:not(.lab-all) td:not(:first-child)::before{display:none}
+  .tbl.lab-all td:first-child::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+}
+
+/* callout */
+.callout{margin:16px 0;border-radius:var(--r-md);padding:14px 16px 6px;border:1px solid;border-left-width:5px}
+.c-head{display:flex;align-items:center;gap:9px;margin-bottom:2px}
+.c-ico{font-size:17px}
+.c-title{font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.c-body p{margin:8px 0}
+.c-info{background:#eef3ff;border-color:#c9d8ff;border-left-color:var(--brand-3)} .c-info .c-title{color:var(--brand)}
+.c-note{background:#f5f7fa;border-color:#dde3ec;border-left-color:#8a97ad} .c-note .c-title{color:#4a5872}
+.c-tip{background:#fff7e9;border-color:#f6dfb4;border-left-color:#f0a020} .c-tip .c-title{color:#a35f00}
+.c-warn{background:#fff2f2;border-color:#f6cfcf;border-left-color:#e2474b} .c-warn .c-title{color:#b4262a}
+.c-remember{background:#eefaf3;border-color:#c7ead5;border-left-color:#22a55b} .c-remember .c-title{color:#137a42}
+.c-check{background:#f4f8ff;border-color:#d3e0fa;border-left-color:var(--brand-2)} .c-check .c-title{color:var(--brand)}
+.checklist{list-style:none;margin:8px 0 10px;padding:0}
+.checklist li{margin:4px 0}
+.checklist label{display:flex;gap:12px;align-items:flex-start;padding:8px 10px;border-radius:10px;cursor:pointer;background:#fff;border:1px solid var(--line)}
+.checklist input{flex:none;width:20px;height:20px;margin:3px 0 0;accent-color:var(--brand-2)}
+.checklist input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}
+
+/* màu chữ có nghĩa (giữ theo Word) */
+.c-en{color:var(--en)} .c-nv{color:#1b2f7a} .c-ok{color:#11804a} .c-bad{color:#c4262b} .c-ipa{color:#7a2fa8} .c-amb{color:#9a5200}
+.c-en strong,.c-nv strong{color:inherit} .c-ok strong{color:#0d6e3e} .c-bad strong{color:#b0181d} .c-amb strong{color:#8a4700}
+.hl-y{background:#fff0b3;border-radius:4px;padding:0 3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hl-c{background:#cff2f6;border-radius:4px;padding:0 3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hl-g{background:#eceff4;border-radius:4px;padding:0 3px}
+.part-body p .c-ok strong,.part-body p .c-bad strong,.part-body p .c-amb strong,.part-body p .c-en strong{color:inherit}
+/* tiêu đề nhỏ trong mục */
+.h4{margin:22px 0 6px;font-size:16px;font-weight:700;color:var(--brand);line-height:1.45}
+.h4:first-child{margin-top:8px}
+p.indent{padding-left:14px;border-left:3px solid var(--line)}
+.callout.no-head{padding-top:8px}
+.part-num.is-info{font-size:12px;line-height:1.15;text-align:center}
+.part-num.is-info small{margin-bottom:1px}
+/* khung câu hỏi mẫu */
+.qcard{margin:16px 0;border:1px solid #cfdcf6;border-radius:var(--r-md);background:#f6f9ff;padding:12px 12px 4px}
+.q-head{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--brand);border-radius:999px;padding:3px 11px;margin:0 0 6px 2px}
+.q-prompt{margin:6px 2px 4px!important;font-weight:600;font-size:16px}
+.qgroup{margin:12px 0;padding:10px 12px 2px;border:1px solid #cfdcf6;border-radius:var(--r-md);background:#f6f9ff}
+.qgroup .options,.qgroup .answer{max-width:none}
+.qgroup .q-prompt{color:var(--en)}
+.addon-tag{display:inline-block;margin:18px 0 -4px;font-size:11.5px;font-weight:800;letter-spacing:.1em;color:#8a5a00;background:#fff4d6;border:1px solid #f0d9a0;border-radius:999px;padding:3px 11px}
+.addon-tag + .tbl-wrap,.addon-tag + .callout{margin-top:10px}
+.qcard .options{margin:8px 0;max-width:none}
+.qcard .answer{max-width:none;margin:8px 0 10px}
+.qcard > p,.qcard > ul{margin-left:2px;margin-right:2px}
+/* nút mục tiếp theo + đọc tiếp */
+.next-row{margin:18px 0 2px;display:flex;justify-content:flex-end}
+@media (max-width:719.98px){.next-row{justify-content:flex-start;padding-right:52px}}
+.next-btn{display:flex;align-items:center;gap:4px 12px;flex-wrap:wrap;text-align:left;max-width:100%;border:1px solid var(--brand-100);background:var(--brand-50);color:var(--brand);
+  border-radius:14px;padding:10px 46px 10px 14px;position:relative;cursor:pointer;min-height:48px;transition:background .15s,border-color .15s}
+.next-btn:hover{background:#e3ebff;border-color:#bccdfb}
+.nx-l{width:100%;font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.nx-t{font-weight:600;font-size:14.5px;line-height:1.4}
+.nx-arrow{position:absolute;right:16px;top:50%;width:9px;height:9px;border-right:2.4px solid var(--brand);border-bottom:2.4px solid var(--brand);transform:translateY(-50%) rotate(-45deg)}
+.next-btn.is-part{background:linear-gradient(135deg,var(--brand),var(--brand-2));border-color:transparent;color:#fff}
+.next-btn.is-part .nx-l{color:rgba(255,255,255,.8)} .next-btn.is-part .nx-arrow{border-color:#fff}
+.next-btn.is-end .nx-arrow{transform:translateY(-30%) rotate(-135deg)}
+.resume{display:none;position:relative;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:16px 0 0;padding:12px 52px 12px 14px;border-radius:16px;background:#fff;border:1px solid var(--brand-100);box-shadow:var(--shadow)}
+.resume.show{display:flex}
+.resume-txt{flex:1;min-width:200px;font-size:14.5px;color:var(--ink-2)}
+.resume-txt b{color:var(--brand)}
+.resume-go{border:0;background:var(--brand-2);color:#fff;font-weight:600;font-size:14px;height:40px;padding:0 16px;border-radius:12px;cursor:pointer}
+.resume-x{position:absolute;top:8px;right:8px;border:0;background:#f1f4fa;color:var(--muted);width:36px;height:36px;border-radius:10px;font-size:18px;cursor:pointer}
+@media (max-width:560px){.resume-go{width:100%}}
+@media (max-width:1023.98px){.toc-p{padding:11px 10px;min-height:52px}.toc li ul a{padding:11px 10px 11px 26px;min-height:46px;align-items:center}.toc li ul a::before{top:50%;margin-top:-3px}}
+/* cuối trang + nút nổi */
+.foot{margin:28px 0 0;text-align:center;font-size:13.5px;color:var(--muted)}
+.foot b{color:var(--brand)}
+.home-link{display:inline-block;margin-bottom:10px;font-weight:600;text-decoration:none;padding:8px 14px;border-radius:12px;background:var(--brand-50);border:1px solid var(--brand-100)}
+.totop{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:40;width:48px;height:48px;border-radius:50%;
+  border:0;background:var(--brand-2);color:#fff;box-shadow:0 8px 22px rgba(36,87,230,.35);cursor:pointer;opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.totop svg{width:22px;height:22px}
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,12,30,.9);display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lightbox.show{display:flex}
+.lightbox img{max-height:92vh;width:auto;border-radius:12px}
+:focus-visible{outline:3px solid #8db3ff;outline-offset:2px}
+
+@media (min-width:720px){
+  body{font-size:16.5px}
+  .hero{padding:34px 34px 28px}
+  .part-btn{padding:18px 20px}
+  .part-body{padding:4px 22px 22px}
+  .sub-body{padding:2px 20px 18px}
+}
+body.no-anim .collapse,body.no-anim .chev{transition:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media print{
+  .bar,.progress,.toc,.tools,.totop,.scrim,.chev{display:none!important}
+  body{background:#fff}
+  .layout{display:block;padding:0}
+  .collapse{grid-template-rows:1fr!important}
+  .answer{display:block}.answer > *{display:block}
+  .part,.sub{box-shadow:none;break-inside:auto}
+  .hero{box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<header class="bar">
+  <span class="brand">TOEIC Thầy Khuê</span>
+  <span class="bar-title"><b>Part 5</b><span class="nm"> · Incomplete Sentences</span></span>
+  <button class="icon-btn toc-btn" type="button" aria-label="Mở mục lục" data-act="toc">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Mục lục
+  </button>
+</header>
+<div class="progress" aria-hidden="true"></div>
+<div class="scrim" data-act="toc-close"></div>
+
+<div class="layout">
+  <nav class="toc" aria-label="Mục lục">
+    <div class="toc-card">
+      <div class="toc-head">
+        <span class="toc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5C4.5 4 7.5 4 12 6c4.5-2 7.5-2 10-.5V19c-2.5-1.5-5.5-1.5-10 .5-4.5-2-7.5-2-10-.5z"/><path d="M12 6v13.5"/></svg></span>
+        <b>Mục lục</b><span class="toc-count">10 phần</span>
+        <button class="toc-close" type="button" aria-label="Đóng mục lục" data-act="toc-close">×</button>
+      </div>
+      <ul>
+<li><a href="#phan-1" class="toc-p"><span class="toc-n">1</span><span class="toc-t">Tổng quan về TOEIC Reading Part 5</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-1-1"><span class="toc-sn">1.1</span><span>Dạng bài và nhiệm vụ của thí sinh</span></a></li>
+<li><a href="#muc-1-2"><span class="toc-sn">1.2</span><span>Các nhóm câu hỏi thường gặp</span></a></li>
+<li><a href="#muc-1-3"><span class="toc-sn">1.3</span><span>Kỹ năng cần có và thời gian làm bài</span></a></li>
+</ul></li>
+<li><a href="#phan-2" class="toc-p"><span class="toc-n">2</span><span class="toc-t">Quy trình làm một câu Part 5</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-2-1"><span class="toc-sn">2.1</span><span>Bốn bước phân tích câu</span></a></li>
+<li><a href="#muc-2-2"><span class="toc-sn">2.2</span><span>Cách xác định vị trí chỗ trống</span></a></li>
+<li><a href="#muc-2-3"><span class="toc-sn">2.3</span><span>Khi nào cần dịch và khi nào chưa cần dịch</span></a></li>
+</ul></li>
+<li><a href="#phan-3" class="toc-p"><span class="toc-n">3</span><span class="toc-t">Chiến lược làm bài</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-3-1"><span class="toc-sn">3.1</span><span>Nhận diện câu hỏi ngữ pháp</span></a></li>
+<li><a href="#muc-3-2"><span class="toc-sn">3.2</span><span>Nhận diện câu hỏi từ vựng</span></a></li>
+<li><a href="#muc-3-3"><span class="toc-sn">3.3</span><span>Cách loại trừ đáp án</span></a></li>
+<li><a href="#muc-3-4"><span class="toc-sn">3.4</span><span>Cách xử lý câu khó</span></a></li>
+<li><a href="#muc-3-5"><span class="toc-sn">3.5</span><span>Chiến thuật phân bổ thời gian</span></a></li>
+</ul></li>
+<li><a href="#phan-4" class="toc-p"><span class="toc-n">4</span><span class="toc-t">Các chuyên đề ngữ pháp trọng tâm</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-4-1"><span class="toc-sn">4.1</span><span>Đại từ (Pronouns)</span></a></li>
+<li><a href="#muc-4-2"><span class="toc-sn">4.2</span><span>Các thì và chủ động – bị động</span></a></li>
+<li><a href="#muc-4-3"><span class="toc-sn">4.3</span><span>Sự hoà hợp giữa chủ ngữ và động từ</span></a></li>
+<li><a href="#muc-4-4"><span class="toc-sn">4.4</span><span>Từ loại và cấu tạo từ</span></a></li>
+<li><a href="#muc-4-5"><span class="toc-sn">4.5</span><span>Động tính từ: ADJ-ing và ADJ-ed</span></a></li>
+<li><a href="#muc-4-6"><span class="toc-sn">4.6</span><span>So sánh</span></a></li>
+<li><a href="#muc-4-7"><span class="toc-sn">4.7</span><span>Liên từ và giới từ</span></a></li>
+<li><a href="#muc-4-8"><span class="toc-sn">4.8</span><span>Mệnh đề quan hệ và rút gọn mệnh đề</span></a></li>
+<li><a href="#muc-4-9"><span class="toc-sn">4.9</span><span>Động từ theo sau động từ và cấu trúc nhờ bảo</span></a></li>
+<li><a href="#muc-4-10"><span class="toc-sn">4.10</span><span>Từ hạn định và lượng từ</span></a></li>
+</ul></li>
+<li><a href="#phan-5" class="toc-p"><span class="toc-n">5</span><span class="toc-t">Chiến lược làm câu hỏi từ vựng</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-5-1"><span class="toc-sn">5.1</span><span>Dựa vào ngữ cảnh trong câu</span></a></li>
+<li><a href="#muc-5-2"><span class="toc-sn">5.2</span><span>Collocations và cụm từ cố định</span></a></li>
+<li><a href="#muc-5-3"><span class="toc-sn">5.3</span><span>Phân biệt các từ gần nghĩa</span></a></li>
+<li><a href="#muc-5-4"><span class="toc-sn">5.4</span><span>Những bẫy từ vựng thường gặp</span></a></li>
+</ul></li>
+<li><a href="#phan-6" class="toc-p"><span class="toc-n">6</span><span class="toc-t">Bảng dấu hiệu nhận biết nhanh</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+</ul></li>
+<li><a href="#phan-7" class="toc-p"><span class="toc-n">7</span><span class="toc-t">Các lỗi sai phổ biến</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+</ul></li>
+<li><a href="#phan-8" class="toc-p"><span class="toc-n">8</span><span class="toc-t">Ghi nhớ nhanh và checklist</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-8-1"><span class="toc-sn">8.1</span><span>Tóm tắt kiến thức quan trọng</span></a></li>
+<li><a href="#muc-8-2"><span class="toc-sn">8.2</span><span>Checklist trước khi chốt đáp án</span></a></li>
+</ul></li>
+<li><a href="#phan-9" class="toc-p"><span class="toc-n">9</span><span class="toc-t">Ví dụ minh hoạ có phân tích</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-9-1"><span class="toc-sn">9.1</span><span>Nhóm câu từ loại</span></a></li>
+<li><a href="#muc-9-2"><span class="toc-sn">9.2</span><span>Nhóm câu đại từ</span></a></li>
+<li><a href="#muc-9-3"><span class="toc-sn">9.3</span><span>Nhóm câu thì – bị động – mệnh đề quan hệ</span></a></li>
+<li><a href="#muc-9-4"><span class="toc-sn">9.4</span><span>Nhóm câu liên từ – giới từ</span></a></li>
+<li><a href="#muc-9-5"><span class="toc-sn">9.5</span><span>Nhóm câu từ vựng và đại từ quan hệ</span></a></li>
+</ul></li>
+<li><a href="#phan-10" class="toc-p"><span class="toc-n">10</span><span class="toc-t">Tóm tắt ôn tập</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-10-1"><span class="toc-sn">10.1</span><span>Năm nguyên tắc quan trọng</span></a></li>
+<li><a href="#muc-10-2"><span class="toc-sn">10.2</span><span>Quy trình làm bài rút gọn</span></a></li>
+<li><a href="#muc-10-3"><span class="toc-sn">10.3</span><span>Những bẫy cần đặc biệt chú ý</span></a></li>
+</ul></li>
+      </ul>
+      <div class="toc-prog"><div class="toc-prog-top"><span>Tiến độ đọc</span><b class="toc-pct">0%</b></div><div class="toc-prog-bar"><i></i></div></div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">TOEIC READING</div>
+      <h1>Part 5<span>Incomplete Sentences</span></h1>
+      <p>Kỹ thuật, chiến lược và kiến thức trọng tâm</p>
+      <p class="tagline">Nỗ Lực – Bứt Phá – Thành Công</p>
+      <div class="chips">
+        <span class="chip">🎯 Trình độ: TOEIC 450 – 800</span>
+        <span class="chip">📚 10 phần</span>
+        <span class="chip">⏱ Khoảng 50 phút đọc</span>
+      </div>
+    </section>
+
+    <aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">CÁCH ĐỌC TÀI LIỆU</span></div><div class="c-body"><p>Khung màu xanh dương: <strong>Lưu ý</strong> · Khung màu xanh lá: <strong>Kỹ năng làm bài</strong> · Khung màu đỏ: <strong>Bẫy thường gặp</strong></p><p>Khung / nhãn màu vàng BỔ SUNG: kiến thức mở rộng.</p><p>Nội dung trong khung Kỹ năng làm bài là <strong>kinh nghiệm</strong>, không phải quy luật tuyệt đối — mỗi điểm đều ghi rõ phạm vi áp dụng và ngoại lệ ngay tại chỗ.</p></div></aside>
+    <div class="resume" role="status"><span class="resume-txt"></span><button class="resume-go" type="button">Đọc tiếp</button><button class="resume-x" type="button" aria-label="Ẩn">×</button></div>
+    <div class="tools">
+      <span class="hint">Bấm vào từng phần để mở nội dung.</span>
+      <button class="btn" type="button" data-act="all" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10l5 5 5-5"/></svg><span>Mở tất cả</span>
+      </button>
+    </div>
+
+<section class="part" id="phan-1">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-1-c"><span class="part-num"><small>Phần</small> 1</span><span class="part-tt"><span class="part-t">Tổng quan về TOEIC Reading Part 5</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-1-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-1-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-1-c"><span class="sub-num">1.1</span><span class="sub-t">Dạng bài và nhiệm vụ của thí sinh</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-1-c"><div class="collapse-in"><div class="sub-body">
+<p>Part 5 có tên chính thức là <strong>Incomplete Sentences</strong> (học viên thường gọi là dạng bài “đục lỗ”). Đây là phần <strong>đầu tiên</strong> của bài thi TOEIC Reading. Mỗi câu là <strong>một câu độc lập</strong>, thiếu một từ hoặc một cụm từ.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Tiêu chí</th><th>Thông tin</th></tr></thead><tbody><tr><td data-label="Tiêu chí">Tên phần thi</td><td data-label="Thông tin">Incomplete Sentences – Câu chưa hoàn chỉnh</td></tr><tr><td data-label="Tiêu chí">Vị trí trong đề</td><td data-label="Thông tin">Phần đầu tiên của bài thi Reading</td></tr><tr><td data-label="Tiêu chí">Số câu hỏi</td><td data-label="Thông tin"><strong>30 câu</strong></td></tr><tr><td data-label="Tiêu chí">Hình thức</td><td data-label="Thông tin">Mỗi câu có 1 chỗ trống và 4 lựa chọn A – B – C – D</td></tr><tr><td data-label="Tiêu chí">Yêu cầu</td><td data-label="Thông tin">Chọn đáp án phù hợp nhất để hoàn thành câu và bấm chọn đáp án trên màn hình</td></tr><tr><td data-label="Tiêu chí">Bối cảnh câu</td><td data-label="Thông tin">Văn phòng, email, cuộc họp, tuyển dụng, mua bán, giao hàng, lịch trình, dịch vụ khách hàng…</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý</span></div><div class="c-body"><p><strong>Part 5 là các câu độc lập.</strong> Khác với Part 6, không có câu trước hay câu sau để lấy thêm ngữ cảnh — mọi manh mối đều nằm trong chính câu đang làm.</p><p><strong>Không cần mất thời gian soi lỗi chính tả ở đáp án.</strong> Theo kinh nghiệm làm bài, các lựa chọn trong đề thường kiểm tra từ loại, dạng động từ, cấu trúc và nghĩa, không kiểm tra chính tả.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.2 · Các nhóm câu hỏi thường gặp</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-2-c"><span class="sub-num">1.2</span><span class="sub-t">Các nhóm câu hỏi thường gặp</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Phần lớn câu Part 5 rơi vào các nhóm dưới đây. Một câu có thể kết hợp nhiều nhóm cùng lúc.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Nhóm câu hỏi</th><th>Đặc điểm nhận diện</th><th>Ví dụ minh hoạ</th></tr></thead><tbody><tr><td data-label="Nhóm câu hỏi">Từ loại / vị trí từ</td><td data-label="Đặc điểm nhận diện">4 đáp án cùng gốc từ, khác đuôi (care – careful – carefully – caring)</td><td data-label="Ví dụ minh hoạ">…it must be handled with ______.</td></tr><tr><td data-label="Nhóm câu hỏi">Động từ (thì, thể, hoà hợp)</td><td data-label="Đặc điểm nhận diện">4 dạng của cùng một động từ (require – required – will require – will be required)</td><td data-label="Ví dụ minh hoạ">Employees ______ to wear protective clothing.</td></tr><tr><td data-label="Nhóm câu hỏi">Đại từ</td><td data-label="Đặc điểm nhận diện">Các dạng của cùng một đại từ (me – myself – my…)</td><td data-label="Ví dụ minh hoạ">He was impressed by ______.</td></tr><tr><td data-label="Nhóm câu hỏi">Liên từ – giới từ</td><td data-label="Đặc điểm nhận diện">due to / because / although… hoặc in / at / for / to…</td><td data-label="Ví dụ minh hoạ">He paid for the dinner ______ advance.</td></tr><tr><td data-label="Nhóm câu hỏi">Mệnh đề quan hệ</td><td data-label="Đặc điểm nhận diện">who / which / that / whose…</td><td data-label="Ví dụ minh hoạ">Jimmy is the boy ______ father wrote a novel.</td></tr><tr><td data-label="Nhóm câu hỏi">So sánh</td><td data-label="Đặc điểm nhận diện">more / most / -er / -est / as…as</td><td data-label="Ví dụ minh hoạ">the ______ building ever built</td></tr><tr><td data-label="Nhóm câu hỏi">Ngữ nghĩa (từ vựng)</td><td data-label="Đặc điểm nhận diện">4 đáp án cùng từ loại nhưng khác nghĩa</td><td data-label="Ví dụ minh hoạ">These photos ______ many memories…</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.3 · Kỹ năng cần có và thời gian làm bài</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-3-c"><span class="sub-num">1.3</span><span class="sub-t">Kỹ năng cần có và thời gian làm bài</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Kỹ năng</th><th>Vì sao cần</th></tr></thead><tbody><tr><td data-label="Kỹ năng">Nhận diện từ loại qua đuôi từ</td><td data-label="Vì sao cần">Loại nhanh các đáp án sai từ loại, thường chưa cần dịch câu</td></tr><tr><td data-label="Kỹ năng">Xác định Main Verb (động từ chính)</td><td data-label="Vì sao cần">Quyết định chỗ trống cần động từ chia thì hay cần từ loại khác</td></tr><tr><td data-label="Kỹ năng">Xác định chủ từ thật của câu</td><td data-label="Vì sao cần">Chia động từ đúng số ít / số nhiều</td></tr><tr><td data-label="Kỹ năng">Vốn từ vựng &amp; collocation</td><td data-label="Vì sao cần">Xử lý nhóm câu ngữ nghĩa — nhóm này khó loại đáp án chỉ bằng cấu trúc</td></tr><tr><td data-label="Kỹ năng">Quản lý thời gian</td><td data-label="Vì sao cần">Giữ đủ thời gian cho Part 6 và Part 7</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">THỜI GIAN LÀM BÀI</span></div><div class="c-body"><p><span class="tag">Sự thật về đề thi:</span> TOEIC Reading có 75 phút cho cả Part 5, 6 và 7. Đề không quy định thời gian riêng cho từng Part.</p><p><strong>Mốc luyện tập (kinh nghiệm, tham khảo):</strong> Part 5 khoảng 10 – 12 phút, Part 6 khoảng 8 – 10 phút; câu dễ khoảng 10 – 20 giây, câu khó khoảng 30 – 40 giây.</p><p><em>Tùy trình độ, thời gian làm riêng Part 5 có thể dao động từ khoảng 10 đến 20 phút. Học viên mới nên ưu tiên độ chính xác trước, rồi rút dần thời gian.</em></p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-2"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 2 · Quy trình làm một câu Part 5</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-2">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-2-c"><span class="part-num"><small>Phần</small> 2</span><span class="part-tt"><span class="part-t">Quy trình làm một câu Part 5</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-2-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Quy trình dưới đây áp dụng được cho phần lớn câu Part 5. Học viên nên luyện cho đến khi thành phản xạ.</p></div>
+<section class="sub" id="muc-2-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-1-c"><span class="sub-num">2.1</span><span class="sub-t">Bốn bước phân tích câu</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Bước</th><th>Việc cần làm</th><th>Mục đích</th></tr></thead><tbody><tr><td data-label="Bước"><strong>Bước 1</strong></td><td data-label="Việc cần làm"><strong>Nhìn 4 đáp án trước.</strong><br>Cùng gốc từ, cùng động từ khác dạng, cùng là liên từ/giới từ, hay 4 từ khác nghĩa?</td><td data-label="Mục đích">Biết câu này đang hỏi từ loại, động từ hay từ vựng.</td></tr><tr><td data-label="Bước"><strong>Bước 2</strong></td><td data-label="Việc cần làm"><strong>Đọc cả câu, tìm Main Verb.</strong><br>Mệnh đề chứa chỗ trống đã có động từ chính chưa?</td><td data-label="Mục đích">Quyết định chỗ trống cần động từ chia thì hay cần từ loại khác.</td></tr><tr><td data-label="Bước"><strong>Bước 3</strong></td><td data-label="Việc cần làm"><strong>Xét từ liền trước và liền sau chỗ trống.</strong></td><td data-label="Mục đích">Xác định chỗ trống thiếu N / ADJ / ADV / V.</td></tr><tr><td data-label="Bước"><strong>Bước 4</strong></td><td data-label="Việc cần làm"><strong>Loại trừ, rồi ghép đáp án vào cả câu.</strong><br>Chỉ dịch kỹ khi cấu trúc không đủ để loại.</td><td data-label="Mục đích">Tiết kiệm thời gian, tránh chọn đáp án đúng hình thức nhưng sai nghĩa.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.2 · Cách xác định vị trí chỗ trống</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-2-c"><span class="sub-num">2.2</span><span class="sub-t">Cách xác định vị trí chỗ trống</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Sau Bước 2, chỗ trống thường rơi vào một trong hai tình huống:</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Tình huống</th><th>Dấu hiệu</th><th>Hướng xử lý</th></tr></thead><tbody><tr><td data-label="Tình huống"><strong>A. Chỗ trống là Main Verb</strong></td><td data-label="Dấu hiệu">Mệnh đề chứa chỗ trống CHƯA có động từ chính</td><td data-label="Hướng xử lý">Dùng phương pháp Các thì (mục <a class="xref" href="#muc-4-2">4.2</a>): dấu hiệu thời gian → chủ động/bị động → hoà hợp S–V.</td></tr><tr><td data-label="Tình huống"><strong>B. Chỗ trống không phải Main Verb</strong></td><td data-label="Dấu hiệu">Mệnh đề chứa chỗ trống ĐÃ có động từ chính</td><td data-label="Hướng xử lý">Dùng phương pháp Từ loại (mục <a class="xref" href="#muc-4-4">4.4</a>): xét từ liền trước và liền sau chỗ trống.</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">KỸ NĂNG LÀM BÀI — Công cụ “Main Verb”</span></div><div class="c-body"><p>Mỗi mệnh đề <strong>thường</strong> có một cụm động từ chính. Nếu mệnh đề đã có Main Verb mà đáp án vẫn là động từ, đáp án đúng thường là dạng <strong>V₀ / to V₀ / V-ing / V-ed(V3) / Adj</strong>.</p><p><span class="tag">Phạm vi &amp; ngoại lệ:</span> một câu có thể có nhiều mệnh đề (nối bằng liên từ hoặc đại từ quan hệ), và một mệnh đề có thể có hai động từ nối bằng and/or: <em>The manager reviews and approves all requests.</em> Trước khi loại một đáp án chia thì, hãy kiểm tra xem có and / or / liên từ / who, which… tạo thêm động từ không.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.3 · Khi nào cần dịch và khi nào chưa cần dịch</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-3-c"><span class="sub-num">2.3</span><span class="sub-t">Khi nào cần dịch và khi nào chưa cần dịch</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Trường hợp</th><th>Mức cần dịch</th><th>Lý do</th></tr></thead><tbody><tr><td data-label="Trường hợp">Câu từ loại (4 đáp án cùng gốc) và chỉ một từ loại hợp vị trí</td><td data-label="Mức cần dịch"><span class="c-ok"><strong>Thường chưa cần</strong></span></td><td data-label="Lý do">Từ liền trước và liền sau thường đủ để chọn; vẫn nên đọc lại cả câu.</td></tr><tr><td data-label="Trường hợp">Câu có dấu hiệu chia thì rõ (by the time, since, over the past…)</td><td data-label="Mức cần dịch"><span class="c-ok"><strong>Thường chưa cần</strong></span></td><td data-label="Lý do">Dấu hiệu giúp thu hẹp nhanh; vẫn kiểm tra mốc thời gian của câu (xem bẫy ở mục <a class="xref" href="#muc-4-2">4.2</a>).</td></tr><tr><td data-label="Trường hợp">Chủ động – bị động có dấu hiệu (Object phía sau, hoặc “by + O”)</td><td data-label="Mức cần dịch"><span class="c-ok"><strong>Thường chưa cần</strong></span></td><td data-label="Lý do">Cấu trúc thường đủ để kết luận; lưu ý ngoại lệ ở mục <a class="xref" href="#muc-4-2">4.2</a>.</td></tr><tr><td data-label="Trường hợp">Chủ động – bị động không có dấu hiệu</td><td data-label="Mức cần dịch"><span class="c-bad"><strong>Cần dịch</strong></span></td><td data-label="Lý do">Không đủ căn cứ cấu trúc, phải xét nghĩa.</td></tr><tr><td data-label="Trường hợp">Cả 4 đáp án đều là liên từ, hoặc đều là giới từ</td><td data-label="Mức cần dịch"><span class="c-bad"><strong>Cần dịch</strong></span></td><td data-label="Lý do">Cấu trúc giống nhau nên nghĩa quyết định.</td></tr><tr><td data-label="Trường hợp">Đáp án vừa có liên từ vừa có giới từ</td><td data-label="Mức cần dịch"><span class="c-amb"><strong>Loại suy trước</strong></span></td><td data-label="Lý do">Dùng thành phần sau chỗ trống để loại; còn 2 đáp án mới dịch.</td></tr><tr><td data-label="Trường hợp">Câu từ vựng (4 đáp án khác nghĩa)</td><td data-label="Mức cần dịch"><span class="c-bad"><strong>Cần dịch</strong></span></td><td data-label="Lý do">Ngữ cảnh và collocation quyết định.</td></tr><tr><td data-label="Trường hợp">N + ___ + N, to be + ___, V + ___ + N</td><td data-label="Mức cần dịch"><span class="c-bad"><strong>Thường cần</strong></span></td><td data-label="Lý do">Có thể hơn một từ loại hợp hình thức (tính từ hoặc danh từ ghép).</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-3"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 3 · Chiến lược làm bài</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-3">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-3-c"><span class="part-num"><small>Phần</small> 3</span><span class="part-tt"><span class="part-t">Chiến lược làm bài</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-3-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-3-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-1-c"><span class="sub-num">3.1</span><span class="sub-t">Nhận diện câu hỏi ngữ pháp</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Hình dạng 4 đáp án</th><th>Câu hỏi về</th><th>Việc cần làm trước tiên</th></tr></thead><tbody><tr><td data-label="Hình dạng 4 đáp án"><strong>care – careful – carefully – caring</strong><br><em>(cùng gốc, khác đuôi)</em></td><td data-label="Câu hỏi về">Từ loại</td><td data-label="Việc cần làm trước tiên">Xét từ liền trước &amp; liền sau chỗ trống</td></tr><tr><td data-label="Hình dạng 4 đáp án"><strong>require – required – will require – will be required</strong><br><em>(cùng động từ, khác dạng)</em></td><td data-label="Câu hỏi về">Thì / chủ động – bị động</td><td data-label="Việc cần làm trước tiên">Xét Main Verb → dấu hiệu thời gian → Object phía sau → hoà hợp S–V</td></tr><tr><td data-label="Hình dạng 4 đáp án"><strong>who – which – that – whose</strong></td><td data-label="Câu hỏi về">Mệnh đề quan hệ</td><td data-label="Việc cần làm trước tiên">Xét danh từ đứng trước và thành phần còn thiếu phía sau</td></tr><tr><td data-label="Hình dạng 4 đáp án"><strong>me – myself – my – mine</strong></td><td data-label="Câu hỏi về">Đại từ</td><td data-label="Việc cần làm trước tiên">Áp dụng 3 bước của mục <a class="xref" href="#muc-4-1">4.1</a></td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.2 · Nhận diện câu hỏi từ vựng</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-2-c"><span class="sub-num">3.2</span><span class="sub-t">Nhận diện câu hỏi từ vựng</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Dấu hiệu: <strong>4 đáp án cùng từ loại nhưng nghĩa khác nhau</strong> (ví dụ: released – reversed – repeated – recalled). Cấu trúc gần như không giúp loại đáp án; học viên cần dựa vào ngữ cảnh của câu và vốn collocation (xem Phần 5).</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.3 · Cách loại trừ đáp án</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-3-c"><span class="sub-num">3.3</span><span class="sub-t">Cách loại trừ đáp án</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Thứ tự</th><th>Loại đáp án nào</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Thứ tự">1. Theo từ loại</td><td data-label="Loại đáp án nào">Đáp án không hợp vị trí chỗ trống</td><td data-label="Ví dụ" class="en">Sau giới từ “with” cần danh từ → loại careful, carefully, caring</td></tr><tr><td data-label="Thứ tự">2. Theo Main Verb</td><td data-label="Loại đáp án nào">Mệnh đề đã có động từ chính → cân nhắc loại các dạng chia thì (xem ngoại lệ ở 2.2)</td><td data-label="Ví dụ" class="en">those who wish ______ → wish đã là động từ chính</td></tr><tr><td data-label="Thứ tự">3. Theo hoà hợp S–V</td><td data-label="Loại đáp án nào">Chủ từ số ít → loại động từ số nhiều, và ngược lại</td><td data-label="Ví dụ" class="en">The employee who ______ → loại “are achieving”</td></tr><tr><td data-label="Thứ tự">4. Theo chủ động – bị động</td><td data-label="Loại đáp án nào">Có Object phía sau → thường là chủ động; có “by + O” → thường là bị động</td><td data-label="Ví dụ" class="en">Applicants ______ to submit… → bị động</td></tr><tr><td data-label="Thứ tự">5. Theo nghĩa</td><td data-label="Loại đáp án nào">Dùng khi còn 2 đáp án</td><td data-label="Ví dụ" class="en">Ghép từng đáp án vào cả câu</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý</span></div><div class="c-body"><p>Các dạng <strong>V2/ed, will, had</strong> (và modal + V₀) không thay đổi theo chủ ngữ số ít hay số nhiều, nên công cụ hoà hợp S–V không giúp loại các đáp án này.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.4 · Cách xử lý câu khó</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-4-c"><span class="sub-num">3.4</span><span class="sub-t">Cách xử lý câu khó</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-4-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Đọc lại <strong>toàn bộ câu</strong> — nhiều câu tưởng khó chỉ vì đọc thiếu vế sau.</span></li>
+<li><span class="n">2</span><span>Quay lại quy trình 4 bước: xác định lại Main Verb và từ loại cần điền.</span></li>
+<li><span class="n">3</span><span>Nếu còn 2 đáp án, xét collocation, giới từ đi kèm và nghĩa của cả câu.</span></li>
+<li><span class="n">4</span><span>Nếu khoảng 30 – 40 giây vẫn chưa chọn được: <strong>chọn tạm một đáp án, bấm Mark for review</strong>, chuyển câu; làm xong các câu khác thì mở màn hình Review để quay lại những câu đã đánh dấu.</span></li>
+</ol>
+<p>Khi thi trên máy tính, thí sinh <strong>không được dùng giấy nháp</strong>, nên các bước phân tích ở Phần 2 đều làm trong đầu. Ở phần Đọc, có thể bỏ qua câu khó, làm câu khác rồi quay lại sau.</p>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">KỸ NĂNG LÀM BÀI</span></div><div class="c-body"><p><strong>Nên chọn đáp án cho mọi câu.</strong> TOEIC tính điểm theo số câu đúng và không trừ điểm câu sai, nên để trống không có lợi.</p></div></aside>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">NẾU THI TRÊN GIẤY</span></div><div class="c-body"><ul class="bullets"><li>Đề in trên giấy; đáp án được tô lên <strong>phiếu trả lời</strong>.</li><li>Thí sinh <strong>không được ghi chú, gạch chân, khoanh hay đánh dấu (*) bất kỳ điều gì lên đề, kể cả một dấu chấm</strong>. Câu chưa chắc: chọn tạm một đáp án, tô luôn lên phiếu rồi đi tiếp; quay lại sau nếu còn thời gian.</li></ul></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.5 · Chiến thuật phân bổ thời gian</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-5-c"><span class="sub-num">3.5</span><span class="sub-t">Chiến thuật phân bổ thời gian</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-5-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Loại câu</th><th>Mục tiêu tham khảo</th><th>Cách nhận biết</th></tr></thead><tbody><tr><td data-label="Loại câu">Từ loại / collocation quen thuộc</td><td data-label="Mục tiêu tham khảo">khoảng 10 – 15 giây</td><td data-label="Cách nhận biết">4 đáp án cùng gốc từ</td></tr><tr><td data-label="Loại câu">Thì, bị động, hoà hợp S–V</td><td data-label="Mục tiêu tham khảo">khoảng 15 – 30 giây</td><td data-label="Cách nhận biết">Các dạng của cùng một động từ</td></tr><tr><td data-label="Loại câu">Từ vựng, liên từ – giới từ</td><td data-label="Mục tiêu tham khảo">khoảng 30 – 40 giây</td><td data-label="Cách nhận biết">4 đáp án khác nghĩa, hoặc toàn liên từ / giới từ</td></tr><tr><td data-label="Loại câu">Chưa chọn được sau khoảng 40 giây</td><td data-label="Mục tiêu tham khảo">Chọn tạm, bấm Mark for review</td><td data-label="Cách nhận biết">Quay lại sau khi làm hết các câu khác</td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP</span></div><div class="c-body"><p><strong>Sa lầy vào một câu.</strong> Điểm TOEIC tính theo tổng số câu đúng, nên một câu Part 5 cũng được tính như một câu Part 7. Dành vài phút cho một câu Part 5 thường làm thiếu thời gian cho Part 7.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-4"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 4 · Các chuyên đề ngữ pháp trọng tâm</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-4">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-4-c"><span class="part-num"><small>Phần</small> 4</span><span class="part-tt"><span class="part-t">Các chuyên đề ngữ pháp trọng tâm</span><span class="part-meta">10 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-4-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Phần này hệ thống lại kiến thức ngữ pháp cần cho Part 5, theo thứ tự nên học.</p></div>
+<section class="sub" id="muc-4-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-1-c"><span class="sub-num">4.1</span><span class="sub-t">Đại từ (Pronouns)</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-1-c"><div class="collapse-in"><div class="sub-body">
+<p>Hệ thống đại từ được ghi nhớ theo <strong>5 cột</strong>:</p>
+<div class="tbl-wrap"><table class="tbl cols-5"><thead><tr><th>Cột 1 – Chủ ngữ</th><th>Cột 2 – Tân ngữ</th><th>Cột 3 – Tính từ sở hữu</th><th>Cột 4 – Đại từ sở hữu</th><th>Cột 5 – Đại từ phản thân</th></tr></thead><tbody><tr><td data-label="Cột 1 – Chủ ngữ">I</td><td data-label="Cột 2 – Tân ngữ">me</td><td data-label="Cột 3 – Tính từ sở hữu">my</td><td data-label="Cột 4 – Đại từ sở hữu">mine</td><td data-label="Cột 5 – Đại từ phản thân">myself</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">you</td><td data-label="Cột 2 – Tân ngữ">you</td><td data-label="Cột 3 – Tính từ sở hữu">your</td><td data-label="Cột 4 – Đại từ sở hữu">yours</td><td data-label="Cột 5 – Đại từ phản thân">yourself / yourselves</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">he</td><td data-label="Cột 2 – Tân ngữ">him</td><td data-label="Cột 3 – Tính từ sở hữu">his</td><td data-label="Cột 4 – Đại từ sở hữu">his</td><td data-label="Cột 5 – Đại từ phản thân">himself</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">she</td><td data-label="Cột 2 – Tân ngữ">her</td><td data-label="Cột 3 – Tính từ sở hữu">her</td><td data-label="Cột 4 – Đại từ sở hữu">hers</td><td data-label="Cột 5 – Đại từ phản thân">herself</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">it</td><td data-label="Cột 2 – Tân ngữ">it</td><td data-label="Cột 3 – Tính từ sở hữu">its</td><td data-label="Cột 4 – Đại từ sở hữu">—</td><td data-label="Cột 5 – Đại từ phản thân">itself</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">we</td><td data-label="Cột 2 – Tân ngữ">us</td><td data-label="Cột 3 – Tính từ sở hữu">our</td><td data-label="Cột 4 – Đại từ sở hữu">ours</td><td data-label="Cột 5 – Đại từ phản thân">ourselves</td></tr><tr><td data-label="Cột 1 – Chủ ngữ">they</td><td data-label="Cột 2 – Tân ngữ">them</td><td data-label="Cột 3 – Tính từ sở hữu">their</td><td data-label="Cột 4 – Đại từ sở hữu">theirs</td><td data-label="Cột 5 – Đại từ phản thân">themselves</td></tr></tbody></table></div>
+<h4 class="h4">Phương pháp làm bài — 3 bước</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Bước</th><th>Câu hỏi tự đặt</th><th>Kết luận</th></tr></thead><tbody><tr><td data-label="Bước"><strong>Bước 1</strong></td><td data-label="Câu hỏi tự đặt">Liền sau chỗ trống có <strong>N / N.P</strong> không?<br><em>Nếu liền sau là a / an / the hoặc determiner khác → chuyển sang Bước 2.</em></td><td data-label="Kết luận">→ <strong>Cột 3</strong> (+ own) + N<br><em>“… của (riêng) ai”</em></td></tr><tr><td data-label="Bước"><strong>Bước 2</strong></td><td data-label="Câu hỏi tự đặt">Quanh chỗ trống có động từ không?</td><td data-label="Kết luận"><strong>___ + V</strong> → Cột 1<br><strong>V + ___</strong> mà S ≠ O → Cột 2<br><strong>V + ___</strong> mà S = O → Cột 5<br>Cột 4 → xét sau cùng</td></tr><tr><td data-label="Bước"><strong>Bước 3</strong></td><td data-label="Câu hỏi tự đặt">Câu đã đủ thành phần (S, V, O)?</td><td data-label="Kết luận">→ thường là <strong>Cột 4</strong><br>Riêng <strong>S + V + O + Cột 5</strong> / <strong>S + Cột 5 + V</strong><br><em>dùng để nhấn mạnh “chính ai / tự ai” làm gì.</em></td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">DẤU HIỆU NHANH VỀ ĐẠI TỪ</span></div><div class="c-body"><ul class="bullets"><li><strong>by + Cột 5</strong> → “tự mình làm”: <em>I do my homework by myself.</em></li><li><strong>to be + V3/ed + by + Cột 2</strong> → câu bị động, người thực hiện khác chủ ngữ: <em>He was impressed by me.</em></li></ul><p>Vì vậy “by + đại từ” <strong>không phải lúc nào cũng là Cột 5</strong> — hãy xét chủ ngữ và người thực hiện có trùng nhau không.</p><ul class="bullets"><li><strong>Giới từ (to / for…) + đại từ</strong> → cần dịch để phân biệt Cột 2 và Cột 5: <em>I made a sandwich for myself. ≠ I made a sandwich for her.</em></li><li>to be gồm: <em>be, being, am, is, are, was, were, been.</em></li></ul></div></aside>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP — Động từ có 2 tân ngữ</span></div><div class="c-body"><p>Một số động từ có <strong>2 tân ngữ</strong> (người nhận S.O và vật S.T), với 2 trật tự:</p><p>① Verb + <strong>S.O + S.T</strong> → <em>I gave him some money.</em></p><p>② Verb + <strong>S.T + to + S.O</strong> → <em>I gave some money to him.</em></p><p>Nhóm thường gặp: <strong>send</strong> (gửi), <strong>give</strong> (đưa, trao, tặng), <strong>offer</strong> (cung cấp, đề nghị), <strong>award</strong> (trao tặng), <strong>grant</strong> (cấp, cho phép).</p><p><em>Vị trí chỗ trống quyết định chọn Cột 2 hay Cột 3 — xem Ví dụ 6 và 7 ở Phần 9.</em></p></div></aside>
+<aside class="callout c-tip"><div class="c-head"><span class="c-ico" aria-hidden="true">✨</span><span class="c-title">BỔ SUNG</span></div><div class="c-body"><p><strong>show, tell, lend</strong> cũng theo cả hai trật tự trên: <em>show somebody something / show something to somebody.</em></p><p>Các động từ trong nhóm này dùng <strong>to</strong> ở trật tự ②. Một số động từ khác dùng <strong>for</strong>: <em>make something for somebody.</em> Nên học theo từng động từ, không suy ra hàng loạt.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.2 · Các thì và chủ động – bị động</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-2-c"><span class="sub-num">4.2</span><span class="sub-t">Các thì và chủ động – bị động</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-2-c"><div class="collapse-in"><div class="sub-body">
+<p><strong>Dùng lần lượt 3 công cụ dưới đây cho đến khi chọn được đáp án.</strong></p>
+<h4 class="h4">Công cụ số 1 — Xét Main Verb + dấu hiệu thời gian</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Trường hợp</th><th>Xử lý</th></tr></thead><tbody><tr><td data-label="Trường hợp">Cả 4 đáp án đều là Main Verb</td><td data-label="Xử lý">Xét dấu hiệu chia thì (từ/cụm từ chỉ thời gian) trong câu.</td></tr><tr><td data-label="Trường hợp">Chỉ vài đáp án là Main Verb, câu CHƯA có Main Verb</td><td data-label="Xử lý">Xét dấu hiệu chia thì để điền Main Verb phù hợp.</td></tr><tr><td data-label="Trường hợp">Chỉ vài đáp án là Main Verb, câu ĐÃ có Main Verb</td><td data-label="Xử lý">Chỗ trống thường không phải Main Verb → xem mục <a class="xref" href="#muc-4-4">4.4</a> (Từ loại) hoặc 4.8 (Mệnh đề quan hệ). Kiểm tra ngoại lệ and/or ở mục <a class="xref" href="#muc-2-2">2.2</a>.</td></tr></tbody></table></div>
+<h4 class="h4">Bảng dấu hiệu chia thì</h4>
+<p>Dấu hiệu thời gian giúp thu hẹp đáp án rất nhanh, nhưng là tín hiệu cần kiểm tra, không phải công thức chọn ngay.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Dấu hiệu trong câu</th><th>Thì thường dùng</th><th>Cần kiểm tra thêm</th></tr></thead><tbody><tr><td data-label="Dấu hiệu trong câu"><strong>… by the time + hiện tại đơn</strong><br><em>(hoặc: By the time + hiện tại đơn, …)</em></td><td data-label="Thì thường dùng">Tương lai hoàn thành</td><td data-label="Cần kiểm tra thêm">Có nhấn mạnh việc hoàn tất trước mốc tương lai không</td></tr><tr><td data-label="Dấu hiệu trong câu">… by the time / before + quá khứ đơn</td><td data-label="Thì thường dùng">Quá khứ hoàn thành</td><td data-label="Cần kiểm tra thêm">Nếu không cần nhấn mạnh trình tự, quá khứ đơn vẫn có thể xuất hiện</td></tr><tr><td data-label="Dấu hiệu trong câu"><strong>… since + quá khứ đơn</strong><br><em>(hoặc: Since + quá khứ đơn, …)</em></td><td data-label="Thì thường dùng">Hiện tại hoàn thành / hiện tại hoàn thành tiếp diễn</td><td data-label="Cần kiểm tra thêm">since cũng có thể là liên từ nghĩa “vì”</td></tr><tr><td data-label="Dấu hiệu trong câu">… when / until / as soon as / before / after + hiện tại đơn</td><td data-label="Thì thường dùng">Tương lai đơn hoặc hiện tại đơn</td><td data-label="Cần kiểm tra thêm">Mệnh đề thời gian nói về tương lai dùng hiện tại đơn</td></tr><tr><td data-label="Dấu hiệu trong câu">currently / presently</td><td data-label="Thì thường dùng">Hiện tại đơn / hiện tại tiếp diễn</td><td data-label="Cần kiểm tra thêm">presently đứng cuối câu có thể nghĩa là “sắp” (soon) → tương lai: She'll be here presently.</td></tr><tr><td data-label="Dấu hiệu trong câu">during / for / over / in + the past / the last …</td><td data-label="Thì thường dùng">Hiện tại hoàn thành / hiện tại hoàn thành tiếp diễn</td><td data-label="Cần kiểm tra thêm">“in the past” đứng riêng (ngày xưa) có thể đi với quá khứ đơn</td></tr><tr><td data-label="Dấu hiệu trong câu">tomorrow ; over the next … ; in + khoảng thời gian ; coming = upcoming</td><td data-label="Thì thường dùng">Tương lai đơn / tương lai tiếp diễn / be going to / hiện tại tiếp diễn / hiện tại đơn</td><td data-label="Cần kiểm tra thêm">Lịch trình cố định có thể dùng hiện tại đơn</td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP — Dấu hiệu thời gian</span></div><div class="c-body"><p><em>The store ______ at 7 A.M. sharp tomorrow.</em></p><p>Có “tomorrow” nhưng câu nói về <strong>giờ mở cửa theo lịch cố định</strong>, nên hiện tại đơn <strong>opens</strong> vẫn dùng được — hiện tại đơn có thể diễn tả việc tương lai đã cố định theo lịch. Bẫy nằm ở chỗ thấy “tomorrow” rồi loại ngay hiện tại đơn.</p><p>Cách xử lý: xác định mốc thời gian → xác định hành động đã hoàn tất, đang diễn ra hay là lịch trình → mới chọn thì.</p></div></aside>
+<h4 class="h4">Công cụ số 2 — Xét chủ động – bị động</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Trường hợp</th><th>Dấu hiệu</th><th>Kết luận</th></tr></thead><tbody><tr><td data-label="Trường hợp">Có dấu hiệu</td><td data-label="Dấu hiệu"><strong>V chủ động</strong> + Object<br><strong>V bị động</strong> + by + Object</td><td data-label="Kết luận">Phần lớn trường hợp, có Object phía sau → chủ động.<br>Object thường là N / N.P / đại từ Cột 2, 4, 5.<br><em>I wrote a letter yesterday. → A letter was written by me yesterday.</em></td></tr><tr><td data-label="Trường hợp">Không có dấu hiệu như trên</td><td data-label="Dấu hiệu">Sau chỗ trống không có Object, cũng không có “by + O”</td><td data-label="Kết luận"><span class="c-bad"><strong>Chưa kết luận được — dịch cả câu để kiểm tra.</strong></span></td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">NGOẠI LỆ — Bị động vẫn có Object theo sau</span></div><div class="c-body"><p>Nhóm động từ 2 tân ngữ vẫn giữ một Object sau dạng bị động:</p><p><strong>to be given / offered / sent / awarded / asked</strong> + O — được đưa / đề nghị / gửi / trao / hỏi cái gì</p><p><em>She was offered a position.</em></p><p><strong>to be considered</strong> + N/Adj — được xem là: <em>The proposal is considered effective.</em> (phần sau là bổ ngữ)</p><p>→ Thấy danh từ sau chỗ trống, <strong>đừng vội kết luận chủ động</strong>; kiểm tra động từ có thuộc nhóm này không.</p></div></aside>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý — Chủ từ là tổ chức vẫn thường dùng chủ động</span></div><div class="c-body"><p><span class="tag">Thành phố:</span> <em>The city of London attracts millions of tourists each year.</em></p><p><span class="tag">Công ty:</span> <em>Google has launched a new product.</em></p><p><span class="tag">Tổ chức:</span> <em>The Red Cross provides aid to disaster-stricken areas.</em></p><p><span class="tag">Phòng ban:</span> <em>The Marketing Department is working on the new campaign.</em></p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.3 · Sự hoà hợp giữa chủ ngữ và động từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-3-c"><span class="sub-num">4.3</span><span class="sub-t">Sự hoà hợp giữa chủ ngữ và động từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-3-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4">Công cụ số 3 — Kiểm tra hoà hợp S ~ V</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Nếu chủ từ…</th><th>Thì…</th></tr></thead><tbody><tr><td data-label="Nếu chủ từ…">số ít</td><td data-label="Thì…">Loại các đáp án là động từ chia số nhiều</td></tr><tr><td data-label="Nếu chủ từ…">số nhiều</td><td data-label="Thì…">Loại các đáp án là động từ chia số ít</td></tr></tbody></table></div>
+<p><span class="tag">Ghi nhớ:</span> Subject thường là N / N.P / đại từ Cột 1 hoặc Cột 4.</p>
+<h4 class="h4">Cách xác định chủ từ thật trong câu</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Cấu trúc chủ ngữ</th><th>Chủ từ thật</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Cấu trúc chủ ngữ"><strong>N1 + giới từ + N2</strong></td><td data-label="Chủ từ thật"><span class="c-bad"><strong>N1</strong></span></td><td data-label="Ví dụ" class="en">The list of employees is on the desk.</td></tr><tr><td data-label="Cấu trúc chủ ngữ"><strong>N1 + N2 + N3</strong></td><td data-label="Chủ từ thật"><span class="c-bad"><strong>N3</strong></span></td><td data-label="Ví dụ" class="en">The company safety regulations require training.</td></tr><tr><td data-label="Cấu trúc chủ ngữ"><strong>N’s / Ns’ + N</strong></td><td data-label="Chủ từ thật"><span class="c-bad"><strong>N</strong></span></td><td data-label="Ví dụ" class="en">The manager’s decision was final.</td></tr><tr><td data-label="Cấu trúc chủ ngữ"><strong>N’s / Ns’ + N1 + N2</strong></td><td data-label="Chủ từ thật"><span class="c-bad"><strong>N2</strong></span></td><td data-label="Ví dụ" class="en">The students’ exam results were announced.</td></tr></tbody></table></div>
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Chủ ngữ</th><th>Động từ chia</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Chủ ngữ">each / every + N số ít ; each of + N số nhiều</td><td data-label="Động từ chia">số ít</td><td data-label="Ví dụ" class="en">Each of the buildings is surrounded by fencing.</td></tr><tr><td data-label="Chủ ngữ">one of + N số nhiều</td><td data-label="Động từ chia">số ít</td><td data-label="Ví dụ" class="en">One of the boxes is open.</td></tr><tr><td data-label="Chủ ngữ"><strong>a number of</strong> + N số nhiều (= nhiều)</td><td data-label="Động từ chia">số nhiều</td><td data-label="Ví dụ" class="en">A number of problems have arisen.</td></tr><tr><td data-label="Chủ ngữ"><strong>the number of</strong> + N số nhiều (= con số)</td><td data-label="Động từ chia">số ít</td><td data-label="Ví dụ" class="en">The number of homeless people has increased.</td></tr><tr><td data-label="Chủ ngữ">either A or B / neither A nor B</td><td data-label="Động từ chia">theo chủ ngữ gần động từ hơn</td><td data-label="Ví dụ" class="en">Neither the radios nor the television works.</td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP</span></div><div class="c-body"><p><span class="tag">① “Either S1 or S2”:</span> động từ chia theo <strong>S2</strong> (chủ ngữ gần động từ hơn): <em>Either the students or the teacher knows the answer.</em></p><p><strong>② Tên riêng có “s”</strong> (tên công ty, tên người) vẫn thường được xem là chủ ngữ số ít theo văn phong Anh–Mỹ; tiếng Anh–Anh đôi khi dùng động từ số nhiều.</p><p><strong>③ a number of ≠ the number of</strong> — hai cụm gần giống nhau nhưng chia động từ ngược nhau.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.4 · Từ loại và cấu tạo từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-4-c"><span class="sub-num">4.4</span><span class="sub-t">Từ loại và cấu tạo từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-4-c"><div class="collapse-in"><div class="sub-body">
+<p>Đây là nhóm câu chiếm tỉ trọng lớn và thường làm nhanh nhất trong Part 5.</p>
+<h4 class="h4">Nhận diện từ loại qua đuôi từ</h4>
+<p>Đuôi từ giúp đoán nhanh, <strong>không phải quy tắc tuyệt đối</strong> (ví dụ “friendly” có đuôi -ly nhưng là tính từ). Sau khi đoán, vẫn kiểm tra vai trò trong câu.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Từ loại</th><th>Đuôi thường gặp</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Từ loại">Danh từ (Noun)</td><td data-label="Đuôi thường gặp">-ness, -ment, -tion, -sion, -ity, -ance, …</td><td data-label="Ví dụ" class="en">kindness, payment, application, ability</td></tr><tr><td data-label="Từ loại">Động từ (Verb)</td><td data-label="Đuôi thường gặp">-en, -ize, -ify, …</td><td data-label="Ví dụ" class="en">widen, realize, notify</td></tr><tr><td data-label="Từ loại">Tính từ (Adjective)</td><td data-label="Đuôi thường gặp">-ful, -able, -ible, -ive, -al, -ous, -ic, -less, -ant, …</td><td data-label="Ví dụ" class="en">helpful, reliable, effective, annual</td></tr><tr><td data-label="Từ loại">Trạng từ (Adverb)</td><td data-label="Đuôi thường gặp">-ly, -ward, -wise, …</td><td data-label="Ví dụ" class="en">carefully, forward, otherwise</td></tr></tbody></table></div>
+<aside class="callout c-tip"><div class="c-head"><span class="c-ico" aria-hidden="true">✨</span><span class="c-title">ĐUÔI DỄ NHẦM — BỔ SUNG</span></div><div class="c-body"><p><strong>-al</strong> nhưng là danh từ: <em>proposal, approval, arrival, professional</em></p><p><strong>-ive</strong> nhưng là danh từ: <em>representative, executive, alternative</em></p><p><strong>-ant</strong> thường là danh từ chỉ người: <em>applicant, assistant, consultant</em>  (nhưng <em>relevant, significant</em> là tính từ)</p><p><strong>-ly</strong> nhưng là tính từ: <em>friendly, timely, costly, likely, orderly</em></p><p><strong>-en</strong> nhưng là tính từ: <em>golden, wooden</em> ; <strong>forward</strong> vừa là trạng từ, tính từ, vừa là động từ (<em>forward an email</em>).</p><p><em>→ Đuôi từ giúp khoanh vùng nhanh; khi đáp án có các từ trên, hãy kiểm tra lại từ loại trước khi chọn.</em></p></div></aside>
+<h4 class="h4">Phương pháp làm bài</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Trường hợp</th><th>Xử lý</th></tr></thead><tbody><tr><td data-label="Trường hợp">Trong đáp án có Main Verb</td><td data-label="Xử lý">• Câu <strong>CHƯA</strong> có Main Verb → dùng phương pháp Các thì (mục <a class="xref" href="#muc-4-2">4.2</a>).<br>• Câu <strong>ĐÃ</strong> có Main Verb → chuyển sang dòng dưới.</td></tr><tr><td data-label="Trường hợp">Đáp án không có Main Verb, hoặc chỗ trống không cần Main Verb</td><td data-label="Xử lý"><strong>Bước 1:</strong> Xét từ loại của từ liền trước và liền sau chỗ trống.<br><strong>Bước 2:</strong> Xét chỗ trống đang thiếu từ loại nào.</td></tr></tbody></table></div>
+<h4 class="h4">12 trường hợp điền từ loại thường gặp</h4>
+<div class="tbl-wrap"><table class="tbl cols-4"><thead><tr><th>#</th><th>Cấu trúc quanh chỗ trống</th><th>Thường điền</th><th>Cần kiểm tra thêm</th></tr></thead><tbody><tr><td data-label="#">1</td><td data-label="Cấu trúc quanh chỗ trống">Giới từ + ___ ( + giới từ)</td><td data-label="Thường điền"><strong>NOUN</strong></td><td data-label="Cần kiểm tra thêm">Nếu sau chỗ trống có danh từ, cân nhắc V-ing: after reviewing the data</td></tr><tr><td data-label="#">2.1</td><td data-label="Cấu trúc quanh chỗ trống">to be + ___</td><td data-label="Thường điền"><strong>ADJ / V-ing / V3</strong></td><td data-label="Cần kiểm tra thêm">Cũng có thể là cụm danh từ: is a manager</td></tr><tr><td data-label="#">2.2</td><td data-label="Cấu trúc quanh chỗ trống">to be + ___ + ADJ / V-ing / V3</td><td data-label="Thường điền"><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">3</td><td data-label="Cấu trúc quanh chỗ trống">Giới từ + ___ + V-ing</td><td data-label="Thường điền"><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">4.1</td><td data-label="Cấu trúc quanh chỗ trống">Modal verb + ___</td><td data-label="Thường điền"><strong>V₀</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">4.2</td><td data-label="Cấu trúc quanh chỗ trống">Modal verb + ___ + V₀</td><td data-label="Thường điền"><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">5</td><td data-label="Cấu trúc quanh chỗ trống">V + ___ + N</td><td data-label="Thường điền"><strong>ADJ</strong></td><td data-label="Cần kiểm tra thêm">Có thể là danh từ ghép (a sales report) hoặc đại từ tân ngữ</td></tr><tr><td data-label="#">6</td><td data-label="Cấu trúc quanh chỗ trống">to be + V3/ed + ___</td><td data-label="Thường điền"><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">Nhóm be given / offered… có Object theo sau; be considered + Adj</td></tr><tr><td data-label="#">7</td><td data-label="Cấu trúc quanh chỗ trống">V chủ động + ___ + giới từ / to V₀</td><td data-label="Thường điền"><strong>NOUN hoặc ADV</strong></td><td data-label="Cần kiểm tra thêm">Xét nghĩa để chọn</td></tr><tr><td data-label="#">8</td><td data-label="Cấu trúc quanh chỗ trống">has / have + ___ + V3/ed</td><td data-label="Thường điền"><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">Khi have là trợ động từ. Với have + Object + V3 (nhờ làm), chỗ trống là Object</td></tr><tr><td data-label="#">9</td><td data-label="Cấu trúc quanh chỗ trống">determiner + ___<br>determiner + ___ + N<br>___ + determiner</td><td data-label="Thường điền"><strong>NOUN</strong><br><strong>ADJ</strong><br><strong>ADV</strong></td><td data-label="Cần kiểm tra thêm">Trước N cũng có thể là danh từ ghép (xem #12)<br>___ + the cũng có thể là all / both / half: all the employees</td></tr><tr><td data-label="#">10.1</td><td data-label="Cấu trúc quanh chỗ trống">N’s / Ns’ + ___</td><td data-label="Thường điền"><strong>NOUN</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">10.2</td><td data-label="Cấu trúc quanh chỗ trống">N’s / Ns’ + ___ + N</td><td data-label="Thường điền"><strong>ADJ</strong></td><td data-label="Cần kiểm tra thêm">—</td></tr><tr><td data-label="#">11</td><td data-label="Cấu trúc quanh chỗ trống">remain / become / stay / feel / look /<br>seem / appear / taste / prove + ___</td><td data-label="Thường điền"><strong>ADJ</strong></td><td data-label="Cần kiểm tra thêm">become, remain cũng đi được với danh từ: become a manager</td></tr><tr><td data-label="#">12</td><td data-label="Cấu trúc quanh chỗ trống">S + V + N1 + ___</td><td data-label="Thường điền"><strong>NOUN</strong></td><td data-label="Cần kiểm tra thêm">Danh từ ghép N1 + N2, dịch từ phải sang trái: market research = nghiên cứu thị trường</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý</span></div><div class="c-body"><ul class="bullets"><li>Trật tự quen thuộc của cụm danh từ: <strong>ADV + ADJ + N</strong> — <em>a highly effective campaign</em></li><li><strong>Danh từ ghép N1 + N2</strong>: danh từ đứng trước bổ nghĩa cho danh từ chính — <em>market research, sales report, customer service.</em> Vì vậy trước một danh từ <strong>không phải lúc nào cũng là tính từ</strong>.</li><li><strong>Determiners</strong> (từ hạn định) đứng trước danh từ: <em>a, an, the, some, much, many, any, each, every, a few, a little, this, that, these, those…</em></li><li>Chỗ trống <strong>đầu câu, ngay trước dấu phẩy</strong> thường là trạng từ bổ nghĩa cho cả câu: <em>Unfortunately, the flight was delayed.</em> Nếu giữa chỗ trống và dấu phẩy còn cụm từ khác, cân nhắc V-ing / V3: <em>Worried by the news, she called the hospital.</em></li></ul></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.5 · Động tính từ: ADJ-ing và ADJ-ed</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-5-c"><span class="sub-num">4.5</span><span class="sub-t">Động tính từ: ADJ-ing và ADJ-ed</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-5-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Đối tượng được mô tả</th><th>Dạng thường dùng</th><th>Cấu trúc</th></tr></thead><tbody><tr><td data-label="Đối tượng được mô tả"><strong>NGƯỜI</strong></td><td data-label="Dạng thường dùng"><span class="c-bad"><strong>Adj-ed</strong></span></td><td data-label="Cấu trúc" class="en">S (người) + to be / linking verb + Adj-ed<br>Adj-ed + N (người)</td></tr><tr><td data-label="Đối tượng được mô tả"><strong>VẬT / SỰ VIỆC</strong></td><td data-label="Dạng thường dùng"><span class="c-bad"><strong>Adj-ing</strong></span></td><td data-label="Cấu trúc" class="en">S (vật) + to be / linking verb + Adj-ing<br>Adj-ing + N (vật)</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">PHẠM VI &amp; NGOẠI LỆ</span></div><div class="c-body"><ul class="bullets"><li>Quy tắc nhớ nhanh “người → -ed, vật → -ing” hiệu quả nhất với <strong>tính từ chỉ cảm xúc</strong>: interested / interesting, satisfied / satisfying, motivated / motivating.</li><li>Người vẫn có thể đi với <strong>-ing</strong> khi chính người đó gây ra cảm xúc cho người khác: an interesting speaker (diễn giả thú vị — khiến người nghe hứng thú).</li><li>Khi danh từ là thứ <strong>được / bị tác động</strong> (nghĩa bị động), thường dùng <strong>Adj-ed</strong> dù mô tả vật: <em>the proposed plan ; an extended lunch hour.</em></li><li>Khi danh từ <strong>tự thực hiện / đang diễn ra</strong> hành động, thường dùng <strong>V-ing</strong>: <em>remaining money ; growing demand.</em></li><li><strong>Tính từ gốc</strong> (-able/-ible, -ous, -ful, -ic, -ive, -less, -ant…): nên xét trước khi xét V-ed / V-ing, nhưng đáp án vẫn quyết định bằng nghĩa (một số từ -ive / -ant là danh từ — xem khung Đuôi dễ nhầm ở 4.4). <em>We came to Vietnam for its attractive landscapes.</em></li></ul></div></aside>
+<h4 class="h4">Trắc nghiệm nhanh</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Câu</th><th>Đáp án</th><th>Lý do</th></tr></thead><tbody><tr><td data-label="Câu">an ______ article   (A) interesting  (B) interested</td><td data-label="Đáp án"><span class="c-ok"><strong>(A) interesting</strong></span></td><td data-label="Lý do">article là vật gây hứng thú</td></tr><tr><td data-label="Câu">some ______ workers   (A) motivated  (B) motivating</td><td data-label="Đáp án"><span class="c-ok"><strong>(A) motivated</strong></span></td><td data-label="Lý do">workers là người được tạo động lực</td></tr><tr><td data-label="Câu">the ______ plan   (A) proposed  (B) proposing</td><td data-label="Đáp án"><span class="c-ok"><strong>(A) proposed</strong></span></td><td data-label="Lý do">kế hoạch được đề xuất</td></tr><tr><td data-label="Câu">some ______ money   (A) remained  (B) remaining</td><td data-label="Đáp án"><span class="c-ok"><strong>(B) remaining</strong></span></td><td data-label="Lý do">số tiền còn lại (remain là nội động từ)</td></tr><tr><td data-label="Câu">an ______ lunch hour   (A) extending  (B) extended</td><td data-label="Đáp án"><span class="c-ok"><strong>(B) extended</strong></span></td><td data-label="Lý do">giờ nghỉ được kéo dài</td></tr><tr><td data-label="Câu">the recently ______ government officials   (A) appointing  (B) appointed</td><td data-label="Đáp án"><span class="c-ok"><strong>(B) appointed</strong></span></td><td data-label="Lý do">quan chức được bổ nhiệm</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-6"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.6 · So sánh</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-6">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-6-c"><span class="sub-num">4.6</span><span class="sub-t">So sánh</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-6-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4">Chọn ADJ hay ADV trước khi so sánh</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Cấu trúc</th><th>Thường điền</th></tr></thead><tbody><tr><td data-label="Cấu trúc" class="en">S + to be / linking verb + (Adv) ______</td><td data-label="Thường điền">ADJ</td></tr><tr><td data-label="Cấu trúc" class="en">S + action verb + (Object) + (Adv) ______</td><td data-label="Thường điền">ADV</td></tr><tr><td data-label="Cấu trúc" class="en">S + make / keep / find + Object + (Adv) ______</td><td data-label="Thường điền">ADJ</td></tr></tbody></table></div>
+<h4 class="h4">Các dạng so sánh</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Dạng</th><th>Cấu trúc</th><th>Ghi chú</th></tr></thead><tbody><tr><td data-label="Dạng">So sánh bằng</td><td data-label="Cấu trúc" class="en">as + Adj / Adv + as</td><td data-label="Ghi chú">twice / 3 times / 4 times… + as … as</td></tr><tr><td data-label="Dạng">So sánh hơn – kém (từ ngắn)</td><td data-label="Cấu trúc" class="en">Adj / Adv (ngắn) + -er + than</td><td data-label="Ghi chú">—</td></tr><tr><td data-label="Dạng">So sánh hơn – kém (từ dài)</td><td data-label="Cấu trúc" class="en">more / less + Adj / Adv (dài) + than</td><td data-label="Ghi chú">—</td></tr><tr><td data-label="Dạng">So sánh nhất</td><td data-label="Cấu trúc" class="en">the / (Cột 3) + most / least + Adj (dài) ; the + Adj-est</td><td data-label="Ghi chú">Thường kèm phạm vi: of all, in, among…</td></tr><tr><td data-label="Dạng">Nhấn mạnh so sánh hơn – kém</td><td data-label="Cấu trúc" class="en">much / far / even / considerably / significantly + so sánh hơn</td><td data-label="Ghi chú">Không dùng “very” trước so sánh hơn</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">CỤM SO SÁNH HAY GẶP</span></div><div class="c-body"><ul class="bullets"><li><strong>more than + con số</strong> = <strong>over + con số</strong> = hơn, trên</li><li><strong>more than enough + Noun</strong> = dư thừa, quá đủ (time, experience, room): <em>more than enough time</em></li><li><strong>S + be + more than adequate</strong> = hơn cả mức cần thiết: <em>The meeting room is more than adequate for 20 people.</em></li><li><strong>more than double</strong> = nhiều hơn gấp đôi</li></ul></div></aside>
+<h4 class="h4">So sánh nhất — mức nâng cao</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Cấu trúc / từ đi kèm</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Cấu trúc / từ đi kèm">The + số thứ tự (second, third…) + so sánh nhất + N</td><td data-label="Ví dụ" class="en">the second largest city ; the fifth longest river</td></tr><tr><td data-label="Cấu trúc / từ đi kèm">… ever (từng, đã từng)</td><td data-label="Ví dụ" class="en">the highest building ever built</td></tr><tr><td data-label="Cấu trúc / từ đi kèm">… in / among (trong số)</td><td data-label="Ví dụ" class="en">the cheapest among these computers</td></tr><tr><td data-label="Cấu trúc / từ đi kèm">… yet / to date (cho đến nay)</td><td data-label="Ví dụ" class="en">the most difficult test to date</td></tr><tr><td data-label="Cấu trúc / từ đi kèm">… possible / available (có thể / có sẵn)</td><td data-label="Ví dụ" class="en">to book the cheapest flights possible</td></tr></tbody></table></div>
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Cụm</th><th>Dùng với</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Cụm" class="en"><strong>fewer</strong></td><td data-label="Dùng với">danh từ đếm được số nhiều</td><td data-label="Ví dụ" class="en">fewer cars, fewer accidents</td></tr><tr><td data-label="Cụm" class="en"><strong>less</strong></td><td data-label="Dùng với">danh từ không đếm được</td><td data-label="Ví dụ" class="en">less work, less time</td></tr><tr><td data-label="Cụm" class="en"><strong>at least / at most</strong></td><td data-label="Dùng với">không ít hơn / không nhiều hơn</td><td data-label="Ví dụ" class="en">at least 500 dollars ; a short paragraph at most</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-7"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.7 · Liên từ và giới từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-7">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-7-c"><span class="sub-num">4.7</span><span class="sub-t">Liên từ và giới từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-7-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4">Hai công thức gốc</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Loại từ</th><th>Theo sau là</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Loại từ"><strong>CONJ (liên từ)</strong></td><td data-label="Theo sau là"><strong>S + V (main verb)</strong></td><td data-label="Ví dụ" class="en">because the cost rose ; although the team was small</td></tr><tr><td data-label="Loại từ"><strong>PREP (giới từ)</strong></td><td data-label="Theo sau là"><strong>N / N.P</strong> hoặc <strong>V-ing</strong><br><span class="c-bad"><em>Không theo sau bằng to V₀ hoặc V3</em></span></td><td data-label="Ví dụ" class="en">due to the rising cost ; after reviewing the data</td></tr></tbody></table></div>
+<h4 class="h4">Phương pháp: nhìn đáp án &amp; xét phần sau chỗ trống</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Nếu 4 đáp án…</th><th>Cách xử lý</th></tr></thead><tbody><tr><td data-label="Nếu 4 đáp án…"><strong>đều là liên từ, hoặc đều là giới từ</strong></td><td data-label="Cách xử lý"><span class="c-bad"><strong>DỊCH CÂU</strong></span><br>Cấu trúc giống nhau nên nghĩa quyết định.</td></tr><tr><td data-label="Nếu 4 đáp án…"><strong>vừa có liên từ vừa có giới từ</strong></td><td data-label="Cách xử lý"><span class="c-ok"><strong>LOẠI SUY trước, dịch câu sau (nếu cần)</strong></span><br>Sau chỗ trống có S + V → xét liên từ; chỉ có N / N.P → xét giới từ; có V-ing / V3 → xét cả hai (xem ngoại lệ bên dưới).</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý — Một từ có thể vừa là liên từ vừa là giới từ</span></div><div class="c-body"><p><strong>before, after, since, until</strong> có thể đi với cụm danh từ hoặc với mệnh đề: <em>after the meeting / after the meeting ended.</em> Hãy phân loại dựa vào phần theo sau, không dựa vào bản thân từ.</p></div></aside>
+<aside class="callout c-tip"><div class="c-head"><span class="c-ico" aria-hidden="true">✨</span><span class="c-title">NGOẠI LỆ — Liên từ rút gọn · BỔ SUNG</span></div><div class="c-body"><p>Khi mệnh đề phụ và mệnh đề chính <strong>cùng chủ ngữ</strong>, một số liên từ (<strong>when, while, before, after, since, although / even though, once</strong>) có thể đi thẳng với <strong>V-ing / V3 / Adj</strong> thay vì S + V:</p><p><em>While driving to school, Betty got a flat tire.</em>  (chủ động → V-ing)</p><p><em>My dog will run to the street when given the chance.</em>  (bị động → V3)</p><p><em>Even though hungry, she didn't eat the pie.</em>  (Adj)</p><p>→ Thấy liên từ đi với V-ing / V3, <strong>đừng vội loại</strong>; kiểm tra xem chủ ngữ hai vế có trùng nhau không.</p></div></aside>
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Ý nghĩa</th><th>Liên từ + S + V</th><th>Giới từ + N / N.P / V-ing</th></tr></thead><tbody><tr><td data-label="Ý nghĩa">vì</td><td data-label="Liên từ + S + V">because</td><td data-label="Giới từ + N / N.P / V-ing">because of / due to / owing to</td></tr><tr><td data-label="Ý nghĩa">mặc dù</td><td data-label="Liên từ + S + V">although / though / even though</td><td data-label="Giới từ + N / N.P / V-ing">despite / in spite of</td></tr><tr><td data-label="Ý nghĩa">trong khi / trong suốt</td><td data-label="Liên từ + S + V">while</td><td data-label="Giới từ + N / N.P / V-ing">during</td></tr><tr><td data-label="Ý nghĩa">sau khi / trước khi</td><td data-label="Liên từ + S + V">after / before</td><td data-label="Giới từ + N / N.P / V-ing">after / before</td></tr></tbody></table></div>
+<h4 class="h4">Các trật tự sau giới từ</h4>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Cấu trúc</th><th>Chỗ trống thường điền</th></tr></thead><tbody><tr><td data-label="Cấu trúc" class="en">Giới từ + ______</td><td data-label="Chỗ trống thường điền">NOUN</td></tr><tr><td data-label="Cấu trúc" class="en">Giới từ + ______ + Noun</td><td data-label="Chỗ trống thường điền">ADJ (hoặc V-ing nếu đáp án có V-ing và danh từ là tân ngữ)</td></tr><tr><td data-label="Cấu trúc" class="en">Giới từ + ______ + ADJ + Noun</td><td data-label="Chỗ trống thường điền">ADV</td></tr><tr><td data-label="Cấu trúc" class="en">Giới từ + ______ + V-ing + Noun</td><td data-label="Chỗ trống thường điền">ADV</td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP</span></div><div class="c-body"><p><strong>① Chỉ khác một chữ, từ loại đã đổi:</strong></p><p>after ______ reviews of the data → <span class="c-ok"><strong>careful</strong></span> (giới từ + ADJ + N)</p><p>after ______ reviewing the data → <span class="c-ok"><strong>carefully</strong></span> (giới từ + ADV + V-ing)</p><p><strong>② Hai đáp án cùng nghĩa, khác cấu trúc:</strong> <em>The project was delayed ______ the rising cost.</em></p><p>(A) due to  (B) adjacent to  (C) although  (D) because → <span class="c-ok"><strong>(A) due to</strong></span>: sau chỗ trống chỉ có cụm danh từ nên cần giới từ; because / although cần S + V; adjacent to (liền kề) sai nghĩa.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-8"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.8 · Mệnh đề quan hệ và rút gọn mệnh đề</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-8">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-8-c"><span class="sub-num">4.8</span><span class="sub-t">Mệnh đề quan hệ và rút gọn mệnh đề</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-8-c"><div class="collapse-in"><div class="sub-body">
+<p>Đây là dạng khó khi điền động từ vì câu có <strong>nhiều hơn một động từ</strong>.</p>
+<h4 class="h4">DẠNG 1 — Câu ĐÃ CÓ đại từ quan hệ (who, which, that, whose, where…)</h4>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Vị trí chỗ trống</th><th>Tình huống</th><th>Cách điền</th></tr></thead><tbody><tr><td data-label="Vị trí chỗ trống"><strong>TRONG mệnh đề quan hệ</strong></td><td data-label="Tình huống">Mệnh đề quan hệ CHƯA có Main Verb</td><td data-label="Cách điền">Điền Main Verb theo phương pháp Các thì (4.2)</td></tr><tr><td data-label="Vị trí chỗ trống"><strong>TRONG mệnh đề quan hệ</strong></td><td data-label="Tình huống">Mệnh đề quan hệ ĐÃ có Main Verb</td><td data-label="Cách điền">Điền V₀ / to V₀ / V-ing theo động từ đứng trước (xem 4.9)</td></tr><tr><td data-label="Vị trí chỗ trống"><strong>NGOÀI mệnh đề quan hệ</strong></td><td data-label="Tình huống">Câu chính CHƯA có Main Verb</td><td data-label="Cách điền">Bỏ qua mệnh đề quan hệ, điền Main Verb cho câu chính (4.2)</td></tr><tr><td data-label="Vị trí chỗ trống"><strong>NGOÀI mệnh đề quan hệ</strong></td><td data-label="Tình huống">Câu chính ĐÃ có Main Verb</td><td data-label="Cách điền">Điền V₀ / to V₀ / V-ing theo động từ đứng trước (xem 4.9)</td></tr></tbody></table></div>
+<h4 class="h4">DẠNG 2 — Câu CHƯA CÓ đại từ quan hệ</h4>
+<ol class="steps">
+<li><span class="n">1</span><span><strong>Bước 1:</strong> Tìm liên từ trong câu (since, when, because, if, although, though…) để xác định phạm vi mệnh đề chứa chỗ trống.</span></li>
+<li><span class="n">2</span><span><strong>Bước 2:</strong> Tìm Main Verb trong mệnh đề đó rồi xử lý theo bảng:</span></li>
+</ol>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Tình huống</th><th>Cách điền</th></tr></thead><tbody><tr><td data-label="Tình huống">Mệnh đề CHƯA có Main Verb</td><td data-label="Cách điền">Điền Main Verb theo phương pháp Các thì (4.2)</td></tr><tr><td data-label="Tình huống">Đã có Main Verb — liền trước chỗ trống là Main Verb</td><td data-label="Cách điền">Điền V₀ / to V₀ / V-ing theo động từ đó (xem 4.9)</td></tr><tr><td data-label="Tình huống">Đã có Main Verb — liền trước chỗ trống là Noun / Pronoun (anyone, those…)</td><td data-label="Cách điền">Điền dạng RÚT GỌN: V-ing / V3 / Adj, tuỳ nghĩa chủ động hay bị động</td></tr></tbody></table></div>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">CÔNG THỨC KHUNG CÂU</span></div><div class="c-body"><p><strong>S1 + V1 + Liên từ + S2 + V2</strong>     hoặc     <strong>Liên từ + S1 + V1 , S2 + V2</strong></p><p>Danh từ + <strong>where</strong> (= in / at / on… which) + S + V</p><p>Danh từ + <strong>which</strong> + V   hoặc   + S + V</p></div></aside>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">RÚT GỌN MỆNH ĐỀ QUAN HỆ</span></div><div class="c-body"><p><em>Whoever is interested in the job can apply online.</em></p><p><em>= Anyone who is interested in the job can apply online.</em></p><p>→ Rút gọn: <strong>Anyone interested in the job can apply online.</strong></p><p>✓ <strong>Those</strong> + dạng rút gọn (V-ing / V3 / Adj) … + động từ chính chia <strong>số nhiều</strong></p><p>✓ <strong>Anyone</strong> + dạng rút gọn (V-ing / V3 / Adj) … + động từ chính chia <strong>số ít</strong></p><p>✗ <strong>Whoever</strong> không đi với dạng rút gọn.  (Whoever = Anyone who)</p><ul class="bullets"><li><strong>being V3/ed</strong>: hành động bị động đang diễn ra (<em>the building being renovated</em>).</li><li><strong>to be V3/ed</strong>: hàm ý tương lai.</li></ul></div></aside>
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Từ</th><th>Thay cho</th><th>Dấu hiệu nhận biết</th></tr></thead><tbody><tr><td data-label="Từ"><strong>who</strong></td><td data-label="Thay cho">người (chủ ngữ hoặc tân ngữ)</td><td data-label="Dấu hiệu nhận biết">who + V… ; who + S + V…</td></tr><tr><td data-label="Từ"><strong>which</strong></td><td data-label="Thay cho">vật / sự việc</td><td data-label="Dấu hiệu nhận biết">which + V… ; which + S + V…</td></tr><tr><td data-label="Từ"><strong>that</strong></td><td data-label="Thay cho">người hoặc vật, trong mệnh đề xác định (không có dấu phẩy)</td><td data-label="Dấu hiệu nhận biết">Không dùng trong mệnh đề có dấu phẩy (không xác định)</td></tr><tr><td data-label="Từ"><strong>whose</strong></td><td data-label="Thay cho">sở hữu (của người / vật đó)</td><td data-label="Dấu hiệu nhận biết">whose + N</td></tr><tr><td data-label="Từ"><strong>where / when</strong></td><td data-label="Thay cho">nơi chốn / thời gian</td><td data-label="Dấu hiệu nhận biết">N + where / when + S + V (mệnh đề phía sau đủ thành phần)</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-9"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.9 · Động từ theo sau động từ và cấu trúc nhờ bảo</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-9">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-9-c"><span class="sub-num">4.9</span><span class="sub-t">Động từ theo sau động từ và cấu trúc nhờ bảo</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-9-c"><div class="collapse-in"><div class="sub-body">
+<aside class="callout c-tip"><div class="c-head"><span class="c-ico" aria-hidden="true">✨</span><span class="c-title">BỔ SUNG</span></div><div class="c-body"><p>Mục 4.8 hướng dẫn “điền V₀ / to V₀ / V-ing theo động từ đứng trước”. Bảng dưới đây là các động từ tần suất cao để tra nhanh — <strong>không phải danh sách đầy đủ</strong>. Nhiều động từ có hơn một cấu trúc, nên học theo từng động từ.</p></div></aside>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Cấu trúc</th><th>Động từ thường gặp</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Cấu trúc" class="en"><strong>V + to V₀</strong></td><td data-label="Động từ thường gặp">agree, decide, expect, fail, hope, plan, promise, refuse, wish</td><td data-label="Ví dụ" class="en">plan to relocate ; wish to use</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>V + V-ing</strong></td><td data-label="Động từ thường gặp">avoid, consider, finish, keep, postpone, recommend</td><td data-label="Ví dụ" class="en">consider expanding ; postpone signing</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>V + O + to V₀</strong></td><td data-label="Động từ thường gặp">allow, ask, encourage, expect, require, remind, advise, permit</td><td data-label="Ví dụ" class="en">require employees to wear…</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>be + V3 + to V₀</strong></td><td data-label="Động từ thường gặp">(dạng bị động của dòng trên)</td><td data-label="Ví dụ" class="en">be required to wear ; be reminded to submit</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>Modal + V₀</strong></td><td data-label="Động từ thường gặp">can, could, may, might, must, should, will, would</td><td data-label="Ví dụ" class="en">must submit</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>make / let + O + V₀</strong></td><td data-label="Động từ thường gặp">bắt / để ai làm gì</td><td data-label="Ví dụ" class="en">make staff attend ; let visitors enter</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>help + O + (to) V₀</strong></td><td data-label="Động từ thường gặp">cả hai dạng đều dùng</td><td data-label="Ví dụ" class="en">help customers (to) find…</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>have + O + V₀</strong></td><td data-label="Động từ thường gặp">nhờ / yêu cầu ai làm gì</td><td data-label="Ví dụ" class="en">have a technician inspect the unit</td></tr><tr><td data-label="Cấu trúc" class="en"><strong>have / get + O + V3</strong></td><td data-label="Động từ thường gặp">nhờ làm gì cho vật (vật được tác động)</td><td data-label="Ví dụ" class="en">have the report revised ; get the equipment repaired</td></tr></tbody></table></div>
+<aside class="callout c-tip"><div class="c-head"><span class="c-ico" aria-hidden="true">✨</span><span class="c-title">BẪY “TO” — BỔ SUNG</span></div><div class="c-body"><p>Không phải chữ “to” nào cũng đi với V₀. Trong các cụm sau, <strong>to là giới từ</strong>, nên theo sau là N / N.P hoặc <strong>V-ing</strong>:</p><p><strong>look forward to</strong> · <strong>be committed to</strong> · <strong>object to</strong> · <strong>be accustomed to</strong></p><p><em>We're looking forward to seeing you again.</em></p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-10"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.10 · Từ hạn định và lượng từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-10">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-10-c"><span class="sub-num">4.10</span><span class="sub-t">Từ hạn định và lượng từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-10-c"><div class="collapse-in"><div class="sub-body">
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Từ</th><th>Đi với</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Từ"><strong>each / every</strong></td><td data-label="Đi với">danh từ đếm được số ít</td><td data-label="Ví dụ" class="en">each applicant ; every office</td></tr><tr><td data-label="Từ"><strong>both / several / many / few / a few</strong></td><td data-label="Đi với">danh từ đếm được số nhiều</td><td data-label="Ví dụ" class="en">both proposals ; several locations</td></tr><tr><td data-label="Từ"><strong>much / little / a little</strong></td><td data-label="Đi với">danh từ không đếm được</td><td data-label="Ví dụ" class="en">much information ; a little time</td></tr><tr><td data-label="Từ"><strong>another</strong></td><td data-label="Đi với">danh từ đếm được số ít</td><td data-label="Ví dụ" class="en">another meeting</td></tr><tr><td data-label="Từ"><strong>other</strong></td><td data-label="Đi với">danh từ số nhiều hoặc không đếm được</td><td data-label="Ví dụ" class="en">other options ; other information</td></tr><tr><td data-label="Từ"><strong>others</strong></td><td data-label="Đi với">đại từ — không có danh từ ngay sau</td><td data-label="Ví dụ" class="en">I'll send others tomorrow.</td></tr><tr><td data-label="Từ"><strong>the other</strong></td><td data-label="Đi với">cái / người còn lại (trong hai)</td><td data-label="Ví dụ" class="en">The other computer is five years old.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-5"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 5 · Chiến lược làm câu hỏi từ vựng</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-5">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-5-c"><span class="part-num"><small>Phần</small> 5</span><span class="part-tt"><span class="part-t">Chiến lược làm câu hỏi từ vựng</span><span class="part-meta">4 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-5-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Dấu hiệu: <strong>4 đáp án cùng từ loại nhưng khác nghĩa</strong>. Cấu trúc gần như không giúp loại đáp án; học viên dựa vào nghĩa của cả câu và vốn collocation.</p></div>
+<section class="sub" id="muc-5-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-1-c"><span class="sub-num">5.1</span><span class="sub-t">Dựa vào ngữ cảnh trong câu</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-1-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Đọc trọn vẹn cả câu, không chỉ phần quanh chỗ trống.</span></li>
+<li><span class="n">2</span><span>Xác định câu đang nói về chủ đề gì (tuyển dụng, giao hàng, thanh toán, lịch họp, bảo trì…).</span></li>
+<li><span class="n">3</span><span>Nhìn từ đứng ngay trước và ngay sau chỗ trống để tìm collocation.</span></li>
+<li><span class="n">4</span><span>Thử ghép từng đáp án vào câu; loại đáp án “gần nghĩa chung chung” nhưng không đi được với từ bên cạnh.</span></li>
+</ol>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý</span></div><div class="c-body"><p><strong>Part 5 không có câu trước hay câu sau.</strong> Nếu câu vẫn chưa đủ rõ, hãy đọc lại chính câu đó và xét collocation — đừng tìm ngữ cảnh ở câu khác như khi làm Part 6.</p></div></aside>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">VÍ DỤ</span></div><div class="c-body"><p><em>These photos ______ many unforgettable memories of our trip to Vung Tau last year.</em></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">released — giải phóng, phát hành</span></li><li data-opt="B"><span class="opt">B</span><span class="en">reversed — đảo ngược</span></li><li data-opt="C"><span class="opt">C</span><span class="en">repeated — lặp lại</span></li><li data-opt="D"><span class="opt">D</span><span class="en">recalled — gợi nhớ lại</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p>→ <span class="c-ok"><strong>(D) recalled</strong></span> là đáp án hợp với “memories”.</p></div></details></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.2 · Collocations và cụm từ cố định</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-2-c"><span class="sub-num">5.2</span><span class="sub-t">Collocations và cụm từ cố định</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Nhiều câu Part 5 kiểm tra <strong>từ nào đi cùng với từ nào</strong> chứ không kiểm tra nghĩa của từ đứng riêng.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Loại cụm</th><th>Vì sao quan trọng</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Loại cụm">Động từ + giới từ</td><td data-label="Vì sao quan trọng">Giới từ phía sau có thể loại ngay đáp án sai</td><td data-label="Ví dụ" class="en">apologize for something</td></tr><tr><td data-label="Loại cụm">Collocation (từ đi kèm)</td><td data-label="Vì sao quan trọng">Khó suy ra bằng quy tắc, cần học thuộc</td><td data-label="Ví dụ" class="en">make a decision</td></tr><tr><td data-label="Loại cụm">Cụm giới từ cố định</td><td data-label="Vì sao quan trọng">Chìa khoá của câu chọn giới từ</td><td data-label="Ví dụ" class="en">in advance = trước (thời điểm)</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">KỸ NĂNG LÀM BÀI</span></div><div class="c-body"><p>Với câu từ vựng, <strong>nhìn từ đứng ngay sau chỗ trống</strong> trước. Nhiều câu được giải nhờ một giới từ.</p><p><em>We ______ for any inconvenience this might cause.   (A) apologize (B) organize (C) realize (D) recognize</em></p><p>→ Sau chỗ trống là <strong>for</strong>; cấu trúc quen thuộc là <strong>apologize for something</strong> → <span class="c-ok"><strong>(A)</strong></span>.</p><p><em>Phạm vi: cách này hữu ích khi các đáp án đi với giới từ khác nhau; nếu cả 4 đáp án cùng đi được với giới từ đó, phải xét nghĩa.</em></p></div></aside>
+<div class="addon-tag">BỔ SUNG</div>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Cụm</th><th>Nghĩa</th><th>Ví dụ ngắn</th></tr></thead><tbody><tr><td data-label="Cụm" class="en"><strong>meet a deadline</strong></td><td data-label="Nghĩa">kịp hạn chót</td><td data-label="Ví dụ ngắn">meet the project deadline</td></tr><tr><td data-label="Cụm" class="en"><strong>make a decision</strong></td><td data-label="Nghĩa">đưa ra quyết định</td><td data-label="Ví dụ ngắn">make a decision on the budget</td></tr><tr><td data-label="Cụm" class="en"><strong>file a complaint</strong></td><td data-label="Nghĩa">nộp đơn khiếu nại</td><td data-label="Ví dụ ngắn">file a complaint about the noise</td></tr><tr><td data-label="Cụm" class="en"><strong>comply with</strong></td><td data-label="Nghĩa">tuân thủ</td><td data-label="Ví dụ ngắn">comply with safety regulations</td></tr><tr><td data-label="Cụm" class="en"><strong>apply for</strong></td><td data-label="Nghĩa">nộp đơn xin (việc, giấy phép…)</td><td data-label="Ví dụ ngắn">apply for the position</td></tr><tr><td data-label="Cụm" class="en"><strong>responsible for</strong></td><td data-label="Nghĩa">chịu trách nhiệm về</td><td data-label="Ví dụ ngắn">responsible for training new staff</td></tr><tr><td data-label="Cụm" class="en"><strong>eligible for</strong></td><td data-label="Nghĩa">đủ điều kiện để nhận / tham gia</td><td data-label="Ví dụ ngắn">eligible for a refund</td></tr><tr><td data-label="Cụm" class="en"><strong>familiar with</strong></td><td data-label="Nghĩa">quen thuộc với, nắm rõ</td><td data-label="Ví dụ ngắn">familiar with the software</td></tr><tr><td data-label="Cụm" class="en"><strong>participate in</strong></td><td data-label="Nghĩa">tham gia</td><td data-label="Ví dụ ngắn">participate in the seminar</td></tr><tr><td data-label="Cụm" class="en"><strong>in response to</strong></td><td data-label="Nghĩa">để đáp lại</td><td data-label="Ví dụ ngắn">in response to your inquiry</td></tr><tr><td data-label="Cụm" class="en"><strong>increase in</strong></td><td data-label="Nghĩa">sự tăng lên về</td><td data-label="Ví dụ ngắn">an increase in sales</td></tr><tr><td data-label="Cụm" class="en"><strong>demand for</strong></td><td data-label="Nghĩa">nhu cầu về</td><td data-label="Ví dụ ngắn">demand for the product</td></tr><tr><td data-label="Cụm" class="en"><strong>on behalf of</strong></td><td data-label="Nghĩa">thay mặt cho</td><td data-label="Ví dụ ngắn">on behalf of the team</td></tr><tr><td data-label="Cụm" class="en"><strong>as a result of</strong></td><td data-label="Nghĩa">do, là kết quả của</td><td data-label="Ví dụ ngắn">as a result of the delay</td></tr><tr><td data-label="Cụm" class="en"><strong>with regard to</strong></td><td data-label="Nghĩa">về việc, liên quan đến</td><td data-label="Ví dụ ngắn">with regard to the contract</td></tr><tr><td data-label="Cụm" class="en"><strong>according to</strong></td><td data-label="Nghĩa">theo (lời, số liệu, kế hoạch…)</td><td data-label="Ví dụ ngắn">according to the schedule</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.3 · Phân biệt các từ gần nghĩa</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-3-c"><span class="sub-num">5.3</span><span class="sub-t">Phân biệt các từ gần nghĩa</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-3-c"><div class="collapse-in"><div class="sub-body">
+<ul class="bullets"><li><strong>Ghép vào ngữ cảnh cụ thể:</strong> đáp án đúng phải đi được với danh từ / động từ ngay cạnh nó.</li><li><strong>Xét cấu trúc đi kèm:</strong> nếu một từ cần giới từ hoặc tân ngữ mà câu không có, loại từ đó.</li><li><strong>Xét thành phần cấu tạo từ:</strong> tiền tố <strong>re-</strong> (lại) + <strong>call</strong> (gọi) → <strong>recall</strong> ≈ gọi lại trong trí nhớ.</li></ul>
+<aside class="callout c-info"><div class="c-head"><span class="c-ico" aria-hidden="true">💡</span><span class="c-title">LƯU Ý</span></div><div class="c-body"><p>Đoán nghĩa qua tiền tố – gốc từ chỉ mang tính <strong>phỏng đoán</strong>, đáng tin khi cấu tạo từ thật sự rõ (reopen = open again). Đây là phương án cuối, không thay được việc học từ vựng.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.4 · Những bẫy từ vựng thường gặp</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-4-c"><span class="sub-num">5.4</span><span class="sub-t">Những bẫy từ vựng thường gặp</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-4-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Cặp từ dễ nhầm</th><th>Phân biệt</th></tr></thead><tbody><tr><td data-label="Cặp từ dễ nhầm">advice – advise</td><td data-label="Phân biệt">advice = danh từ (lời khuyên) ; advise = động từ (khuyên)</td></tr><tr><td data-label="Cặp từ dễ nhầm">accept – except</td><td data-label="Phân biệt">accept = chấp nhận ; except = ngoại trừ</td></tr><tr><td data-label="Cặp từ dễ nhầm">affect – effect</td><td data-label="Phân biệt">affect thường là động từ (ảnh hưởng đến) ; effect thường là danh từ (tác động, hiệu quả)</td></tr><tr><td data-label="Cặp từ dễ nhầm">lend – borrow</td><td data-label="Phân biệt">lend = cho mượn ; borrow = mượn</td></tr><tr><td data-label="Cặp từ dễ nhầm">hard work – hard-working</td><td data-label="Phân biệt">hard work = danh từ (sự làm việc chăm chỉ) ; hard-working = tính từ (chăm chỉ)</td></tr></tbody></table></div>
+<aside class="callout c-warn"><div class="c-head"><span class="c-ico" aria-hidden="true">⚠️</span><span class="c-title">BẪY THƯỜNG GẶP</span></div><div class="c-body"><p>Với các cặp cùng gốc như advice / advise, hãy xác định vị trí cần <strong>danh từ</strong> hay <strong>động từ</strong> trước, rồi mới xét nghĩa.</p><p><em>I sought his ______ before making a decision. → sau “his” cần danh từ → advice.</em></p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-6"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 6 · Bảng dấu hiệu nhận biết nhanh</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-6">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-6-c"><span class="part-num"><small>Phần</small> 6</span><span class="part-tt"><span class="part-t">Bảng dấu hiệu nhận biết nhanh</span><span class="part-meta">Bấm để đọc</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-6-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Bảng tra cứu nhanh các dấu hiệu quanh chỗ trống. Cột “Lưu ý” ghi phạm vi và ngoại lệ — đọc kỹ trước khi áp dụng.</p>
+<div class="tbl-wrap"><table class="tbl cols-4"><thead><tr><th>Dấu hiệu quanh chỗ trống</th><th>Loại từ / cấu trúc cần điền</th><th>Ví dụ</th><th>Lưu ý</th></tr></thead><tbody><tr><td data-label="Dấu hiệu quanh chỗ trống">Giới từ + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>NOUN</strong></td><td data-label="Ví dụ" class="en"><em>handled with care</em></td><td data-label="Lưu ý">Nếu sau chỗ trống có danh từ và đáp án có V-ing, cân nhắc V-ing</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Giới từ + ______ + Noun</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ</strong></td><td data-label="Ví dụ" class="en"><em>after careful reviews</em></td><td data-label="Lưu ý">Có thể là V-ing nếu danh từ là tân ngữ: after reviewing the data</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Giới từ + ______ + V-ing</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>after carefully reviewing</em></td><td data-label="Lưu ý">Chỉ khác dòng trên một chữ — hay bị nhầm</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">a / an / the / this / each… + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>NOUN</strong></td><td data-label="Ví dụ" class="en"><em>the application</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">a / an / the… + ______ + Noun</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ</strong></td><td data-label="Ví dụ" class="en"><em>an effective campaign</em></td><td data-label="Lưu ý">Có thể là danh từ ghép: a sales report</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">______ + a / an / the…</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>only the manager</em></td><td data-label="Lưu ý">Cũng có thể là all / both / half: all the employees</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">N’s / Ns’ + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>NOUN</strong></td><td data-label="Ví dụ" class="en"><em>the manager’s decision</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">N’s / Ns’ + ______ + Noun</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ</strong></td><td data-label="Ví dụ" class="en"><em>the students’ final results</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">to be + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ / V-ing / V3</strong></td><td data-label="Ví dụ" class="en"><em>is reliable ; is completed</em></td><td data-label="Lưu ý">Cũng có thể là cụm danh từ: is a manager</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">to be + ______ + ADJ</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>is highly effective</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">to be + V3/ed + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>was written clearly</em></td><td data-label="Lưu ý">be given / offered… + Object ; be considered + Adj</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Modal verb + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>V₀</strong></td><td data-label="Ví dụ" class="en"><em>must submit</em></td><td data-label="Lưu ý">Sau modal là động từ nguyên mẫu không “to”</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Modal verb + ______ + V₀</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>must promptly submit</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">has / have + ______ + V3/ed</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>has recently announced</em></td><td data-label="Lưu ý">have + Object + V3 (nhờ làm): the report revised</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">V + ______ + N</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ</strong></td><td data-label="Ví dụ" class="en"><em>require detailed information</em></td><td data-label="Lưu ý">Có thể là danh từ ghép hoặc tân ngữ</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">V chủ động + ______ + giới từ / to V₀</td><td data-label="Loại từ / cấu trúc cần điền"><strong>NOUN hoặc ADV</strong></td><td data-label="Ví dụ" class="en"><em>responded promptly to</em></td><td data-label="Lưu ý">Xét nghĩa để chọn</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">remain / become / seem / look… + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADJ</strong></td><td data-label="Ví dụ" class="en"><em>remains competitive</em></td><td data-label="Lưu ý">become / remain + danh từ cũng được: become a manager</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">______ , (đầu câu, ngay trước dấu phẩy)</td><td data-label="Loại từ / cấu trúc cần điền"><strong>ADV</strong></td><td data-label="Ví dụ" class="en"><em>Unfortunately, …</em></td><td data-label="Lưu ý">Còn cụm từ khác trước dấu phẩy → cân nhắc V-ing / V3</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Sau chỗ trống có S + V</td><td data-label="Loại từ / cấu trúc cần điền"><strong>LIÊN TỪ</strong></td><td data-label="Ví dụ" class="en"><em>although the cost rose</em></td><td data-label="Lưu ý">before / after / since / until vừa là liên từ vừa là giới từ</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Sau chỗ trống chỉ có N / N.P / V-ing</td><td data-label="Loại từ / cấu trúc cần điền"><strong>GIỚI TỪ</strong></td><td data-label="Ví dụ" class="en"><em>due to the rising cost</em></td><td data-label="Lưu ý">Với V-ing / V3: liên từ rút gọn cũng được (while driving) — xem 4.7</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Mệnh đề CHƯA có Main Verb</td><td data-label="Loại từ / cấu trúc cần điền"><strong>MAIN VERB</strong></td><td data-label="Ví dụ" class="en"><em>Applicants are reminded…</em></td><td data-label="Lưu ý">Xét tiếp dấu hiệu thì, bị động, hoà hợp S–V</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Đã có Main Verb, liền trước chỗ trống là Noun</td><td data-label="Loại từ / cấu trúc cần điền"><strong>RÚT GỌN: V-ing / V3 / Adj</strong></td><td data-label="Ví dụ" class="en"><em>the conditions stated in…</em></td><td data-label="Lưu ý">Kiểm tra and/or/liên từ có tạo thêm động từ không</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Liền trước chỗ trống là một động từ khác</td><td data-label="Loại từ / cấu trúc cần điền"><strong>to V₀ / V-ing / O + to V₀</strong></td><td data-label="Ví dụ" class="en"><em>wish to use ; avoid delaying</em></td><td data-label="Lưu ý">Tra cấu trúc theo động từ (mục <a class="xref" href="#muc-4-9">4.9</a>)</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">look forward to / be committed to + ______</td><td data-label="Loại từ / cấu trúc cần điền"><strong>N / V-ing</strong></td><td data-label="Ví dụ" class="en"><em>look forward to seeing</em></td><td data-label="Lưu ý">“to” ở đây là giới từ</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Sau chỗ trống có Object</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Thường CHỦ ĐỘNG</strong></td><td data-label="Ví dụ" class="en"><em>wrote a letter</em></td><td data-label="Lưu ý">Trừ be given / offered / sent / awarded / asked + O</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">Sau chỗ trống có by + Object</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Thường BỊ ĐỘNG</strong></td><td data-label="Ví dụ" class="en"><em>was written by me</em></td><td data-label="Lưu ý">“by” còn chỉ thời hạn: by Friday</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">… since + quá khứ đơn</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Hiện tại hoàn thành</strong></td><td data-label="Ví dụ" class="en"><em>has worked here since 2019</em></td><td data-label="Lưu ý">since cũng có thể nghĩa là “vì”</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">… by the time + hiện tại đơn</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Tương lai hoàn thành</strong></td><td data-label="Ví dụ" class="en"><em>will have finished by the time…</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">during / for / over + the past / the last…</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Hiện tại hoàn thành</strong></td><td data-label="Ví dụ" class="en"><em>has grown over the past year</em></td><td data-label="Lưu ý">—</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">______ + own + Noun</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Cột 3</strong></td><td data-label="Ví dụ" class="en"><em>his own office</em></td><td data-label="Lưu ý">“của riêng ai”</td></tr><tr><td data-label="Dấu hiệu quanh chỗ trống">by + ______ (chủ ngữ tự làm)</td><td data-label="Loại từ / cấu trúc cần điền"><strong>Cột 5</strong></td><td data-label="Ví dụ" class="en"><em>by myself</em></td><td data-label="Lưu ý">Câu bị động: by + Cột 2 (by me)</td></tr></tbody></table></div></div>
+
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-7"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 7 · Các lỗi sai phổ biến</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+<section class="part" id="phan-7">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-7-c"><span class="part-num"><small>Phần</small> 7</span><span class="part-tt"><span class="part-t">Các lỗi sai phổ biến</span><span class="part-meta">Bấm để đọc</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-7-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Lỗi</th><th>Nguyên nhân</th><th>Cách tránh</th></tr></thead><tbody><tr><td data-label="Lỗi">Chia thì theo từ khoá thời gian</td><td data-label="Nguyên nhân">Loại ngay hiện tại đơn chỉ vì câu có “tomorrow”, không xét bối cảnh</td><td data-label="Cách tránh"><em>The store opens at 7 A.M. tomorrow.</em><br>Lịch cố định → hiện tại đơn vẫn dùng được. Hỏi: lịch trình, thói quen hay sự việc tương lai?</td></tr><tr><td data-label="Lỗi">Chia động từ theo danh từ gần nhất</td><td data-label="Nguyên nhân">Chủ ngữ dài có giới từ hoặc nhiều danh từ</td><td data-label="Cách tránh">Tìm chủ từ thật theo bảng ở mục <a class="xref" href="#muc-4-3">4.3</a></td></tr><tr><td data-label="Lỗi">Nhầm a number of / the number of</td><td data-label="Nguyên nhân">Hai cụm gần giống nhau</td><td data-label="Cách tránh">a number of → số nhiều ; the number of → số ít</td></tr><tr><td data-label="Lỗi">Nhầm từ cùng gốc hoặc phát âm gần giống</td><td data-label="Nguyên nhân">Không nắm rõ từ loại và nghĩa (accept – except, advice – advise)</td><td data-label="Cách tránh">Xác định vị trí cần danh từ hay động từ trước, rồi xét nghĩa</td></tr><tr><td data-label="Lỗi">Chọn sai từ loại</td><td data-label="Nguyên nhân">Chỉ dịch rồi đoán, không nhìn từ liền trước / liền sau</td><td data-label="Cách tránh">Loại trước các đáp án không hợp vị trí</td></tr><tr><td data-label="Lỗi">Mặc định chỗ trống trước danh từ là tính từ</td><td data-label="Nguyên nhân">Quên danh từ ghép (sales report, market research)</td><td data-label="Cách tránh">So sánh Adj + N với N + N và xét nghĩa</td></tr><tr><td data-label="Lỗi">Điền thêm một Main Verb vào mệnh đề đã có động từ chính</td><td data-label="Nguyên nhân">Không kiểm tra mệnh đề</td><td data-label="Cách tránh">Hỏi: mệnh đề này đã có Main Verb chưa? Có and/or/liên từ tạo thêm động từ không?</td></tr><tr><td data-label="Lỗi">Kết luận chủ động chỉ vì có danh từ phía sau</td><td data-label="Nguyên nhân">Quên nhóm be given / offered / sent / awarded / asked + O</td><td data-label="Cách tránh">Kiểm tra động từ có 2 tân ngữ không</td></tr><tr><td data-label="Lỗi">Dùng V₀ sau mọi chữ “to”</td><td data-label="Nguyên nhân">Quên “to” là giới từ trong look forward to, be committed to…</td><td data-label="Cách tránh">Sau “to” giới từ dùng N hoặc V-ing</td></tr><tr><td data-label="Lỗi">Chọn liên từ khi sau chỗ trống chỉ có cụm danh từ</td><td data-label="Nguyên nhân">Chọn theo nghĩa, bỏ qua cấu trúc (due to – because)</td><td data-label="Cách tránh">Kiểm tra phần sau chỗ trống: S + V hay N / N.P?</td></tr><tr><td data-label="Lỗi">Áp dụng máy móc “người → -ed, vật → -ing”</td><td data-label="Nguyên nhân">Quy tắc nhớ nhanh này chủ yếu hợp với tính từ cảm xúc</td><td data-label="Cách tránh">Xét vật được tác động (the proposed plan) hay tự diễn ra (growing demand); người gây ra cảm xúc vẫn dùng -ing (an interesting speaker)</td></tr><tr><td data-label="Lỗi">Mất quá nhiều thời gian cho một câu</td><td data-label="Nguyên nhân">Cố giải bằng được câu khó</td><td data-label="Cách tránh">Khoảng 30 – 40 giây → chọn tạm, bấm Mark for review, quay lại sau</td></tr></tbody></table></div></div>
+
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-8"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 8 · Ghi nhớ nhanh và checklist</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+<section class="part" id="phan-8">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-8-c"><span class="part-num"><small>Phần</small> 8</span><span class="part-tt"><span class="part-t">Ghi nhớ nhanh và checklist</span><span class="part-meta">2 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-8-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-8-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-8-1-c"><span class="sub-num">8.1</span><span class="sub-t">Tóm tắt kiến thức quan trọng</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-8-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Chủ đề</th><th>Điều cần nhớ</th></tr></thead><tbody><tr><td data-label="Chủ đề">Đại từ</td><td data-label="Điều cần nhớ">5 cột + 3 bước: sau chỗ trống có N → Cột 3 ; quanh chỗ trống có V → Cột 1 / 2 / 5 ; câu đủ thành phần → Cột 4</td></tr><tr><td data-label="Chủ đề">Thì</td><td data-label="Điều cần nhớ">Bảng dấu hiệu chia thì (mục <a class="xref" href="#muc-4-2">4.2</a>), kèm kiểm tra mốc thời gian của câu</td></tr><tr><td data-label="Chủ đề">Chủ động – bị động</td><td data-label="Điều cần nhớ">Có Object → thường chủ động ; by + O → thường bị động ; ngoại lệ be given / offered / sent… + O</td></tr><tr><td data-label="Chủ đề">Hoà hợp S – V</td><td data-label="Điều cần nhớ">N1 + giới từ + N2 → N1 ; N1 + N2 + N3 → N3 ; a number of + động từ số nhiều ≠ the number of + động từ số ít</td></tr><tr><td data-label="Chủ đề">Từ loại</td><td data-label="Điều cần nhớ">12 trường hợp ở mục <a class="xref" href="#muc-4-4">4.4</a> ; ADV + ADJ + N ; nhớ danh từ ghép</td></tr><tr><td data-label="Chủ đề">Adj-ing / Adj-ed</td><td data-label="Điều cần nhớ">Tính từ cảm xúc: người cảm thấy → -ed, người / vật gây ra cảm xúc → -ing ; vật được tác động → -ed</td></tr><tr><td data-label="Chủ đề">Liên từ – giới từ</td><td data-label="Điều cần nhớ">CONJ + S + V ; PREP + N / N.P / V-ing ; liên từ rút gọn + V-ing / V3 khi cùng chủ ngữ</td></tr><tr><td data-label="Chủ đề">Mệnh đề quan hệ</td><td data-label="Điều cần nhớ">Đã có Main Verb → dạng rút gọn ; Those + … số nhiều, Anyone + … số ít</td></tr><tr><td data-label="Chủ đề">Động từ theo sau động từ</td><td data-label="Điều cần nhớ">to V₀ / V-ing / O + to V₀ tuỳ động từ (mục <a class="xref" href="#muc-4-9">4.9</a>)</td></tr><tr><td data-label="Chủ đề">Từ vựng</td><td data-label="Điều cần nhớ">Collocation và cụm giới từ cố định: in advance, apologize for, comply with…</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-8-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">8.2 · Checklist trước khi chốt đáp án</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-8-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-8-2-c"><span class="sub-num">8.2</span><span class="sub-t">Checklist trước khi chốt đáp án</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-8-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>#</th><th>Câu hỏi tự kiểm tra</th><th>Trả lời được thì…</th></tr></thead><tbody><tr><td data-label="#">1</td><td data-label="Câu hỏi tự kiểm tra">4 đáp án cùng gốc từ, cùng động từ, cùng là liên từ / giới từ, hay khác nghĩa?</td><td data-label="Trả lời được thì…">Biết đây là câu từ loại / động từ / liên từ / từ vựng</td></tr><tr><td data-label="#">2</td><td data-label="Câu hỏi tự kiểm tra">Mệnh đề chứa chỗ trống đã có Main Verb chưa? Có and/or/liên từ tạo thêm động từ không?</td><td data-label="Trả lời được thì…">Biết chỗ trống có cần động từ chia thì hay không</td></tr><tr><td data-label="#">3</td><td data-label="Câu hỏi tự kiểm tra">Từ liền trước và liền sau chỗ trống là từ loại gì? Có danh từ ghép không?</td><td data-label="Trả lời được thì…">Suy ra từ loại cần điền</td></tr><tr><td data-label="#">4</td><td data-label="Câu hỏi tự kiểm tra">Chủ từ thật là danh từ nào? Số ít hay số nhiều?</td><td data-label="Trả lời được thì…">Loại đáp án sai hoà hợp S – V</td></tr><tr><td data-label="#">5</td><td data-label="Câu hỏi tự kiểm tra">Sau chỗ trống có Object, hay có “by + O”?</td><td data-label="Trả lời được thì…">Cân nhắc chủ động hay bị động</td></tr><tr><td data-label="#">6</td><td data-label="Câu hỏi tự kiểm tra">Đáp án còn lại có hợp collocation và nghĩa của cả câu không?</td><td data-label="Trả lời được thì…">Chốt đáp án</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">MỐC 30 – 40 GIÂY (kinh nghiệm làm bài)</span></div><div class="c-body"><p>Đi hết 6 câu hỏi mà vẫn chưa chắc: <strong>chọn đáp án hợp cấu trúc nhất, bấm Mark for review, chuyển câu.</strong> Quay lại qua màn hình Review nếu còn thời gian sau Part 7.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-9"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 9 · Ví dụ minh hoạ có phân tích</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-9">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-9-c"><span class="part-num"><small>Phần</small> 9</span><span class="part-tt"><span class="part-t">Ví dụ minh hoạ có phân tích</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-9-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Mỗi ví dụ minh hoạ một kỹ thuật. Học viên nên tự làm trước, rồi mới đọc giải thích.</p></div>
+<section class="sub" id="muc-9-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-9-1-c"><span class="sub-num">9.1</span><span class="sub-t">Nhóm câu từ loại</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-9-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 1.  Because the equipment is very delicate, it must be handled with ______.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">caring</span></li><li data-opt="B"><span class="opt">B</span><span class="en">careful</span></li><li data-opt="C"><span class="opt">C</span><span class="en">care</span></li><li data-opt="D"><span class="opt">D</span><span class="en">carefully</span></li></ol><details class="answer" data-key="C"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (C) care</strong></span></p><p><span class="tag">Giải thích:</span> Chỗ trống đứng sau giới từ “with” và cuối câu, cần một danh từ. Chỉ “care” là danh từ.</p><p><span class="tag">Ghi nhớ:</span> <em>handle something with care = xử lý cẩn thận</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 2.  I sought his ______ before making a decision.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">advise</span></li><li data-opt="B"><span class="opt">B</span><span class="en">advice</span></li><li data-opt="C"><span class="opt">C</span><span class="en">advises</span></li><li data-opt="D"><span class="opt">D</span><span class="en">advices</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) advice</strong></span></p><p><span class="tag">Giải thích:</span> Sau tính từ sở hữu “his” cần danh từ. Với nghĩa “lời khuyên”, “advice” là danh từ không đếm được nên không dùng dạng “advices”.</p><p><span class="tag">Ghi nhớ:</span> <em>advice (n) = lời khuyên ≠ advise (v) = khuyên</em></p></div></details></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-9-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">9.2 · Nhóm câu đại từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-9-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-9-2-c"><span class="sub-num">9.2</span><span class="sub-t">Nhóm câu đại từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-9-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 3.  I do my homework by ______.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">me</span></li><li data-opt="B"><span class="opt">B</span><span class="en">myself</span></li><li data-opt="C"><span class="opt">C</span><span class="en">my</span></li><li data-opt="D"><span class="opt">D</span><span class="en">I</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) myself</strong></span></p><p><span class="tag">Giải thích:</span> “by + Cột 5” nghĩa là tự mình làm việc gì; chủ ngữ và người làm là cùng một người.</p><p><span class="tag">Ghi nhớ:</span> <em>by myself = on my own = tự mình</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 4.  He was impressed by ______.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">me</span></li><li data-opt="B"><span class="opt">B</span><span class="en">myself</span></li><li data-opt="C"><span class="opt">C</span><span class="en">my</span></li><li data-opt="D"><span class="opt">D</span><span class="en">I</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (A) me</strong></span></p><p><span class="tag">Giải thích:</span> Câu bị động: to be + V3 + by + tân ngữ (Cột 2). Chủ ngữ “He” khác người gây ấn tượng nên không dùng Cột 5.</p><p><span class="tag">Ghi nhớ:</span> <em>S ≠ O → Cột 2</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 5.  He was impressed by ______ ability.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">me</span></li><li data-opt="B"><span class="opt">B</span><span class="en">myself</span></li><li data-opt="C"><span class="opt">C</span><span class="en">my</span></li><li data-opt="D"><span class="opt">D</span><span class="en">I</span></li></ol><details class="answer" data-key="C"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (C) my</strong></span></p><p><span class="tag">Giải thích:</span> Liền sau chỗ trống là danh từ “ability” → Bước 1: dùng tính từ sở hữu (Cột 3).</p><p><span class="tag">Ghi nhớ:</span> <em>Bước 1: nhìn xem sau chỗ trống có danh từ không.</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 6.  I sent ______ information about my current job.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">him</span></li><li data-opt="B"><span class="opt">B</span><span class="en">his</span></li><li data-opt="C"><span class="opt">C</span><span class="en">he</span></li><li data-opt="D"><span class="opt">D</span><span class="en">himself</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (A) him</strong></span></p><p><span class="tag">Giải thích:</span> “send” có 2 tân ngữ: Verb + S.O + S.T. Chỗ trống là người nhận → Cột 2. “his information about my current job” (thông tin của anh ấy về công việc của tôi) không hợp nghĩa.</p><p><span class="tag">Ghi nhớ:</span> <em>I sent him information. = I sent information to him.</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 7.  I sent ______ information to my manager.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">him</span></li><li data-opt="B"><span class="opt">B</span><span class="en">his</span></li><li data-opt="C"><span class="opt">C</span><span class="en">he</span></li><li data-opt="D"><span class="opt">D</span><span class="en">himself</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) his</strong></span></p><p><span class="tag">Giải thích:</span> Người nhận đã nằm ở cuối câu (“to my manager”), nên chỗ trống trước danh từ “information” là tính từ sở hữu.</p><p><span class="tag">Ghi nhớ:</span> <em>Cùng một động từ, đổi vị trí người nhận là đổi đáp án — hãy đọc hết câu.</em></p></div></details></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-9-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">9.3 · Nhóm câu thì – bị động – mệnh đề quan hệ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-9-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-9-3-c"><span class="sub-num">9.3</span><span class="sub-t">Nhóm câu thì – bị động – mệnh đề quan hệ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-9-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 8.  SmartChoice provides free trial options for those who wish ______ our product before buying.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">is using</span></li><li data-opt="B"><span class="opt">B</span><span class="en">used</span></li><li data-opt="C"><span class="opt">C</span><span class="en">using</span></li><li data-opt="D"><span class="opt">D</span><span class="en">to use</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (D) to use</strong></span></p><p><span class="tag">Giải thích:</span> Mệnh đề “who wish” đã có Main Verb “wish”. “wish” đi với to V₀ (mục <a class="xref" href="#muc-4-9">4.9</a>).</p><p><span class="tag">Ghi nhớ:</span> <em>wish to do something = mong muốn làm gì</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 9.  Employees who use this special room ______ to wear protective clothing.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">will require</span></li><li data-opt="B"><span class="opt">B</span><span class="en">will be required</span></li><li data-opt="C"><span class="opt">C</span><span class="en">required</span></li><li data-opt="D"><span class="opt">D</span><span class="en">requiring</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) will be required</strong></span></p><p><span class="tag">Giải thích:</span> Mệnh đề quan hệ “who use this special room” đã có động từ riêng; câu chính chưa có Main Verb. Nhân viên là người được yêu cầu → bị động.</p><p><span class="tag">Ghi nhớ:</span> <em>be required to do something = được yêu cầu làm gì</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 10.  The employee who ______ the most sales this quarter will receive a bonus.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">achieves</span></li><li data-opt="B"><span class="opt">B</span><span class="en">are achieving</span></li><li data-opt="C"><span class="opt">C</span><span class="en">is achieved</span></li><li data-opt="D"><span class="opt">D</span><span class="en">achieving</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (A) achieves</strong></span></p><p><span class="tag">Giải thích:</span> Chỗ trống trong mệnh đề quan hệ, chưa có động từ. Chủ từ “The employee” số ít → loại (B). Có Object “the most sales” → chủ động, loại (C). (D) không phải Main Verb.</p><p><span class="tag">Ghi nhớ:</span> <em>Kết hợp 3 công cụ: Main Verb → chủ động/bị động → hoà hợp S–V.</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 11.  Applicants ______ to submit a form for the new license by Friday.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">reminded</span></li><li data-opt="B"><span class="opt">B</span><span class="en">are reminded</span></li><li data-opt="C"><span class="opt">C</span><span class="en">remind</span></li><li data-opt="D"><span class="opt">D</span><span class="en">reminding</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) are reminded</strong></span></p><p><span class="tag">Giải thích:</span> Câu chưa có Main Verb. Người nộp đơn là người được nhắc nhở → bị động, chủ ngữ số nhiều.</p><p><span class="tag">Ghi nhớ:</span> <em>be reminded to do something = được nhắc làm gì</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 12.  It is important to verify the warranty terms if the conditions ______ in the contract are unclear.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">have stated</span></li><li data-opt="B"><span class="opt">B</span><span class="en">stating</span></li><li data-opt="C"><span class="opt">C</span><span class="en">are stated</span></li><li data-opt="D"><span class="opt">D</span><span class="en">stated</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (D) stated</strong></span></p><p><span class="tag">Giải thích:</span> Mệnh đề “if…” đã có Main Verb “are unclear”. Liền trước chỗ trống là danh từ “the conditions” → dạng rút gọn; điều khoản được nêu → V3.</p><p><span class="tag">Ghi nhớ:</span> <em>the conditions (which are) stated in the contract</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 13.</strong>  <span class="c-amb"><strong>[Bổ sung]</strong></span>  <strong>The director had the final report ______ before sending it to the client.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">revise</span></li><li data-opt="B"><span class="opt">B</span><span class="en">revised</span></li><li data-opt="C"><span class="opt">C</span><span class="en">revising</span></li><li data-opt="D"><span class="opt">D</span><span class="en">revision</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (B) revised</strong></span></p><p><span class="tag">Giải thích:</span> Cấu trúc nhờ làm: have + Object + V3 khi vật được tác động (bản báo cáo được sửa).</p><p><span class="tag">Ghi nhớ:</span> <em>have something done ; get something done</em></p></div></details></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-9-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">9.4 · Nhóm câu liên từ – giới từ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-9-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-9-4-c"><span class="sub-num">9.4</span><span class="sub-t">Nhóm câu liên từ – giới từ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-9-4-c"><div class="collapse-in"><div class="sub-body">
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 14.  He paid for the dinner ______ advance, so we don’t need to pay now.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">in</span></li><li data-opt="B"><span class="opt">B</span><span class="en">at</span></li><li data-opt="C"><span class="opt">C</span><span class="en">for</span></li><li data-opt="D"><span class="opt">D</span><span class="en">to</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (A) in</strong></span></p><p><span class="tag">Giải thích:</span> “in advance” là cụm cố định nghĩa “trước (thời điểm)”. Nhóm câu này cần thuộc cụm từ.</p><p><span class="tag">Ghi nhớ:</span> <em>pay in advance = trả trước</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 15.  The project was delayed ______ the rising cost.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">due to</span></li><li data-opt="B"><span class="opt">B</span><span class="en">adjacent to</span></li><li data-opt="C"><span class="opt">C</span><span class="en">although</span></li><li data-opt="D"><span class="opt">D</span><span class="en">because</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (A) due to</strong></span></p><p><span class="tag">Giải thích:</span> Sau chỗ trống chỉ có cụm danh từ → cần giới từ. “although”, “because” là liên từ; “adjacent to” (liền kề) sai nghĩa.</p><p><span class="tag">Ghi nhớ:</span> <em>due to + N.P ≠ because + S + V</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 16.  ~ after ______ reviews of the data  /  ~ after ______ reviewing the data</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">careful</span></li><li data-opt="B"><span class="opt">B</span><span class="en">carefully</span></li></ol><details class="answer"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: câu đầu (A) careful — câu sau (B) carefully</strong></span></p><p><span class="tag">Giải thích:</span> “reviews” là danh từ → cần tính từ; “reviewing” là V-ing → cần trạng từ.</p><p><span class="tag">Ghi nhớ:</span> <em>giới từ + ADJ + N ≠ giới từ + ADV + V-ing</em></p></div></details></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-9-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">9.5 · Nhóm câu từ vựng và đại từ quan hệ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-9-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-9-5-c"><span class="sub-num">9.5</span><span class="sub-t">Nhóm câu từ vựng và đại từ quan hệ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-9-5-c"><div class="collapse-in"><div class="sub-body">
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 17.  These photos ______ many unforgettable memories of our trip to Vung Tau last year.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">released</span></li><li data-opt="B"><span class="opt">B</span><span class="en">reversed</span></li><li data-opt="C"><span class="opt">C</span><span class="en">repeated</span></li><li data-opt="D"><span class="opt">D</span><span class="en">recalled</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (D) recalled</strong></span></p><p><span class="tag">Giải thích:</span> Cả 4 đáp án cùng là động từ quá khứ nên phải xét nghĩa. “recall” có nghĩa “gợi cho ai nhớ đến điều gì”, hợp với “memories”.</p><p><span class="tag">Ghi nhớ:</span> <em>Cụm tự nhiên hơn: bring back / evoke memories (ví dụ: The photos bring back lots of good memories).</em></p></div></details></div>
+<div class="qgroup"><p class="q-prompt"><strong>Ví dụ 18.  Jimmy is the boy ______ father wrote a famous novel.</strong></p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">who</span></li><li data-opt="B"><span class="opt">B</span><span class="en">which</span></li><li data-opt="C"><span class="opt">C</span><span class="en">that</span></li><li data-opt="D"><span class="opt">D</span><span class="en">whose</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="c-ok"><strong>Đáp án: (D) whose</strong></span></p><p><span class="tag">Giải thích:</span> Sau chỗ trống là danh từ “father” không có mạo từ — dấu hiệu quan hệ sở hữu: whose father = Jimmy’s father.</p><p><span class="tag">Ghi nhớ:</span> <em>whose + N = của người / vật đó</em></p></div></details></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-10"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 10 · Tóm tắt ôn tập</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-10">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-10-c"><span class="part-num"><small>Phần</small> 10</span><span class="part-tt"><span class="part-t">Tóm tắt ôn tập</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-10-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-10-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-1-c"><span class="sub-num">10.1</span><span class="sub-t">Năm nguyên tắc quan trọng</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>#</th><th>Nguyên tắc</th></tr></thead><tbody><tr><td data-label="#">1</td><td data-label="Nguyên tắc">Nhìn 4 đáp án trước để phân loại câu, nhưng đọc cả câu trước khi chốt.</td></tr><tr><td data-label="#">2</td><td data-label="Nguyên tắc">Dùng công cụ Main Verb để định hướng: mệnh đề đã có động từ chính thì chỗ trống thường là V₀ / to V₀ / V-ing / V3 / Adj — nhớ kiểm tra and/or/liên từ.</td></tr><tr><td data-label="#">3</td><td data-label="Nguyên tắc">Từ liền trước và liền sau chỗ trống giải được nhiều câu từ loại — nhưng nhớ danh từ ghép và các ngoại lệ ở mục <a class="xref" href="#muc-4-4">4.4</a>.</td></tr><tr><td data-label="#">4</td><td data-label="Nguyên tắc">Dịch kỹ khi cấu trúc không đủ để loại: câu từ vựng, câu toàn liên từ hoặc toàn giới từ, câu bị động không có dấu hiệu.</td></tr><tr><td data-label="#">5</td><td data-label="Nguyên tắc">Quá khoảng 30 – 40 giây thì chọn tạm, bấm Mark for review và chuyển câu.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-10-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">10.2 · Quy trình làm bài rút gọn</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-10-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-2-c"><span class="sub-num">10.2</span><span class="sub-t">Quy trình làm bài rút gọn</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Bước</th><th>Hành động</th><th>Thời gian tham khảo</th></tr></thead><tbody><tr><td data-label="Bước" class="stepnum">1</td><td data-label="Hành động">Đọc 4 đáp án → phân loại câu hỏi</td><td data-label="Thời gian tham khảo">vài giây</td></tr><tr><td data-label="Bước" class="stepnum">2</td><td data-label="Hành động">Xét mệnh đề đã có Main Verb chưa</td><td data-label="Thời gian tham khảo">vài giây</td></tr><tr><td data-label="Bước">3a</td><td data-label="Hành động">CHƯA có → dấu hiệu thời gian → chủ động/bị động → hoà hợp S–V</td><td data-label="Thời gian tham khảo">10 – 15 giây</td></tr><tr><td data-label="Bước">3b</td><td data-label="Hành động">ĐÃ có → từ liền trước &amp; liền sau → từ loại / dạng rút gọn / cấu trúc động từ</td><td data-label="Thời gian tham khảo">5 – 10 giây</td></tr><tr><td data-label="Bước" class="stepnum">4</td><td data-label="Hành động">Loại trừ; còn 2 đáp án mới dịch kỹ</td><td data-label="Thời gian tham khảo">5 – 10 giây</td></tr><tr><td data-label="Bước" class="stepnum">5</td><td data-label="Hành động">Bấm chọn đáp án và chuyển câu</td><td data-label="Thời gian tham khảo">vài giây</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-10-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">10.3 · Những bẫy cần đặc biệt chú ý</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-10-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-3-c"><span class="sub-num">10.3</span><span class="sub-t">Những bẫy cần đặc biệt chú ý</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-3-c"><div class="collapse-in"><div class="sub-body">
+<ul class="bullets"><li><strong>Dấu hiệu thời gian:</strong> “tomorrow” đi với lịch cố định vẫn có thể dùng hiện tại đơn.</li><li><strong>Chủ từ:</strong> N1 + giới từ + N2 → chia theo N1 ; Either S1 or S2 → theo S2 ; a number of ≠ the number of.</li><li><strong>Bị động có tân ngữ:</strong> be given / offered / sent / awarded / asked + O.</li><li><strong>Cùng nghĩa, khác cấu trúc:</strong> due to / because ; despite / although ; during / while.</li><li><strong>Chỉ khác một chữ:</strong> after careful reviews ≠ after carefully reviewing.</li><li><strong>Trước danh từ không chỉ có tính từ:</strong> danh từ ghép sales report, market research.</li><li><strong>“to” là giới từ:</strong> look forward to / be committed to + V-ing.</li><li><strong>Từ cùng gốc:</strong> advice – advise, accept – except, affect – effect, lend – borrow.</li><li><strong>Thời gian:</strong> sa lầy vào một câu thường làm thiếu thời gian cho Part 7.</li></ul>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">LỜI NHẮN</span></div><div class="c-body"><p>Luyện quy trình đến khi thành phản xạ: <strong>nhìn đáp án → tìm Main Verb → xét từ liền trước / liền sau → loại trừ → đọc lại cả câu.</strong> Khi đó Part 5 sẽ nhanh hơn, và em còn nhiều thời gian cho Part 7.</p><p><em>TOEIC THẦY KHUÊ — Nỗ Lực · Bứt Phá · Thành Công</em></p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-end" data-act="top"><span class="nx-l">Em đã đọc hết bài</span><span class="nx-t">Về đầu trang</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+
+    <p class="foot"><a class="home-link" href="index.html">← Xem tất cả 7 Part</a><br><b>TOEIC Thầy Khuê</b> · Tài liệu ôn tập dành cho học viên</p>
+  </main>
+</div>
+
+<button class="totop" type="button" aria-label="Lên đầu trang" data-act="top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14l6-6 6 6"/></svg>
+</button>
+<div class="lightbox" role="dialog" aria-label="Ảnh phóng to"><img alt=""></div>
+
+<script>
+(function(){
+  var lastJump = 0, pinned = null, pinnedSub = null;
+  var $ = function(s,r){return (r||document).querySelector(s)};
+  var $$ = function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  var body = document.body;
+
+  function setOpen(sec, open){
+    sec.classList.toggle('open', open);
+    var btn = sec.querySelector(':scope > h2 > button, :scope > h3 > button');
+    var c = sec.querySelector(':scope > .collapse');
+    if(btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if(c){ if(open) c.removeAttribute('inert'); else c.setAttribute('inert',''); }
+  }
+  $$('.part, .sub').forEach(function(s){ setOpen(s,false); });
+
+  $$('.part-btn, .sub-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var sec = btn.closest('.part, .sub');
+      var open = !sec.classList.contains('open');
+      setOpen(sec, open);
+      if(open && sec.classList.contains('part')){
+        // mở phần: nếu phần chỉ có 1-2 mục thì mở luôn mục đầu
+        var subs = $$(':scope .sub', sec);
+        if(subs.length && subs.length <= 1) setOpen(subs[0], true);
+      }
+      updateAllBtn();
+    });
+  });
+
+  // Mở tất cả / thu gọn tất cả
+  var allBtn = $('[data-act="all"]');
+  function updateAllBtn(){
+    var all = $$('.part, .sub'); var opened = all.filter(function(s){return s.classList.contains('open')}).length;
+    var full = opened === all.length;
+    allBtn.querySelector('span').textContent = full ? 'Thu gọn tất cả' : 'Mở tất cả';
+    allBtn.setAttribute('aria-pressed', full ? 'true' : 'false');
+    allBtn.querySelector('svg').style.transform = full ? 'rotate(180deg)' : '';
+  }
+  allBtn.addEventListener('click', function(){
+    var full = allBtn.getAttribute('aria-pressed') === 'true';
+    $$('.part, .sub').forEach(function(s){ setOpen(s, !full); });
+    updateAllBtn();
+  });
+
+  // Mở tới đúng mục theo #id
+  function reveal(id, smooth){
+    var el = document.getElementById(id); if(!el) return;
+    lastJump = Date.now(); pinned = el.closest('.part'); pinnedSub = el.classList.contains('sub') ? el : null; setTimeout(onScroll, 1300);
+    body.classList.add('no-anim');
+    var n = el; while(n){ if(n.classList && (n.classList.contains('part')||n.classList.contains('sub'))) setOpen(n,true); n = n.parentElement; }
+    updateAllBtn();
+    void document.body.offsetHeight;
+    requestAnimationFrame(function(){
+      var y = el.getBoundingClientRect().top + window.pageYOffset - ($('.bar').offsetHeight + 12);
+      window.scrollTo({top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto'});
+      setTimeout(function(){ body.classList.remove('no-anim'); }, 50);
+    });
+  }
+  $$('.toc a').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault(); var id = a.getAttribute('href').slice(1);
+      var isPart = a.classList.contains('toc-p');
+      if(isPart){
+        var li = a.parentElement;
+        $$('.toc li.expanded').forEach(function(x){ if(x!==li) x.classList.remove('expanded'); });
+        li.classList.add('expanded');
+      }
+      var drawer = window.matchMedia('(max-width:1023.98px)').matches;
+      if(!(isPart && drawer)) body.classList.remove('toc-open');
+      history.replaceState(null,'','#'+id);
+      reveal(id, true);
+    });
+  });
+  if(location.hash){ reveal(decodeURIComponent(location.hash.slice(1)), false); }
+  window.addEventListener('hashchange', function(){ reveal(decodeURIComponent(location.hash.slice(1)), true); });
+
+  // Mục lục trên điện thoại
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-act]'); if(!t) return;
+    var act = t.getAttribute('data-act');
+    if(act==='toc'){ body.classList.add('toc-open'); var a = $('.toc li.active'); if(a) a.scrollIntoView({block:'center'}); }
+    if(act==='toc-close') body.classList.remove('toc-open');
+    if(act==='top') window.scrollTo({top:0,behavior:'smooth'});
+  });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ body.classList.remove('toc-open'); lb.classList.remove('show'); } });
+
+  // Thanh tiến độ, nút lên đầu, đánh dấu phần đang đọc
+  var bar = $('.progress'), top = $('.totop'), parts = $$('.part'), tocItems = $$('.toc .toc-p'), tocSubs = $$('.toc li ul a'), pctEl = $('.toc-pct'), pctBar = $('.toc-prog-bar i');
+  var ticking = false;
+  function onScroll(){
+    var h = document.documentElement; var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop / max * 100) : 0) + '%';
+    top.classList.toggle('show', h.scrollTop > 600);
+    if(Date.now() - lastJump < 1200){ ticking = false; return; }
+    var cur = -1;
+    parts.forEach(function(p,i){ if(p.getBoundingClientRect().top < 140) cur = i; });
+    if(pinned){
+      var pr = pinned.getBoundingClientRect();
+      if(pr.top < window.innerHeight * 0.6 && pr.bottom > 140) cur = parts.indexOf(pinned); else pinned = null;
+    }
+    tocItems.forEach(function(a,i){ a.parentElement.classList.toggle('active', i===cur); });
+    if(!body.classList.contains('toc-open')) $$('.toc li.expanded').forEach(function(x){ if(!x.classList.contains('active')) x.classList.remove('expanded'); });
+    var pct = Math.round(max > 0 ? Math.min(100, h.scrollTop / max * 100) : 0);
+    pctEl.textContent = pct + '%'; pctBar.style.width = pct + '%';
+    var curSub = null;
+    if(cur >= 0){ $$('.sub', parts[cur]).forEach(function(s){ if(s.getBoundingClientRect().top < 160 && s.offsetParent) curSub = s.id; }); }
+    if(pinnedSub){
+      var sr = pinnedSub.getBoundingClientRect();
+      if(cur >= 0 && parts[cur].contains(pinnedSub) && sr.top < window.innerHeight * 0.6 && sr.bottom > 140) curSub = pinnedSub.id; else pinnedSub = null;
+    }
+    tocSubs.forEach(function(a){ a.classList.toggle('current', a.getAttribute('href') === '#' + curSub); });
+    if(curSub) saveSpot(curSub);
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){ if(!ticking){ ticking = true; requestAnimationFrame(onScroll); } }, {passive:true});
+  onScroll();
+
+  // Phóng to ảnh
+  var lb = $('.lightbox'), lbImg = $('img', lb);
+  $$('.zoom').forEach(function(b){
+    b.addEventListener('click', function(){ var im = $('img', b); lbImg.src = im.src; lbImg.alt = im.alt; lb.classList.add('show'); });
+  });
+  lb.addEventListener('click', function(){ lb.classList.remove('show'); });
+
+  // Nút "Mục tiếp theo"
+  $$('.next-btn[data-next]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var cur = btn.closest('.sub'), curPart = btn.closest('.part');
+      var id = btn.getAttribute('data-next'), target = document.getElementById(id);
+      body.classList.add('no-anim');
+      if(cur) setOpen(cur, false);
+      if(target.classList.contains('part')){
+        if(curPart) setOpen(curPart, false);
+        setOpen(target, true);
+        var intro = target.querySelector('.part-intro'), first = target.querySelector('.sub');
+        if(!intro && first) setOpen(first, true);
+      }
+      history.replaceState(null,'','#'+id);
+      reveal(id, false);
+    });
+  });
+
+  // Ghi nhớ chỗ đang đọc
+  var KEY = 'tk-read:' + location.pathname;
+  function saveSpot(id){ try{ localStorage.setItem(KEY, id); }catch(e){} }
+  var resume = $('.resume');
+  (function(){
+    if(location.hash) return;
+    var id = null; try{ id = localStorage.getItem(KEY); }catch(e){}
+    var el = id && document.getElementById(id); if(!el || !el.classList.contains('sub')) return;
+    var num = $('.sub-num', el).textContent, title = $('.sub-t', el).textContent;
+    $('.resume-txt', resume).innerHTML = 'Lần trước em đang đọc: <b></b>';
+    $('.resume-txt b', resume).textContent = num + ' · ' + title;
+    resume.classList.add('show');
+    $('.resume-go', resume).addEventListener('click', function(){ resume.classList.remove('show'); history.replaceState(null,'','#'+id); reveal(id, true); });
+    $('.resume-x', resume).addEventListener('click', function(){ resume.classList.remove('show'); });
+  })();
+
+  // Mở đáp án → tô xanh phương án đúng
+  $$('details.answer').forEach(function(d){
+    d.addEventListener('toggle', function(){
+      var keys = (d.getAttribute('data-key') || '').split(' ').filter(Boolean); if(!keys.length) return;
+      var g = d.closest('.qgroup'), lists = g ? $$('.options', g) : [d.previousElementSibling];
+      lists.forEach(function(ol, k){
+        if(!ol || !ol.classList.contains('options') || !keys[k]) return;
+        var li = ol.querySelector('[data-opt="'+keys[k]+'"]'); if(li) li.classList.toggle('is-key', d.open);
+      });
+    });
+  });
+  // In: mở hết nội dung
+  window.addEventListener('beforeprint', function(){ $$('.part, .sub').forEach(function(s){ setOpen(s,true); }); $$('details').forEach(function(d){ d.open = true; }); });
+})();
+</script>
+</body>
+</html>

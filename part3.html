@@ -1,0 +1,1083 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Part 3 – Conversations | TOEIC Thầy Khuê</title>
+<meta name="description" content="Hướng dẫn kỹ năng và lưu ý làm bài TOEIC Part 3 – Conversations.">
+<meta name="theme-color" content="#1a3399">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#16297f; --brand:#1d3cb5; --brand-2:#2457e6; --brand-3:#3d72f5;
+  --brand-50:#eef3ff; --brand-100:#dfe8ff;
+  --ink:#18203a; --ink-2:#3a4560; --muted:#69738c;
+  --bg:#f3f5fb; --card:#ffffff; --line:#e2e7f2; --line-2:#cfd8ea;
+  --en:#1b3fa6;
+  --r-lg:20px; --r-md:14px; --r-sm:10px;
+  --shadow:0 1px 2px rgba(22,41,127,.06),0 6px 22px rgba(22,41,127,.07);
+  --bar-h:58px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.72 "Be Vietnam Pro",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+img{max-width:100%;height:auto;display:block}
+button{font:inherit;color:inherit}
+a{color:var(--brand-2)}
+strong{font-weight:700;color:#0f1733}
+em{font-style:italic}
+
+/* ---------- thanh trên ---------- */
+.bar{position:sticky;top:0;z-index:50;height:var(--bar-h);background:linear-gradient(90deg,var(--navy),var(--brand));color:#fff;
+  display:flex;align-items:center;gap:12px;padding:0 max(14px,env(safe-area-inset-left));box-shadow:0 2px 12px rgba(10,20,70,.18)}
+.brand{font-weight:800;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.22);padding:5px 11px;border-radius:999px;white-space:nowrap}
+.bar-title{flex:1;min-width:0;font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.95}
+.icon-btn{display:inline-flex;align-items:center;gap:7px;height:38px;padding:0 13px;border-radius:12px;border:1px solid rgba(255,255,255,.28);
+  background:rgba(255,255,255,.12);color:#fff;cursor:pointer;font-size:14px;font-weight:600}
+.icon-btn:hover{background:rgba(255,255,255,.22)}
+.icon-btn svg{width:18px;height:18px}
+.progress{position:fixed;top:var(--bar-h);left:0;height:3px;width:0;background:linear-gradient(90deg,#7fb0ff,#ffffff);z-index:51;transition:width .1s linear}
+
+/* ---------- bố cục ---------- */
+.layout{max-width:1220px;margin:0 auto;padding:18px 14px 80px;display:block}
+.toc{display:none}
+@media (max-width:1023.98px){.toc-count{display:none}}
+@media (min-width:1024px){
+  .layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:28px;padding:26px 24px 90px}
+  .toc{display:block;position:sticky;top:calc(var(--bar-h) + 18px);align-self:start;max-height:calc(100vh - var(--bar-h) - 36px);overflow:auto}
+  .toc-btn{display:none!important}
+  .toc-close{display:none}
+}
+main{min-width:0;max-width:820px}
+
+/* ---------- mục lục ---------- */
+.toc-card{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:0 1px 2px rgba(22,41,127,.05),0 10px 30px rgba(22,41,127,.08);padding:16px 12px 14px}
+.toc-head{display:flex;align-items:center;gap:11px;padding:2px 6px 14px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.toc-ico{flex:none;width:36px;height:36px;border-radius:11px;background:var(--brand-50);color:var(--brand);display:grid;place-items:center}
+.toc-ico svg{width:19px;height:19px}
+.toc-head b{flex:1;font-size:14px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.toc-count{font-size:12.5px;font-weight:600;color:var(--muted);background:#f3f5fa;padding:3px 10px;border-radius:999px}
+.toc ul{list-style:none;margin:0;padding:0}
+.toc > .toc-card > ul > li{margin:3px 0}
+.toc a{text-decoration:none;-webkit-tap-highlight-color:transparent}
+.toc-p{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:14px;color:var(--ink);font-weight:600;font-size:14.5px;line-height:1.4;transition:background .18s,color .18s}
+.toc-p:hover{background:#f3f6ff}
+.toc-n{flex:none;width:32px;height:32px;border-radius:10px;background:var(--brand-50);color:var(--brand);font-weight:800;font-size:14px;display:grid;place-items:center;transition:background .18s,color .18s}
+.toc-t{flex:1;min-width:0}
+.toc-chev{flex:none;width:8px;height:8px;border-right:2px solid #9aa6c2;border-bottom:2px solid #9aa6c2;transform:rotate(-45deg);margin-right:6px;transition:transform .2s}
+.toc li.expanded > .toc-p,.toc li.active > .toc-p{background:linear-gradient(135deg,var(--brand) 0%,var(--brand-2) 100%);color:#fff;box-shadow:0 6px 16px rgba(36,87,230,.28)}
+.toc li.expanded > .toc-p .toc-n,.toc li.active > .toc-p .toc-n{background:rgba(255,255,255,.18);color:#fff}
+.toc li.expanded > .toc-p .toc-chev,.toc li.active > .toc-p .toc-chev{border-color:#fff;transform:rotate(45deg);margin-top:-4px}
+.toc li ul{display:none;margin:6px 0 8px 12px;padding:2px 0}
+.toc li.active > ul,.toc li.expanded > ul{display:block}
+.toc li ul a{position:relative;display:flex;gap:10px;align-items:flex-start;padding:7px 10px 7px 26px;border-radius:11px;font-size:13.5px;line-height:1.45;color:var(--ink-2)}
+.toc li ul a::before{content:"";position:absolute;left:10px;top:.95em;width:6px;height:6px;border-radius:50%;background:#c9d5f2}
+.toc li ul a:hover{background:#f3f6ff;color:var(--brand)}
+.toc li ul a.current{background:var(--brand-50);color:var(--brand);font-weight:600}
+.toc li ul a.current::before{background:var(--brand-2);box-shadow:0 0 0 3px rgba(36,87,230,.15)}
+.toc-sn{flex:none;color:var(--brand-2);font-weight:700;min-width:2.2em}
+.toc-prog{margin-top:12px;padding:14px 14px 15px;border-radius:16px;background:linear-gradient(135deg,#eef3ff 0%,#f7f9ff 100%);border:1px solid var(--brand-100)}
+.toc-prog-top{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--ink-2);font-weight:600}
+.toc-prog-top b{font-size:15px;color:var(--brand)}
+.toc-prog-bar{height:7px;border-radius:99px;background:#dbe4fb;margin-top:9px;overflow:hidden}
+.toc-prog-bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--brand),var(--brand-3));transition:width .15s linear}
+.toc-close{border:0;background:var(--brand-50);color:var(--brand);width:36px;height:36px;border-radius:10px;font-size:20px;cursor:pointer}
+.toc::-webkit-scrollbar{width:6px}.toc::-webkit-scrollbar-thumb{background:#cfd8ea;border-radius:9px}
+@media (max-width:1023.98px){
+  .toc{display:block;position:fixed;z-index:80;top:0;bottom:0;left:0;width:min(88vw,370px);transform:translateX(-104%);
+    transition:transform .28s ease;overflow:auto;padding:12px;background:var(--bg)}
+  .toc-card{min-height:100%;border-radius:18px}
+  body.toc-open .toc{transform:none;box-shadow:12px 0 40px rgba(0,0,0,.25)}
+  .scrim{position:fixed;inset:0;background:rgba(12,20,50,.42);z-index:70;opacity:0;pointer-events:none;transition:opacity .25s}
+  body.toc-open .scrim{opacity:1;pointer-events:auto}
+  body.toc-open{overflow:hidden}
+}
+
+/* ---------- đầu trang ---------- */
+.hero{position:relative;overflow:hidden;border-radius:24px;padding:26px 22px 22px;color:#fff;
+  background:radial-gradient(120% 140% at 100% 0%,#4d86ff 0%,rgba(77,134,255,0) 55%),linear-gradient(135deg,var(--navy) 0%,var(--brand) 60%,var(--brand-2) 100%);box-shadow:0 10px 30px rgba(29,60,181,.25)}
+.hero::after{content:"";position:absolute;right:-60px;bottom:-80px;width:240px;height:240px;border-radius:50%;border:34px solid rgba(255,255,255,.07)}
+.eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.hero h1{margin:6px 0 4px;font-size:clamp(30px,7vw,44px);line-height:1.12;font-weight:800;letter-spacing:-.01em}
+.hero h1 span{display:block;font-size:.55em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;opacity:.92;margin-top:6px}
+.hero .tagline{margin:8px 0 0;font-size:14px;font-weight:600;letter-spacing:.04em;opacity:.85}
+.hero p{margin:12px 0 0;font-size:16px;opacity:.95;max-width:560px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px;position:relative;z-index:1}
+.chip{font-size:13px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25)}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin:18px 2px 14px}
+.tools .hint{font-size:14px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-2);background:var(--card);color:var(--brand);font-weight:600;font-size:14px;
+  height:40px;padding:0 15px;border-radius:12px;cursor:pointer;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+.btn:hover{border-color:var(--brand-3);background:var(--brand-50)}
+.btn svg{width:17px;height:17px}
+
+/* ---------- Phần (accordion cấp 1) ---------- */
+.part{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);box-shadow:var(--shadow);margin:0 0 14px;scroll-margin-top:calc(var(--bar-h) + 12px)}
+.part-h,.sub-h{margin:0;font-size:inherit}
+.part-btn{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:none;border:0;cursor:pointer;padding:16px 16px;border-radius:var(--r-lg)}
+.part-num{flex:none;width:52px;height:52px;border-radius:15px;background:var(--brand-50);color:var(--brand);display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:21px;line-height:1}
+.part-num small{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:3px;opacity:.8}
+.part-tt{flex:1;min-width:0;display:flex;flex-direction:column}
+.part-t{font-weight:700;font-size:17px;line-height:1.38;color:var(--ink)}
+.part-meta{font-size:13px;color:var(--muted);margin-top:3px}
+.chev{flex:none;width:32px;height:32px;border-radius:10px;background:var(--brand-50);position:relative;transition:transform .25s ease,background .2s}
+.chev::before{content:"";position:absolute;left:50%;top:46%;width:8px;height:8px;border-right:2.4px solid var(--brand);border-bottom:2.4px solid var(--brand);transform:translate(-50%,-50%) rotate(45deg)}
+.open > h2 > button .chev,.open > h3 > button .chev{transform:rotate(180deg)}
+.part.open > .part-h .part-num{background:var(--brand);color:#fff}
+.part.open > .part-h .part-btn{border-bottom-left-radius:0;border-bottom-right-radius:0}
+.part-btn:hover .chev,.sub-btn:hover .chev{background:var(--brand-100)}
+.collapse{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+.open > .collapse{grid-template-rows:1fr}
+.collapse-in{overflow:hidden;min-height:0}
+.part-body{padding:2px 16px 16px;border-top:1px solid var(--line)}
+.part-intro{padding:8px 2px 4px}
+
+/* ---------- Mục (accordion cấp 2) ---------- */
+.sub{border:1px solid var(--line);border-radius:var(--r-md);margin:12px 0 0;background:#fbfcff;scroll-margin-top:calc(var(--bar-h) + 12px)}
+.sub.open{background:#fff;border-color:var(--line-2)}
+.sub-btn{width:100%;display:flex;gap:12px;align-items:center;text-align:left;border:0;background:none;cursor:pointer;padding:12px 12px 12px 14px;border-radius:var(--r-md)}
+.sub-num{flex:none;font-size:13px;font-weight:700;color:var(--brand);background:var(--brand-50);border:1px solid var(--brand-100);padding:3px 9px;border-radius:999px;white-space:nowrap}
+.sub-t{flex:1;min-width:0;font-weight:600;font-size:16px;line-height:1.45}
+.sub .chev{width:28px;height:28px;border-radius:9px}
+.sub-body{padding:2px 16px 16px}
+
+/* ---------- nội dung ---------- */
+.part-body p,.sub-body p{margin:10px 0}
+.en,.en-list li{color:var(--en)}
+/* ---- điểm nhấn ---- */
+em{color:var(--en);font-weight:500}
+.part-body p strong,.part-body .bullets strong,.part-body .steps strong{color:#14267a}
+.callout strong,.tbl strong,.answer strong,.c-body .flow strong{background:none!important;color:#0f1a4d}
+.tag{display:inline-block;font-size:.86em;font-weight:700;color:var(--brand);background:var(--brand-50);border:1px solid var(--brand-100);padding:0 9px;border-radius:999px;margin-right:2px;line-height:1.7}
+.tag-ok{color:#11703c;background:#e3f6ea;border-color:#bfe6cd}
+.wrong{color:#b42d31;font-weight:600}
+.options li.is-key{background:#ecf9f1;box-shadow:inset 0 0 0 1.5px #5cc08a}
+.options li.is-key .opt{background:#1f9d57;border-color:#1f9d57;color:#fff}
+.en strong,.en-list li strong{color:#0b2378}
+.bullets{margin:10px 0;padding:0;list-style:none}
+.bullets li{position:relative;padding-left:22px;margin:7px 0}
+.bullets li::before{content:"";position:absolute;left:5px;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--brand-3)}
+.steps,.flow{list-style:none;margin:12px 0;padding:0;counter-reset:none}
+.steps li,.flow li{display:flex;gap:12px;align-items:flex-start;margin:9px 0}
+.steps .n,.flow .n{flex:none;width:28px;height:28px;border-radius:9px;background:var(--brand);color:#fff;font-weight:700;font-size:14px;display:grid;place-items:center;margin-top:1px}
+.en-list{list-style:none;margin:12px 0;padding:12px 14px;background:var(--brand-50);border-radius:var(--r-sm);border:1px solid var(--brand-100)}
+.en-list li{margin:4px 0;font-weight:500}
+.en-list li::before{content:"🔊";font-size:12px;margin-right:8px;opacity:.6}
+
+/* ảnh + phương án */
+.figs{display:grid;gap:12px;margin:14px 0 10px}
+@media (min-width:640px){.figs.n2{grid-template-columns:1fr 1fr}}
+figure{margin:0}
+.zoom{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:var(--r-md);overflow:hidden;box-shadow:0 2px 10px rgba(20,30,70,.12)}
+.figs.n1 figure{max-width:560px;margin:0 auto}
+figcaption{text-align:center;font-weight:700;font-size:14px;margin-top:8px;color:var(--ink-2)}
+.fig-note{text-align:center;font-size:14.5px;color:var(--ink-2);max-width:600px;margin:6px auto 12px!important}
+.options{list-style:none;margin:10px auto 8px;padding:6px;max-width:560px;background:#fff;border:1px solid var(--line-2);border-radius:var(--r-md)}
+.options li{display:flex;gap:12px;align-items:center;padding:8px 8px;border-radius:10px}
+.options li + li{border-top:1px dashed var(--line)}
+.opt{flex:none;width:30px;height:30px;border-radius:50%;border:2px solid var(--brand-3);color:var(--brand);font-weight:800;font-size:14px;display:grid;place-items:center}
+.options .en{font-weight:500}
+.answer{max-width:560px;margin:8px auto 14px;border-radius:var(--r-md);border:1px solid #bfe3cc;background:#f1fbf5;overflow:hidden}
+.answer summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:11px 14px;font-weight:700;color:#147a43;font-size:15px}
+.answer summary::-webkit-details-marker{display:none}
+.answer summary::before{content:"👀";font-size:16px}
+.answer summary::after{content:"";margin-left:auto;width:8px;height:8px;border-right:2.4px solid #147a43;border-bottom:2.4px solid #147a43;transform:rotate(45deg);transition:transform .2s;margin-right:4px}
+.answer[open] summary::after{transform:rotate(-135deg)}
+.answer .s-open{display:none}.answer[open] .s-open{display:inline}.answer[open] .s-closed{display:none}
+.xref{font-weight:600;text-decoration:none;border-bottom:1.5px solid rgba(36,87,230,.35)}
+.bar-title b{font-weight:700}
+@media (max-width:420px){.bar-title .nm{display:none}.brand{font-size:11.5px;padding:5px 9px}}
+.ans-body{padding:0 14px 6px;border-top:1px solid #cdebd8}
+
+/* bảng */
+.tbl-wrap{margin:14px 0;border:1px solid var(--line-2);border-radius:var(--r-md);overflow:hidden;background:#fff}
+table.tbl{width:100%;border-collapse:collapse;font-size:15px;line-height:1.55}
+.tbl th{background:var(--brand);color:#fff;text-align:left;font-weight:600;padding:10px 12px;font-size:14px}
+.tbl td{padding:10px 12px;vertical-align:top;border-top:1px solid var(--line)}
+.tbl tbody tr:nth-child(even) td{background:#f7f9fe}
+.tbl td:first-child{font-weight:600}
+.tbl td.stepnum::before{content:"Bước ";}
+@media (max-width:719.98px){
+  .tbl-wrap{border:0;background:none;overflow:visible}
+  table.tbl,.tbl tbody,.tbl tr,.tbl td{display:block;width:100%}
+  .tbl thead{display:none}
+  .tbl tr{background:#fff;border:1px solid var(--line-2);border-radius:var(--r-md);margin:0 0 10px;padding:4px 0;box-shadow:0 1px 3px rgba(20,30,70,.04)}
+  .tbl tbody tr:nth-child(even) td{background:none}
+  .tbl td{border:0;padding:6px 14px}
+  .tbl td:first-child{font-size:15.5px;padding-top:9px;border-bottom:1px dashed var(--line);padding-bottom:8px}
+  .tbl td:not(:first-child)::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+  .tbl.cols-2:not(.lab-all) td:not(:first-child)::before{display:none}
+  .tbl.lab-all td:first-child::before{content:attr(data-label);display:block;font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+}
+
+/* callout */
+.callout{margin:16px 0;border-radius:var(--r-md);padding:14px 16px 6px;border:1px solid;border-left-width:5px}
+.c-head{display:flex;align-items:center;gap:9px;margin-bottom:2px}
+.c-ico{font-size:17px}
+.c-title{font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.c-body p{margin:8px 0}
+.c-info{background:#eef3ff;border-color:#c9d8ff;border-left-color:var(--brand-3)} .c-info .c-title{color:var(--brand)}
+.c-note{background:#f5f7fa;border-color:#dde3ec;border-left-color:#8a97ad} .c-note .c-title{color:#4a5872}
+.c-tip{background:#fff7e9;border-color:#f6dfb4;border-left-color:#f0a020} .c-tip .c-title{color:#a35f00}
+.c-warn{background:#fff2f2;border-color:#f6cfcf;border-left-color:#e2474b} .c-warn .c-title{color:#b4262a}
+.c-remember{background:#eefaf3;border-color:#c7ead5;border-left-color:#22a55b} .c-remember .c-title{color:#137a42}
+.c-check{background:#f4f8ff;border-color:#d3e0fa;border-left-color:var(--brand-2)} .c-check .c-title{color:var(--brand)}
+.checklist{list-style:none;margin:8px 0 10px;padding:0}
+.checklist li{margin:4px 0}
+.checklist label{display:flex;gap:12px;align-items:flex-start;padding:8px 10px;border-radius:10px;cursor:pointer;background:#fff;border:1px solid var(--line)}
+.checklist input{flex:none;width:20px;height:20px;margin:3px 0 0;accent-color:var(--brand-2)}
+.checklist input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25)}
+
+/* màu chữ có nghĩa (giữ theo Word) */
+.c-en{color:var(--en)} .c-nv{color:#1b2f7a} .c-ok{color:#11804a} .c-bad{color:#c4262b} .c-ipa{color:#7a2fa8} .c-amb{color:#9a5200}
+.c-en strong,.c-nv strong{color:inherit} .c-ok strong{color:#0d6e3e} .c-bad strong{color:#b0181d} .c-amb strong{color:#8a4700}
+.hl-y{background:#fff0b3;border-radius:4px;padding:0 3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hl-c{background:#cff2f6;border-radius:4px;padding:0 3px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hl-g{background:#eceff4;border-radius:4px;padding:0 3px}
+.part-body p .c-ok strong,.part-body p .c-bad strong,.part-body p .c-amb strong,.part-body p .c-en strong{color:inherit}
+/* tiêu đề nhỏ trong mục */
+.h4{margin:22px 0 6px;font-size:16px;font-weight:700;color:var(--brand);line-height:1.45}
+.h4:first-child{margin-top:8px}
+p.indent{padding-left:14px;border-left:3px solid var(--line)}
+.callout.no-head{padding-top:8px}
+.part-num.is-info{font-size:12px;line-height:1.15;text-align:center}
+.part-num.is-info small{margin-bottom:1px}
+/* khung câu hỏi mẫu */
+.qcard{margin:16px 0;border:1px solid #cfdcf6;border-radius:var(--r-md);background:#f6f9ff;padding:12px 12px 4px}
+.q-head{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#fff;background:var(--brand);border-radius:999px;padding:3px 11px;margin:0 0 6px 2px}
+.q-prompt{margin:6px 2px 4px!important;font-weight:600;font-size:16px}
+.qgroup{margin:12px 0;padding:10px 12px 2px;border:1px solid #cfdcf6;border-radius:var(--r-md);background:#f6f9ff}
+.qgroup .options,.qgroup .answer{max-width:none}
+.qgroup .q-prompt{color:var(--en)}
+.addon-tag{display:inline-block;margin:18px 0 -4px;font-size:11.5px;font-weight:800;letter-spacing:.1em;color:#8a5a00;background:#fff4d6;border:1px solid #f0d9a0;border-radius:999px;padding:3px 11px}
+.addon-tag + .tbl-wrap,.addon-tag + .callout{margin-top:10px}
+.qcard .options{margin:8px 0;max-width:none}
+.qcard .answer{max-width:none;margin:8px 0 10px}
+.qcard > p,.qcard > ul{margin-left:2px;margin-right:2px}
+/* nút mục tiếp theo + đọc tiếp */
+.next-row{margin:18px 0 2px;display:flex;justify-content:flex-end}
+@media (max-width:719.98px){.next-row{justify-content:flex-start;padding-right:52px}}
+.next-btn{display:flex;align-items:center;gap:4px 12px;flex-wrap:wrap;text-align:left;max-width:100%;border:1px solid var(--brand-100);background:var(--brand-50);color:var(--brand);
+  border-radius:14px;padding:10px 46px 10px 14px;position:relative;cursor:pointer;min-height:48px;transition:background .15s,border-color .15s}
+.next-btn:hover{background:#e3ebff;border-color:#bccdfb}
+.nx-l{width:100%;font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.nx-t{font-weight:600;font-size:14.5px;line-height:1.4}
+.nx-arrow{position:absolute;right:16px;top:50%;width:9px;height:9px;border-right:2.4px solid var(--brand);border-bottom:2.4px solid var(--brand);transform:translateY(-50%) rotate(-45deg)}
+.next-btn.is-part{background:linear-gradient(135deg,var(--brand),var(--brand-2));border-color:transparent;color:#fff}
+.next-btn.is-part .nx-l{color:rgba(255,255,255,.8)} .next-btn.is-part .nx-arrow{border-color:#fff}
+.next-btn.is-end .nx-arrow{transform:translateY(-30%) rotate(-135deg)}
+.resume{display:none;position:relative;align-items:center;gap:10px 14px;flex-wrap:wrap;margin:16px 0 0;padding:12px 52px 12px 14px;border-radius:16px;background:#fff;border:1px solid var(--brand-100);box-shadow:var(--shadow)}
+.resume.show{display:flex}
+.resume-txt{flex:1;min-width:200px;font-size:14.5px;color:var(--ink-2)}
+.resume-txt b{color:var(--brand)}
+.resume-go{border:0;background:var(--brand-2);color:#fff;font-weight:600;font-size:14px;height:40px;padding:0 16px;border-radius:12px;cursor:pointer}
+.resume-x{position:absolute;top:8px;right:8px;border:0;background:#f1f4fa;color:var(--muted);width:36px;height:36px;border-radius:10px;font-size:18px;cursor:pointer}
+@media (max-width:560px){.resume-go{width:100%}}
+@media (max-width:1023.98px){.toc-p{padding:11px 10px;min-height:52px}.toc li ul a{padding:11px 10px 11px 26px;min-height:46px;align-items:center}.toc li ul a::before{top:50%;margin-top:-3px}}
+/* cuối trang + nút nổi */
+.foot{margin:28px 0 0;text-align:center;font-size:13.5px;color:var(--muted)}
+.foot b{color:var(--brand)}
+.home-link{display:inline-block;margin-bottom:10px;font-weight:600;text-decoration:none;padding:8px 14px;border-radius:12px;background:var(--brand-50);border:1px solid var(--brand-100)}
+.totop{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:40;width:48px;height:48px;border-radius:50%;
+  border:0;background:var(--brand-2);color:#fff;box-shadow:0 8px 22px rgba(36,87,230,.35);cursor:pointer;opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.totop svg{width:22px;height:22px}
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,12,30,.9);display:none;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lightbox.show{display:flex}
+.lightbox img{max-height:92vh;width:auto;border-radius:12px}
+:focus-visible{outline:3px solid #8db3ff;outline-offset:2px}
+
+@media (min-width:720px){
+  body{font-size:16.5px}
+  .hero{padding:34px 34px 28px}
+  .part-btn{padding:18px 20px}
+  .part-body{padding:4px 22px 22px}
+  .sub-body{padding:2px 20px 18px}
+}
+body.no-anim .collapse,body.no-anim .chev{transition:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media print{
+  .bar,.progress,.toc,.tools,.totop,.scrim,.chev{display:none!important}
+  body{background:#fff}
+  .layout{display:block;padding:0}
+  .collapse{grid-template-rows:1fr!important}
+  .answer{display:block}.answer > *{display:block}
+  .part,.sub{box-shadow:none;break-inside:auto}
+  .hero{box-shadow:none;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<header class="bar">
+  <span class="brand">TOEIC Thầy Khuê</span>
+  <span class="bar-title"><b>Part 3</b><span class="nm"> · Conversations</span></span>
+  <button class="icon-btn toc-btn" type="button" aria-label="Mở mục lục" data-act="toc">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Mục lục
+  </button>
+</header>
+<div class="progress" aria-hidden="true"></div>
+<div class="scrim" data-act="toc-close"></div>
+
+<div class="layout">
+  <nav class="toc" aria-label="Mục lục">
+    <div class="toc-card">
+      <div class="toc-head">
+        <span class="toc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.5C4.5 4 7.5 4 12 6c4.5-2 7.5-2 10-.5V19c-2.5-1.5-5.5-1.5-10 .5-4.5-2-7.5-2-10-.5z"/><path d="M12 6v13.5"/></svg></span>
+        <b>Mục lục</b><span class="toc-count">12 phần</span>
+        <button class="toc-close" type="button" aria-label="Đóng mục lục" data-act="toc-close">×</button>
+      </div>
+      <ul>
+<li><a href="#phan-huong-dan-su-dung-tai-lieu" class="toc-p"><span class="toc-n">i</span><span class="toc-t">Hướng dẫn sử dụng tài liệu</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+</ul></li>
+<li><a href="#phan-1" class="toc-p"><span class="toc-n">1</span><span class="toc-t">Tổng quan Part 3 và cách tư duy đúng</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-1-1"><span class="toc-sn">1.1</span><span>Cấu trúc Part 3 hiện hành</span></a></li>
+<li><a href="#muc-1-2"><span class="toc-sn">1.2</span><span>Hai quy định phòng thi ảnh hưởng trực tiếp đến chiến thuật</span></a></li>
+<li><a href="#muc-1-3"><span class="toc-sn">1.3</span><span>Part 3 thực sự kiểm tra gì?</span></a></li>
+<li><a href="#muc-1-4"><span class="toc-sn">1.4</span><span>Vì sao không nên dịch toàn bộ hội thoại?</span></a></li>
+<li><a href="#muc-1-5"><span class="toc-sn">1.5</span><span>Nghe chủ động thay vì nghe thụ động</span></a></li>
+</ul></li>
+<li><a href="#phan-2" class="toc-p"><span class="toc-n">2</span><span class="toc-t">Quy trình làm bài trong phòng thi</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-2-1"><span class="toc-sn">2.1</span><span>Tận dụng các khoảng trống của audio</span></a></li>
+<li><a href="#muc-2-2"><span class="toc-sn">2.2</span><span>Trước khi nghe: đọc trước nhưng không đọc quá tải</span></a></li>
+<li><a href="#muc-2-3"><span class="toc-sn">2.3</span><span>Trong khi nghe</span></a></li>
+<li><a href="#muc-2-4"><span class="toc-sn">2.4</span><span>Sau khi nghe</span></a></li>
+<li><a href="#muc-2-5"><span class="toc-sn">2.5</span><span>Đọc câu hỏi để biết mình cần nghe gì</span></a></li>
+</ul></li>
+<li><a href="#phan-3" class="toc-p"><span class="toc-n">3</span><span class="toc-t">Theo dõi bối cảnh, vai trò và mạch hội thoại</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-3-1"><span class="toc-sn">3.1</span><span>Mạch thông tin thường gặp</span></a></li>
+<li><a href="#muc-3-2"><span class="toc-sn">3.2</span><span>Xác định vai trò người nói</span></a></li>
+<li><a href="#muc-3-3"><span class="toc-sn">3.3</span><span>Hội thoại hai người</span></a></li>
+<li><a href="#muc-3-4"><span class="toc-sn">3.4</span><span>Hội thoại ba người</span></a></li>
+<li><a href="#muc-3-5"><span class="toc-sn">3.5</span><span>Đáp án nằm ở lượt nói nào?</span></a></li>
+</ul></li>
+<li><a href="#phan-4" class="toc-p"><span class="toc-n">4</span><span class="toc-t">Các dạng câu hỏi chính và cách xử lý</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-4-1"><span class="toc-sn">4.1</span><span>Nhóm A – Ý chính, mục đích, người nói, địa điểm</span></a></li>
+<li><a href="#muc-4-2"><span class="toc-sn">4.2</span><span>Nhóm B – Chi tiết, con số, vấn đề và lý do</span></a></li>
+<li><a href="#muc-4-3"><span class="toc-sn">4.3</span><span>Nhóm C – Đề nghị, quyết định và hành động tiếp theo</span></a></li>
+<li><a href="#muc-4-4"><span class="toc-sn">4.4</span><span>Nhóm D – Suy luận và hàm ý câu nói</span></a></li>
+<li><a href="#muc-4-5"><span class="toc-sn">4.5</span><span>Nhóm E – Câu hỏi kết hợp graphic</span></a></li>
+</ul></li>
+<li><a href="#phan-5" class="toc-p"><span class="toc-n">5</span><span class="toc-t">Paraphrase, từ chuyển ý và thông tin nằm rải ở nhiều lượt nói</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-5-1"><span class="toc-sn">5.1</span><span>Paraphrase: hiểu ý, không săn từ giống hệt</span></a></li>
+<li><a href="#muc-5-2"><span class="toc-sn">5.2</span><span>Các cặp từ thường được thay thế — chỉ tương đương trong đúng ngữ cảnh</span></a></li>
+<li><a href="#muc-5-3"><span class="toc-sn">5.3</span><span>Từ chuyển ý: hiểu chức năng, không học như công thức</span></a></li>
+<li><a href="#muc-5-4"><span class="toc-sn">5.4</span><span>Thông tin nằm rải ở nhiều lượt nói</span></a></li>
+</ul></li>
+<li><a href="#phan-6" class="toc-p"><span class="toc-n">6</span><span class="toc-t">Hệ thống bẫy và chiến thuật loại trừ</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-6-1"><span class="toc-sn">6.1</span><span>Bốn câu hỏi kiểm tra trước khi chốt đáp án</span></a></li>
+</ul></li>
+<li><a href="#phan-7" class="toc-p"><span class="toc-n">7</span><span class="toc-t">Kỹ thuật ghi chú – công cụ luyện tập</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-7-1"><span class="toc-sn">7.1</span><span>Chia đôi trang giấy khi mới tập nghe</span></a></li>
+<li><a href="#muc-7-2"><span class="toc-sn">7.2</span><span>Ký hiệu gợi ý</span></a></li>
+<li><a href="#muc-7-3"><span class="toc-sn">7.3</span><span>Ghi gì và không ghi gì</span></a></li>
+</ul></li>
+<li><a href="#phan-8" class="toc-p"><span class="toc-n">8</span><span class="toc-t">Bối cảnh, cụm từ và mẫu câu trọng tâm</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-8-1"><span class="toc-sn">8.1</span><span>Bối cảnh thường gặp</span></a></li>
+<li><a href="#muc-8-2"><span class="toc-sn">8.2</span><span>Cụm từ trọng tâm</span></a></li>
+<li><a href="#muc-8-3"><span class="toc-sn">8.3</span><span>Mẫu câu nên nhận ra nhanh</span></a></li>
+</ul></li>
+<li><a href="#phan-9" class="toc-p"><span class="toc-n">9</span><span class="toc-t">Lỗi học viên thường mắc</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+</ul></li>
+<li><a href="#phan-10" class="toc-p"><span class="toc-n">10</span><span class="toc-t">Cách luyện Part 3 hiệu quả</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-10-1"><span class="toc-sn">10.1</span><span>Năm bước luyện nghe chủ động</span></a></li>
+<li><a href="#muc-10-2"><span class="toc-sn">10.2</span><span>Một vòng luyện với mỗi đoạn hội thoại</span></a></li>
+<li><a href="#muc-10-3"><span class="toc-sn">10.3</span><span>Mẫu sổ lỗi sai</span></a></li>
+<li><a href="#muc-10-4"><span class="toc-sn">10.4</span><span>Xoay vòng theo kỹ năng</span></a></li>
+</ul></li>
+<li><a href="#phan-11" class="toc-p"><span class="toc-n">11</span><span class="toc-t">Tổng kết nhanh trước khi thi</span><span class="toc-chev" aria-hidden="true"></span></a><ul>
+<li><a href="#muc-11-1"><span class="toc-sn">11.1</span><span>Tám nguyên tắc cần nhớ</span></a></li>
+<li><a href="#muc-11-2"><span class="toc-sn">11.2</span><span>Checklist cho mỗi đoạn hội thoại</span></a></li>
+<li><a href="#muc-11-3"><span class="toc-sn">11.3</span><span>Bản đồ tư duy một dòng</span></a></li>
+</ul></li>
+      </ul>
+      <div class="toc-prog"><div class="toc-prog-top"><span>Tiến độ đọc</span><b class="toc-pct">0%</b></div><div class="toc-prog-bar"><i></i></div></div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">TOEIC LISTENING</div>
+      <h1>Part 3<span>Conversations</span></h1>
+      <p>Hội thoại giữa hai hoặc ba người<br>Kỹ thuật, chiến lược và chiến thuật làm bài</p>
+      
+      <div class="chips">
+        
+        <span class="chip">📚 12 phần</span>
+        <span class="chip">⏱ Khoảng 50 phút đọc</span>
+      </div>
+    </section>
+
+    
+    <div class="resume" role="status"><span class="resume-txt"></span><button class="resume-go" type="button">Đọc tiếp</button><button class="resume-x" type="button" aria-label="Ẩn">×</button></div>
+    <div class="tools">
+      <span class="hint">Bấm vào từng phần để mở nội dung.</span>
+      <button class="btn" type="button" data-act="all" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10l5 5 5-5"/></svg><span>Mở tất cả</span>
+      </button>
+    </div>
+
+<section class="part" id="phan-huong-dan-su-dung-tai-lieu">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-huong-dan-su-dung-tai-lieu-c"><span class="part-num is-info"><small>Đọc</small> trước</span><span class="part-tt"><span class="part-t">Hướng dẫn sử dụng tài liệu</span><span class="part-meta">Bấm để đọc</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-huong-dan-su-dung-tai-lieu-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Tài liệu dành cho học viên luyện <strong>TOEIC Listening Part 3 – Conversations</strong>, phù hợp mục tiêu khoảng <strong>350 – 750 điểm</strong>.</p>
+<ul class="bullets"><li><strong>Phần 1 – 3:</strong> bản chất Part 3, quy trình phòng thi, cách theo dõi người nói và mạch hội thoại. Nên đọc trước.</li><li><strong>Phần 4 – 6:</strong> cách xử lý từng nhóm câu hỏi, paraphrase, từ chuyển ý và hệ thống bẫy. Đây là phần dùng nhiều nhất khi luyện đề.</li><li><strong>Phần 7 – 8:</strong> kỹ thuật ghi chú khi luyện tập, bối cảnh, cụm từ và mẫu câu trọng tâm.</li><li><strong>Phần 9 – 11:</strong> lỗi thường gặp, cách tự luyện và bản tổng kết để xem lại trước ngày thi.</li></ul>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Cách đọc các lưu ý trong tài liệu</strong></p><p>Thông tin về <strong>cấu trúc đề thi</strong> được viết dứt khoát vì đó là sự thật về đề. Còn <strong>các lưu ý và kinh nghiệm làm bài</strong> chỉ là <strong>xu hướng thường gặp</strong>, không phải quy luật cứng. Vì vậy, mỗi lưu ý quan trọng đều đi kèm <strong>phạm vi áp dụng</strong> và <strong>ngoại lệ</strong> trong khung màu vàng.</p></div></aside></div>
+
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-1"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 1 · Tổng quan Part 3 và cách tư duy đúng</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+<section class="part" id="phan-1">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-1-c"><span class="part-num"><small>Phần</small> 1</span><span class="part-tt"><span class="part-t">Tổng quan Part 3 và cách tư duy đúng</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-1-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-1-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-1-c"><span class="sub-num">1.1</span><span class="sub-t">Cấu trúc Part 3 hiện hành</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Thành phần</th><th>Thông tin</th></tr></thead><tbody><tr><td data-label="Thành phần">Số câu</td><td data-label="Thông tin"><strong>39 câu</strong> = <strong>13 đoạn hội thoại</strong> × 3 câu hỏi</td></tr><tr><td data-label="Thành phần">Lựa chọn</td><td data-label="Thông tin">Mỗi câu có <strong>4 lựa chọn (A)–(D)</strong></td></tr><tr><td data-label="Thành phần">Người nói</td><td data-label="Thông tin">Hội thoại giữa hai hoặc ba người; giọng đọc có thể là Mỹ, Anh, Úc, Canada</td></tr><tr><td data-label="Thành phần">Audio</td><td data-label="Thông tin">Mỗi hội thoại được phát <strong>một lần</strong>; lời thoại <strong>không hiện</strong> trên màn hình</td></tr><tr><td data-label="Thành phần">Câu hỏi</td><td data-label="Thông tin">Câu hỏi <strong>hiện trên màn hình</strong> và <strong>được đọc</strong> trên audio; các lựa chọn chỉ hiện trên màn hình, không đọc</td></tr><tr><td data-label="Thành phần">Graphic</td><td data-label="Thông tin"><strong>Một số câu</strong> yêu cầu kết hợp nội dung nghe với bảng biểu, sơ đồ hiện trên màn hình</td></tr><tr><td data-label="Thành phần">Hình thức</td><td data-label="Thông tin">Thi trên máy tính: <strong>chọn đáp án trên màn hình</strong>. Thi trên giấy có cùng nội dung và dạng câu hỏi (xem khung cuối mục <a class="xref" href="#muc-1-2">1.2</a>).</td></tr></tbody></table></div>
+<p>Một số đặc điểm của hội thoại Part 3 cần làm quen:</p>
+<ul class="bullets"><li>Một số đoạn có <strong>ba người nói</strong>. Đoạn ba người được báo trước bằng câu dẫn trên audio: <em>“Questions … refer to the following conversation with three speakers.”</em></li><li>Có <strong>cách nói rút gọn</strong> của văn nói, ví dụ <strong>going to → gonna</strong>, và <strong>câu cụt, câu chưa trọn vẹn</strong> như <em>Yes, in a minute.</em> / <em>Down the hall.</em> / <em>Could you?</em></li><li>Có câu hỏi <strong>kết hợp graphic</strong> và câu hỏi về <strong>ý định / hàm ý</strong> của người nói.</li><li>Kinh nghiệm làm bài: một đề thường có khoảng <strong>11 đoạn hai người và 2 đoạn ba người</strong>; số đoạn ba người có thể thay đổi giữa các đề.</li><li>Kinh nghiệm làm bài: mỗi đoạn thường có <strong>ít nhất 3 lượt nói</strong>; đoạn dài có thể tới khoảng <strong>8–10 lượt nói</strong>.</li><li>Câu hỏi đầu tiên của mỗi đoạn <strong>thường</strong> dễ hơn hai câu sau, vì thông tin hay nằm ở 1–2 lượt nói đầu. Đây là xu hướng, không phải quy tắc: câu đầu hỏi ý chính đôi khi cần nghe thêm các lượt sau (xem mục <a class="xref" href="#muc-3-1">3.1</a> và 3.5).</li></ul>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.2 · Hai quy định phòng thi ảnh hưởng trực tiếp đến chiến thuật</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-2-c"><span class="sub-num">1.2</span><span class="sub-t">Hai quy định phòng thi ảnh hưởng trực tiếp đến chiến thuật</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Quy định</th><th>Hệ quả khi làm bài</th></tr></thead><tbody><tr><td data-label="Quy định">Khi thi trên máy tính, thí sinh <strong>không được dùng giấy nháp</strong></td><td data-label="Hệ quả khi làm bài">Mọi thao tác "gạch từ khóa" phải làm <strong>trong đầu</strong>. Kỹ thuật ghi chú ở Phần 7 chỉ dùng <strong>khi luyện tập ở nhà</strong>.</td></tr><tr><td data-label="Quy định">Điểm tính theo <strong>số câu trả lời đúng</strong></td><td data-label="Hệ quả khi làm bài">Câu chưa chắc vẫn nên <strong>chọn một đáp án</strong>, không để trống.</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">NẾU THI TRÊN GIẤY</span></div><div class="c-body"><ul class="bullets"><li>Câu hỏi, các lựa chọn và graphic <strong>in trong đề</strong>; lời thoại không in. Đáp án tô vào answer sheet.</li><li>Không được <strong>ghi chú, gạch chân hay đánh dấu bất kỳ điều gì</strong> vào đề thi và answer sheet, kể cả một dấu chấm.</li></ul></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.3 · Part 3 thực sự kiểm tra gì?</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-3-c"><span class="sub-num">1.3</span><span class="sub-t">Part 3 thực sự kiểm tra gì?</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-3-c"><div class="collapse-in"><div class="sub-body">
+<ul class="bullets"><li>Nắm <strong>bối cảnh</strong> và <strong>vai trò</strong> của từng người nói.</li><li>Hiểu <strong>mục đích giao tiếp</strong>, <strong>vấn đề</strong> và <strong>hướng xử lý</strong>.</li><li>Bắt <strong>chi tiết</strong> quan trọng: thời gian, số lượng, địa điểm, tên, điều kiện, hành động.</li><li>Theo dõi <strong>sự thay đổi</strong>: kế hoạch cũ → thông tin mới → quyết định cuối.</li><li>Nhận ra <strong>paraphrase</strong> giữa audio và đáp án.</li><li>Ghép thông tin nằm ở <strong>hai hoặc nhiều lượt nói</strong>, thay vì chỉ dựa vào một câu.</li></ul>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.4 · Vì sao không nên dịch toàn bộ hội thoại?</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-4-c"><span class="sub-num">1.4</span><span class="sub-t">Vì sao không nên dịch toàn bộ hội thoại?</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-4-c"><div class="collapse-in"><div class="sub-body">
+<p>Nếu cố dịch từng câu sang tiếng Việt khi audio vẫn chạy, em dễ bị chậm hơn audio và bỏ lỡ lượt nói tiếp theo. Trong phòng thi, hãy nghe theo <strong>cụm ý</strong> và <strong>chức năng của câu</strong>: người nói đang nêu vấn đề, sửa thông tin, đề nghị phương án hay chốt hành động.</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-1-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">1.5 · Nghe chủ động thay vì nghe thụ động</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-1-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-1-5-c"><span class="sub-num">1.5</span><span class="sub-t">Nghe chủ động thay vì nghe thụ động</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-1-5-c"><div class="collapse-in"><div class="sub-body">
+<p><strong>Nghe thụ động</strong> là bật audio và để âm thanh trôi qua tai. <strong>Nghe chủ động (Active Listening)</strong> là nghe với mục tiêu rõ ràng, biết đoạn nghe sẽ đi theo hướng nào và chủ động bắt lấy thông tin quan trọng.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Nghe thụ động</th><th>Nghe chủ động</th></tr></thead><tbody><tr><td data-label="Nghe thụ động">Bật audio và cố nghe hết</td><td data-label="Nghe chủ động">Đọc trước câu hỏi để biết cần bắt thông tin gì</td></tr><tr><td data-label="Nghe thụ động">Chú ý từng từ rời rạc</td><td data-label="Nghe chủ động">Theo dõi mạch hội thoại và từ chuyển ý</td></tr><tr><td data-label="Nghe thụ động">Sai rồi nghe lại y hệt</td><td data-label="Nghe chủ động">Xác định chỗ sai: từ vựng, paraphrase, người nói hay bẫy</td></tr><tr><td data-label="Nghe thụ động">Không xem lại transcript</td><td data-label="Nghe chủ động">Đối chiếu transcript, nghe lại đúng đoạn bị hụt</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-2"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 2 · Quy trình làm bài trong phòng thi</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-2">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-2-c"><span class="part-num"><small>Phần</small> 2</span><span class="part-tt"><span class="part-t">Quy trình làm bài trong phòng thi</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-2-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-2-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-1-c"><span class="sub-num">2.1</span><span class="sub-t">Tận dụng các khoảng trống của audio</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-1-c"><div class="collapse-in"><div class="sub-body">
+<p>Đọc câu hỏi trước khi nghe giúp em <strong>dự đoán nội dung</strong> và <strong>biết cần chú ý chi tiết nào</strong>. Khi <strong>thi trên máy tính</strong>, câu hỏi của từng đoạn hiện trên màn hình; trước khi phát mỗi đoạn hội thoại có <strong>một khoảng thời gian ngắn để đọc trước câu hỏi</strong>. Câu hỏi của đoạn nào thường chỉ hiện khi tới đoạn đó, nên em không đọc trước được đoạn kế tiếp và không quay lại được câu trước để đổi đáp án. Nhịp làm bài trên máy như sau:</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Audio đang phát</th><th>Em làm gì?</th><th>Kết quả</th></tr></thead><tbody><tr><td data-label="Audio đang phát">Khoảng ngắn trước khi phát đoạn hội thoại</td><td data-label="Em làm gì?">Đọc nhanh <strong>3 câu hỏi đang hiện trên màn hình</strong>; lướt đáp án nếu còn thời gian</td><td data-label="Kết quả">Biết trước cần nghe gì ở đoạn này</td></tr><tr><td data-label="Audio đang phát">Đoạn hội thoại</td><td data-label="Em làm gì?">Nghe và bấm chọn đáp án trên màn hình</td><td data-label="Kết quả">Trả lời dễ hơn vì đã có mục tiêu nghe</td></tr><tr><td data-label="Audio đang phát">Audio đọc 3 câu hỏi của đoạn vừa nghe</td><td data-label="Em làm gì?"><strong>Hoàn tất cả 3 câu</strong> trước khi máy chuyển sang đoạn kế tiếp</td><td data-label="Kết quả">Không để trống câu nào, vì không quay lại được câu trước</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">NẾU THI TRÊN GIẤY</span></div><div class="c-body"><ul class="bullets"><li>Câu hỏi và các lựa chọn in trong đề, nên có thể đọc trước nhiều hơn khi thi trên máy.</li><li>Trước mỗi đoạn hội thoại thường có khoảng 20–25 giây để đọc trước 3 câu hỏi — đó là lúc audio đọc câu hỏi của đoạn vừa nghe, sau khi em đã chọn xong đáp án.</li><li>Lúc audio đọc <strong>phần hướng dẫn (Directions)</strong> của Part 3: đọc 3 câu hỏi của đoạn hội thoại đầu tiên.</li><li>Trong lúc nghe hội thoại: chọn đáp án và tô vào answer sheet.</li><li>Lúc audio đọc 3 câu hỏi của đoạn vừa nghe: nếu đã trả lời xong, <strong>đọc trước 3 câu của đoạn kế tiếp</strong> — giữ nhịp đọc trước như vậy đến hết Part 3.</li></ul></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.2 · Trước khi nghe: đọc trước nhưng không đọc quá tải</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-2-c"><span class="sub-num">2.2</span><span class="sub-t">Trước khi nghe: đọc trước nhưng không đọc quá tải</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Mục tiêu không phải là thuộc lòng 12 lựa chọn, mà là biết <strong>mỗi câu hỏi cần loại thông tin gì</strong> và <strong>các đáp án khác nhau ở điểm nào</strong>.</p>
+<ol class="steps">
+<li><span class="n">1</span><span>Đọc nhanh <strong>3 câu hỏi</strong>. Xác định trong đầu từ để hỏi và từ khóa: who / where / why / problem / suggest / next / graphic.</span></li>
+<li><span class="n">2</span><span>Lướt đáp án để thấy <strong>điểm khác nhau chính</strong>. Ví dụ bốn đáp án đều là giờ → em cần gắn đúng giờ với đúng sự kiện.</span></li>
+<li><span class="n">3</span><span>Dự đoán bối cảnh nếu có tín hiệu rõ, nhưng chỉ coi đó là <strong>giả thuyết</strong>.</span></li>
+<li><span class="n">4</span><span>Nếu có graphic, đọc <strong>tiêu đề</strong> và <strong>tên cột</strong>; chưa cần đọc hết từng ô.</span></li>
+<li><span class="n">5</span><span>Nếu thiếu thời gian, <strong>đọc câu hỏi trước</strong>; chỉ lướt đáp án ở những câu có lựa chọn ngắn.</span></li>
+</ol>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: đọc câu hỏi quan trọng hơn đọc đáp án</strong></span></p><p>Có nhiều học viên nghe khá tốt nhưng vẫn sai vì <strong>hiểu sai câu hỏi</strong>. Khi thời gian ít, hãy ưu tiên hiểu đúng câu hỏi.</p><p><span class="tag">Phạm vi áp dụng:</span> Mọi đoạn hội thoại, đặc biệt khi em bị chậm nhịp.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Với câu hỏi graphic hoặc câu hỏi có 4 đáp án là con số/giờ, lướt đáp án gần như là một phần của việc hiểu câu hỏi — đừng bỏ qua bước này.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.3 · Trong khi nghe</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-3-c"><span class="sub-num">2.3</span><span class="sub-t">Trong khi nghe</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-3-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Nghe <strong>1–2 lượt đầu</strong> để xác định ai đang nói, bối cảnh và mục đích.</span></li>
+<li><span class="n">2</span><span>Theo dõi <strong>vấn đề hoặc nhu cầu</strong> đang được xử lý.</span></li>
+<li><span class="n">3</span><span>Chú ý các mốc dễ ra câu hỏi: <strong>tên, số, thời gian, địa điểm, điều kiện, ai sẽ làm gì</strong>.</span></li>
+<li><span class="n">4</span><span>Cảnh giác khi nghe <strong>but, actually, instead, though, in that case, so</strong> — chúng thường báo hiệu đối lập, sửa thông tin hoặc quyết định.</span></li>
+<li><span class="n">5</span><span>Khi đã đủ căn cứ cho một câu, <strong>chọn đáp án</strong> rồi chuyển mắt sang câu tiếp theo.</span></li>
+<li><span class="n">6</span><span>Nếu sau đó thông tin bị <strong>sửa lại</strong> (ví dụ "Actually, …"), <strong>đổi đáp án</strong> cho đúng thông tin mới bằng cách bấm vào phương án mới trước khi máy chuyển câu.</span></li>
+<li><span class="n">7</span><span>Nếu lỡ một câu, <strong>chọn tạm một đáp án</strong> và tiếp tục nghe. Một câu sai không đáng để kéo theo hai câu còn lại.</span></li>
+</ol>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: chọn khi đủ căn cứ, sửa khi có thay đổi</strong></span></p><p>Chọn đáp án ngay khi nghe đủ căn cứ giúp em không phải nhớ cả 3 đáp án đến cuối đoạn. Nhưng hãy <strong>giữ tai</strong> đến hết đoạn, vì thông tin có thể bị sửa ở lượt sau.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi chi tiết, câu hỏi về người nói, địa điểm.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Với câu hỏi về <strong>quyết định cuối</strong>, <strong>hành động tiếp theo</strong> hoặc <strong>graphic</strong>, câu trả lời phần lớn nằm ở cuối chuỗi thay đổi — chờ đến khi phương án được chốt rồi mới chọn.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.4 · Sau khi nghe</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-4-c"><span class="sub-num">2.4</span><span class="sub-t">Sau khi nghe</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-4-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Hoàn thành nhanh câu còn trống bằng <strong>loại trừ</strong>; không để trống câu nào.</span></li>
+<li><span class="n">2</span><span>Tự hỏi: đáp án có đúng <strong>đối tượng được hỏi</strong> không? Có nhầm <strong>người, thời gian, địa điểm</strong> không?</span></li>
+<li><span class="n">3</span><span>Khi màn hình hiện nhóm câu hỏi mới, <strong>đọc ngay 3 câu hỏi đó</strong>.</span></li>
+</ol>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Đọc trước 3 câu</strong>  →  <strong>Nghe theo mục tiêu</strong>  →  <strong>Chọn khi đủ căn cứ</strong>  →  <strong>Giữ tai đến hết đoạn</strong>  →  <strong>Sang nhóm sau</strong></p></div></aside>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">NẾU THI TRÊN GIẤY</span></div><div class="c-body"><ul class="bullets"><li>Nếu thông tin bị sửa sau khi đã chọn: <strong>tẩy sạch rồi tô lại</strong> trên answer sheet.</li><li>Chọn xong một đoạn thì chuyển ngay sang <strong>đọc trước nhóm câu hỏi tiếp theo</strong> trong đề.</li></ul></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-2-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">2.5 · Đọc câu hỏi để biết mình cần nghe gì</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-2-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-2-5-c"><span class="sub-num">2.5</span><span class="sub-t">Đọc câu hỏi để biết mình cần nghe gì</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-2-5-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl lab-all cols-2"><thead><tr><th>Dấu hiệu trong câu hỏi</th><th>Thông tin cần nghe</th></tr></thead><tbody><tr><td data-label="Dấu hiệu trong câu hỏi">Who most likely are the speakers?</td><td data-label="Thông tin cần nghe">Vai trò, mối quan hệ</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">Where most likely are the speakers?</td><td data-label="Thông tin cần nghe">Bối cảnh, địa điểm</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">What is the conversation mainly about?</td><td data-label="Thông tin cần nghe">Chủ đề bao quát</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">Why is the woman calling?</td><td data-label="Thông tin cần nghe">Mục đích giao tiếp</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">What problem does the man mention?</td><td data-label="Thông tin cần nghe">Vấn đề đang xảy ra</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">What does the man suggest?</td><td data-label="Thông tin cần nghe">Đề nghị, phương án</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">What will the woman most likely do next?</td><td data-label="Thông tin cần nghe">Hành động tiếp theo <strong>của đúng người</strong></td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">What does the man mean when he says, "…"?</td><td data-label="Thông tin cần nghe">Chức năng / hàm ý của câu trích</td></tr><tr><td data-label="Dấu hiệu trong câu hỏi">Look at the graphic. …</td><td data-label="Thông tin cần nghe">Điều kiện trong audio + dữ liệu trong graphic</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-3"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 3 · Theo dõi bối cảnh, vai trò và mạch hội thoại</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-3">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-3-c"><span class="part-num"><small>Phần</small> 3</span><span class="part-tt"><span class="part-t">Theo dõi bối cảnh, vai trò và mạch hội thoại</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-3-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-3-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-1-c"><span class="sub-num">3.1</span><span class="sub-t">Mạch thông tin thường gặp</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-1-c"><div class="collapse-in"><div class="sub-body">
+<p>Nhiều hội thoại Part 3 phát triển theo mạch sau. Không phải đoạn nào cũng đủ các bước, nhưng nắm được mạch chung giúp em biết mình đang ở đâu trong đoạn băng.</p>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Bối cảnh</strong>  →  <strong>Mục đích</strong>  →  <strong>Vấn đề</strong>  →  <strong>Chi tiết</strong>  →  <strong>Đề nghị</strong>  →  <strong>Quyết định</strong>  →  <strong>Hành động tiếp theo</strong></p></div></aside>
+<p>Hội thoại thường chia thành <strong>ba phần</strong>, và ba câu hỏi thường lần lượt bám theo ba phần này:</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Phần hội thoại</th><th>Nội dung thường gặp</th><th>Câu hỏi hay liên quan</th></tr></thead><tbody><tr><td data-label="Phần hội thoại"><strong>Đầu</strong></td><td data-label="Nội dung thường gặp">Bối cảnh, mục đích, vấn đề ban đầu. Ai đang nói? Họ ở đâu? Họ bàn chuyện gì?</td><td data-label="Câu hỏi hay liên quan">Thường là câu 1</td></tr><tr><td data-label="Phần hội thoại"><strong>Giữa</strong></td><td data-label="Nội dung thường gặp">Chi tiết về vấn đề, lý do, lựa chọn. Nhiều thông tin nhất — nghe theo cụm từ.</td><td data-label="Câu hỏi hay liên quan">Thường là câu 2</td></tr><tr><td data-label="Phần hội thoại"><strong>Cuối</strong></td><td data-label="Nội dung thường gặp">Giải pháp, quyết định, hành động tiếp theo, lời yêu cầu.</td><td data-label="Câu hỏi hay liên quan">Thường là câu 3</td></tr></tbody></table></div>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Ví dụ mạch thông tin</strong></p><p><strong>W:</strong> Hi, I’d like to return this jacket. I bought it yesterday, but it’s too small.</p><p>→ Câu 1 có thể hỏi: <em>Why is the woman speaking?</em></p><p><strong>M:</strong> No problem. Do you have the receipt?</p><p>→ Câu 2 có thể hỏi: <em>What does the man ask the woman about?</em></p><p><strong>W:</strong> Yes, here it is. Could I exchange it for a larger size?</p><p>→ Câu 3 có thể hỏi: <em>What will the woman most likely do next?</em></p></div></aside>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: ba câu hỏi thường đi theo thứ tự thông tin</strong></span></p><p>Khi đã có đáp án câu 1, hãy chuyển sự chú ý sang câu 2, rồi câu 3, thay vì tiếp tục nghe cho câu 1.</p><p><span class="tag">Phạm vi áp dụng:</span> Phần lớn <strong>câu hỏi chi tiết</strong> trong một đoạn.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Câu hỏi <strong>ý chính, suy luận, hàm ý</strong> có thể cần cả đoạn; đôi khi hai câu hỏi dựa vào <strong>cùng một lượt nói</strong>, hoặc thông tin cho câu 1 được nhắc lại ở cuối.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.2 · Xác định vai trò người nói</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-2-c"><span class="sub-num">3.2</span><span class="sub-t">Xác định vai trò người nói</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Hãy ghép <strong>ít nhất hai tín hiệu cùng hướng</strong> trước khi kết luận nghề nghiệp hay mối quan hệ.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Tín hiệu</th><th>Ví dụ</th><th>Suy luận hợp lý</th></tr></thead><tbody><tr><td data-label="Tín hiệu">Nhiệm vụ công việc</td><td data-label="Ví dụ" class="en">I can give you a full refund.</td><td data-label="Suy luận hợp lý">Nhiều khả năng là nhân viên dịch vụ / bán hàng</td></tr><tr><td data-label="Tín hiệu">Dịch vụ được hỏi</td><td data-label="Ví dụ" class="en">Do you have a reservation with us?</td><td data-label="Suy luận hợp lý">Khách sạn hoặc nhà hàng — cần nghe thêm tín hiệu</td></tr><tr><td data-label="Tín hiệu">Đồ vật, tài liệu</td><td data-label="Ví dụ" class="en">boarding pass, gate, flight</td><td data-label="Suy luận hợp lý">Liên quan hàng không, sân bay</td></tr><tr><td data-label="Tín hiệu">Phân công</td><td data-label="Ví dụ" class="en">Could you take care of the report?</td><td data-label="Suy luận hợp lý">Đồng nghiệp hoặc quản lý – nhân viên</td></tr><tr><td data-label="Tín hiệu">Yêu cầu – đáp ứng</td><td data-label="Ví dụ" class="en">I’d like to… / Certainly, I can…</td><td data-label="Suy luận hợp lý">Một người yêu cầu dịch vụ, người kia cung cấp</td></tr></tbody></table></div>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: không đoán nghề từ một từ đơn lẻ</strong></span></p><p>Một từ như <em>breakfast</em> có thể xuất hiện trong hội thoại ở khách sạn nhưng không biến người nói thành đầu bếp.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi Who / What is the man’s job / Where do the speakers work.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Khi người nói <strong>tự giới thiệu trực tiếp</strong> (ví dụ "This is Anna from the accounting department"), một câu đó đã đủ căn cứ.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.3 · Hội thoại hai người</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-3-c"><span class="sub-num">3.3</span><span class="sub-t">Hội thoại hai người</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-3-c"><div class="collapse-in"><div class="sub-body">
+<p>Theo kinh nghiệm làm bài, hội thoại hai người <strong>thường</strong> gồm một nam và một nữ, nên câu hỏi hay gọi <em>the man / the woman</em>. Trọng tâm là giữ đúng <strong>ai nói gì</strong> và <strong>ai sẽ làm gì</strong>. Trong lúc nghe, hãy tự hỏi:</p>
+<ul class="bullets"><li>Người nam hay người nữ đang ở vai trò nào — <strong>người hỏi</strong> hay <strong>người đáp</strong>?</li><li>Nếu hỏi thì <strong>hỏi gì</strong>? Nếu đáp thì có <strong>thêm ý kiến</strong> gì không?</li><li>Cuối đoạn, <strong>ai nhận việc</strong> gì?</li></ul>
+<p>Khi đã nắm được hai người đang bàn vấn đề gì, các câu hỏi về <strong>địa điểm</strong> và <strong>chủ đề</strong> thường trở nên dễ hơn nhiều.</p>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[W]:</span> Good morning. I’m calling about the office chairs we ordered last week. They were supposed to arrive yesterday.</p><p><span class="tag">[M]:</span> I’m sorry about that. Let me check your order. It looks like the shipment is still at our warehouse.</p><p><span class="tag">[W]:</span> We really need them before Friday. Three new employees are starting on Monday.</p><p><span class="tag">[M]:</span> I understand. I’ll arrange express delivery and send you the tracking number this afternoon.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> What is the conversation mainly about?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">A delayed order</span></li><li data-opt="B"><span class="opt">B</span><span class="en">A job interview</span></li><li data-opt="C"><span class="opt">C</span><span class="en">A price increase</span></li><li data-opt="D"><span class="opt">D</span><span class="en">A new office building</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (A)</span></p><p><span class="tag">Giải thích:</span> <em>were supposed to arrive yesterday</em> + <em>still at our warehouse</em> cho thấy vấn đề chính là đơn hàng bị trễ.</p><p><span class="tag">Paraphrase:</span> the shipment is still at our warehouse → a delayed order</p><p><span class="tag">Bẫy:</span> (B) dựa vào <em>new employees</em> — chi tiết có thật nhưng không phải chủ đề chính.</p></div></details></div><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> What will the man most likely do next?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">Cancel the order</span></li><li data-opt="B"><span class="opt">B</span><span class="en">Visit the woman’s office</span></li><li data-opt="C"><span class="opt">C</span><span class="en">Arrange express delivery</span></li><li data-opt="D"><span class="opt">D</span><span class="en">Interview new employees</span></li></ol><details class="answer" data-key="C"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (C)</span></p><p><span class="tag">Giải thích:</span> Người nam hứa trực tiếp: <em>I’ll arrange express delivery</em>.</p><p><span class="tag">Bẫy:</span> (D) lặp lại <em>new employees</em> nhưng gán sai hành động cho người nam.</p></div></details></div></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.4 · Hội thoại ba người</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-4-c"><span class="sub-num">3.4</span><span class="sub-t">Hội thoại ba người</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-4-c"><div class="collapse-in"><div class="sub-body">
+<p>Hội thoại ba người thường gồm <strong>2 nam 1 nữ</strong> hoặc <strong>2 nữ 1 nam</strong>. Cách ra câu hỏi <strong>không khác</strong> hội thoại hai người, nên quy trình làm bài giữ nguyên; điểm khác là em phải theo dõi lượt nói chính xác hơn.</p>
+<ul class="bullets"><li>Có lúc <strong>hai người cùng giới nói liên tiếp</strong>. Em cần phân biệt hai giọng khác nhau cùng giới.</li><li>Các giọng trong đề có thể thuộc <strong>Anh, Mỹ, Úc, Canada</strong>. Ba người nói <strong>thường</strong> có giọng khác nhau, nhưng đừng dựa hoàn toàn vào accent để phân biệt — hãy kết hợp với nội dung và vai trò.</li><li>Người thứ ba có thể <strong>bổ sung, sửa hoặc thay đổi</strong> thông tin đã nêu.</li><li>Đại từ <strong>he / she / they / we</strong> dễ gây nhầm; hãy dựa vào lượt nói và hành động hơn là chỉ nghe đại từ.</li></ul>
+<p><strong>Nhận diện đoạn ba người trước khi nghe:</strong></p>
+<ul class="bullets"><li><strong>Câu dẫn trên audio:</strong> đoạn ba người được giới thiệu là <em>“Questions … refer to the following conversation with three speakers.”</em>, còn đoạn hai người chỉ là <em>“… refer to the following conversation.”</em>. Đây là tín hiệu rõ nhất.</li><li><strong>Số nhiều trong câu hỏi:</strong> <em>the women / the men</em> (ví dụ <em>Where do the women work?</em>) thường cho biết đoạn có hai người nữ hoặc hai người nam.</li><li><strong>Tên riêng chỉ người trong câu hỏi:</strong> ví dụ <em>What does Helen recommend doing?</em> — tên riêng thường được dùng để phân biệt hai người cùng giới, nên hay gặp ở đoạn ba người.</li><li><strong>Chỉ một người được gọi là the man:</strong> trong đoạn ba người, nếu câu hỏi gọi <em>the man</em> (số ít, không kèm tên) thì thường chỉ có một người nam, tức 1 nam – 2 nữ; tương tự <em>the woman</em> → thường 1 nữ – 2 nam.</li></ul>
+<p>Ví dụ: đọc ba bộ câu hỏi dưới đây trước khi nghe.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Câu hỏi của một đoạn</th><th>Tín hiệu và dự đoán</th></tr></thead><tbody><tr><td data-label="Câu hỏi của một đoạn">38. What does the woman notify the man about?<br>39. According to the woman, what recently happened in her department?<br>40. What does the man say he will do next?</td><td data-label="Tín hiệu và dự đoán">Chỉ có <em>the woman</em> và <em>the man</em>, không có tên riêng chỉ người → thường là <strong>đoạn hai người</strong> (1 nam, 1 nữ).</td></tr><tr><td data-label="Câu hỏi của một đoạn">38. Where do the women work?<br>39. What does the man say about a product?<br>40. What does Helen recommend doing?</td><td data-label="Tín hiệu và dự đoán"><em>the women</em> (số nhiều) + tên riêng <em>Helen</em> → thường là <strong>đoạn ba người</strong>: 2 nữ (trong đó có Helen) và 1 nam.</td></tr><tr><td data-label="Câu hỏi của một đoạn">47. What product are the speakers discussing?<br>48. What does Donna suggest?<br>49. What does the man propose?</td><td data-label="Tín hiệu và dự đoán">Tên riêng <em>Donna</em> + chỉ một người được gọi là <em>the man</em> → thường là <strong>đoạn ba người</strong>: 1 nam và 2 nữ (trong đó có Donna).</td></tr></tbody></table></div>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: tín hiệu trong câu hỏi giúp chuẩn bị, chưa phải căn cứ cuối cùng</strong></span></p><p>Dùng số nhiều và tên riêng trong câu hỏi để biết trước mình sắp nghe mấy người, rồi xác nhận bằng câu dẫn trên audio và giọng nói.</p><p><span class="tag">Phạm vi áp dụng:</span> Lúc đọc câu hỏi trước khi nghe.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Tên riêng trong câu hỏi đôi khi là người được nhắc tới chứ không trực tiếp nói (ví dụ một khách hàng hay một đồng nghiệp vắng mặt); đoạn ba người cũng có thể chỉ hỏi <em>the man / the woman</em>.</p></div></aside>
+<p><span class="tag">Cách theo dõi:</span> </p>
+<ol class="steps">
+<li><span class="n">1</span><span>Gán nhãn tạm <strong>M1 / M2 / W</strong> (hoặc <strong>W1 / W2 / M</strong>) theo thứ tự nghe.</span></li>
+<li><span class="n">2</span><span>Ghi nhớ trong đầu: ai <strong>nêu vấn đề</strong>, ai <strong>bổ sung / sửa</strong>, ai <strong>quyết định</strong>, ai <strong>nhận việc</strong>.</span></li>
+<li><span class="n">3</span><span>Khi nghe tên riêng hoặc chức danh, <strong>gắn ngay</strong> vào nhãn tương ứng.</span></li>
+<li><span class="n">4</span><span>Khi câu hỏi có tên riêng, chú ý <strong>người nhắc đến tên đó và người nói ngay sau</strong>: người được gọi tên thường trả lời ở lượt kế tiếp (ví dụ <em>Donna, what do you think?</em> → lượt sau thường là của Donna).</span></li>
+</ol>
+<div class="tbl-wrap"><table class="tbl cols-4"><thead><tr><th>Người nói</th><th>Vai trò trong đoạn</th><th>Thông tin chính</th><th>Hành động</th></tr></thead><tbody><tr><td data-label="Người nói">[W]</td><td data-label="Vai trò trong đoạn">Quản lý, ra quyết định</td><td data-label="Thông tin chính">Chuẩn bị buổi thuyết trình</td><td data-label="Hành động">Chốt phòng mới</td></tr><tr><td data-label="Người nói">[M1] – Kevin</td><td data-label="Vai trò trong đoạn">Nêu vấn đề</td><td data-label="Thông tin chính">Máy chiếu phòng B hỏng</td><td data-label="Hành động">Cập nhật lịch họp</td></tr><tr><td data-label="Người nói">[M2]</td><td data-label="Vai trò trong đoạn">Bổ sung, sửa thông tin</td><td data-label="Thông tin chính">Phòng C chỉ có 10 chỗ</td><td data-label="Hành động">–</td></tr></tbody></table></div>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[W]:</span> Thanks for coming in early, everyone. We need to finalize the room for the client presentation.</p><p><span class="tag">[M1]:</span> The projector in Room B isn’t working, so I moved the meeting to Room C.</p><p><span class="tag">[M2]:</span> Room C only has ten seats, though. We’re expecting fifteen people.</p><p><span class="tag">[W]:</span> In that case, let’s use the training room on the second floor. Kevin, could you update the calendar invitation?</p><p><span class="tag">[M1]:</span> Sure, I’ll send the update right away.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> Where will the presentation most likely be held?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">In Room B</span></li><li data-opt="B"><span class="opt">B</span><span class="en">In Room C</span></li><li data-opt="C"><span class="opt">C</span><span class="en">In the training room</span></li><li data-opt="D"><span class="opt">D</span><span class="en">At the client’s office</span></li></ol><details class="answer" data-key="C"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (C)</span></p><p><span class="tag">Giải thích:</span> Room B có sự cố; Room C không đủ chỗ; <em>In that case, let’s use the training room</em> là quyết định cuối.</p><p><span class="tag">Bẫy:</span> Room B và Room C đều được nhắc đến nhưng đã bị thay thế → <strong>bẫy thông tin ban đầu</strong>.</p></div></details></div><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> What will the first man do next?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">Repair the projector</span></li><li data-opt="B"><span class="opt">B</span><span class="en">Update the calendar invitation</span></li><li data-opt="C"><span class="opt">C</span><span class="en">Order more chairs</span></li><li data-opt="D"><span class="opt">D</span><span class="en">Contact the client</span></li></ol><details class="answer" data-key="B"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (B)</span></p><p><span class="tag">Giải thích:</span> Người nữ nhờ <em>Kevin, could you update the calendar invitation?</em> và [M1] nhận việc ngay.</p><p><span class="tag">Bẫy:</span> (A) lặp lại <em>projector</em>, nhưng không ai nói sẽ sửa máy. [M2] chỉ bổ sung thông tin, không nhận việc nào — nhầm [M1] với [M2] là mất điểm.</p></div></details></div></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-3-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">3.5 · Đáp án nằm ở lượt nói nào?</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-3-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-3-5-c"><span class="sub-num">3.5</span><span class="sub-t">Đáp án nằm ở lượt nói nào?</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-3-5-c"><div class="collapse-in"><div class="sub-body">
+<p>Ba câu hỏi thường đi theo thứ tự thông tin (mục <a class="xref" href="#muc-3-1">3.1</a>), nhưng một câu hỏi không nhất thiết ứng với đúng một lượt nói của đúng người được nhắc trong câu hỏi. Hãy <strong>tập trung vào cả hai (hoặc cả ba) người</strong>: câu hỏi về người nữ vẫn có thể được trả lời qua lời người nam, và ngược lại.</p>
+<p>Ví dụ phân bố thông tin trong ba đoạn hội thoại (M = người nam, W = người nữ; lượt 1 là lượt nói đầu tiên của đoạn):</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Câu hỏi</th><th>Thông tin nằm ở</th><th>Điều cần nhớ</th></tr></thead><tbody><tr><td data-label="Câu hỏi"><em>41. Who most likely is the woman?</em></td><td data-label="Thông tin nằm ở">Lượt 1 (M) + lượt 2 (W)</td><td data-label="Điều cần nhớ">Câu hỏi về người nữ nhưng lời người nam cũng cho manh mối.</td></tr><tr><td data-label="Câu hỏi"><em>42. What does the man say to reassure the woman?</em></td><td data-label="Thông tin nằm ở">Lượt 3 và lượt 5 (M)</td><td data-label="Điều cần nhớ">Thông tin có thể rải ở hai lượt không liền nhau.</td></tr><tr><td data-label="Câu hỏi"><em>43. What will the woman most likely do next?</em></td><td data-label="Thông tin nằm ở">Lượt 6 (W) + lượt 7 (M)</td><td data-label="Điều cần nhớ">Hành động tiếp theo thường chốt ở 1–2 lượt cuối.</td></tr><tr><td data-label="Câu hỏi"><em>50. Who most likely is the man?</em></td><td data-label="Thông tin nằm ở">Lượt 1 (W) + lượt 2 (M)</td><td data-label="Điều cần nhớ">Câu đầu thường nằm ở 1–2 lượt đầu.</td></tr><tr><td data-label="Câu hỏi"><em>51. What does the woman ask the man for?</em></td><td data-label="Thông tin nằm ở">Lượt 1 hoặc lượt 3 (W)</td><td data-label="Điều cần nhớ">Một lượt nói có thể chứa thông tin cho hai câu liền nhau (lượt 1 vừa cho câu 50 vừa cho câu 51).</td></tr><tr><td data-label="Câu hỏi"><em>52. What will the man receive?</em></td><td data-label="Thông tin nằm ở">Lượt 3 hoặc lượt 5 (W)</td><td data-label="Điều cần nhớ">Câu hỏi về người nam nhưng thông tin do người nữ nói.</td></tr><tr><td data-label="Câu hỏi"><em>53. Where is the conversation most likely taking place?</em></td><td data-label="Thông tin nằm ở">Lượt 1 (W) + lượt 2 (M)</td><td data-label="Điều cần nhớ">Chủ đề, địa điểm thường lộ ra ngay ở lượt nói đầu tiên.</td></tr><tr><td data-label="Câu hỏi"><em>54. What does the woman mean when she says, “That workshop was very popular”?</em></td><td data-label="Thông tin nằm ở">Lượt 3 – 6</td><td data-label="Điều cần nhớ">Câu hàm ý cần ngữ cảnh trước và sau câu trích.</td></tr><tr><td data-label="Câu hỏi"><em>55. What does the man offer to create?</em></td><td data-label="Thông tin nằm ở">Lượt 4 và lượt 6 (M)</td><td data-label="Điều cần nhớ">Thông tin cho câu 3 có thể xuất hiện sớm (lượt 4) rồi được nhắc lại ở cuối.</td></tr></tbody></table></div>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: nghe cả đoạn, không chỉ nghe người được nhắc trong câu hỏi</strong></span></p><p>Câu 50 và 52 hỏi về người nam, nhưng thông tin đến từ lời người nữ. Vì vậy khi nghe, hãy theo dõi cả hai người thay vì chỉ chờ người được nhắc trong câu hỏi lên tiếng.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi về người nói (Who is…?), điều một người nhận được, được yêu cầu, được đề nghị.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Câu hỏi có cụm <em>According to the woman / the man</em> thường lấy thông tin trực tiếp từ lời của chính người đó; câu <em>What does the man say…?</em> cũng thường dựa vào lời người nam.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-4"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 4 · Các dạng câu hỏi chính và cách xử lý</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-4">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-4-c"><span class="part-num"><small>Phần</small> 4</span><span class="part-tt"><span class="part-t">Các dạng câu hỏi chính và cách xử lý</span><span class="part-meta">5 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-4-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Các dạng câu hỏi được gom thành <strong>5 nhóm</strong> theo cách xử lý giống nhau.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Nhóm</th><th>Dạng câu hỏi</th><th>Thông tin thường nằm ở</th></tr></thead><tbody><tr><td data-label="Nhóm"><strong>A</strong></td><td data-label="Dạng câu hỏi">Ý chính, mục đích, người nói, địa điểm</td><td data-label="Thông tin thường nằm ở">Phần đầu đoạn (xu hướng)</td></tr><tr><td data-label="Nhóm"><strong>B</strong></td><td data-label="Dạng câu hỏi">Chi tiết, thời gian, con số, vấn đề, lý do</td><td data-label="Thông tin thường nằm ở">Phần giữa đoạn (xu hướng)</td></tr><tr><td data-label="Nhóm"><strong>C</strong></td><td data-label="Dạng câu hỏi">Đề nghị, quyết định, hành động tiếp theo</td><td data-label="Thông tin thường nằm ở">Phần giữa – cuối đoạn (xu hướng)</td></tr><tr><td data-label="Nhóm"><strong>D</strong></td><td data-label="Dạng câu hỏi">Suy luận, hàm ý câu nói</td><td data-label="Thông tin thường nằm ở">Quanh câu trích / cả đoạn</td></tr><tr><td data-label="Nhóm"><strong>E</strong></td><td data-label="Dạng câu hỏi">Kết hợp graphic</td><td data-label="Thông tin thường nằm ở">Điều kiện hoặc thay đổi trong audio + graphic</td></tr></tbody></table></div></div>
+<section class="sub" id="muc-4-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-1-c"><span class="sub-num">4.1</span><span class="sub-t">Nhóm A – Ý chính, mục đích, người nói, địa điểm</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-1-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4"><strong>A1. Ý chính và mục đích</strong></h4>
+<p>Câu hỏi thường gặp: <em>What is the conversation mainly about? / What are the speakers discussing? / Why is the woman calling? / What is the purpose of the conversation?</em></p>
+<ul class="bullets"><li>Nghe kỹ <strong>phần đầu</strong> để biết lý do cuộc trò chuyện bắt đầu.</li><li>Chọn <strong>vấn đề chung</strong>, không chọn một chi tiết nhỏ chỉ vì nó được nói rõ hoặc lặp lại.</li><li>Nếu mục đích được làm rõ ở lượt sau, <strong>cập nhật</strong> cách hiểu thay vì giữ dự đoán ban đầu.</li><li>Đáp án thường <strong>khái quát</strong> lại sự việc cụ thể: <em>a delayed order, a scheduling problem, a product complaint…</em></li></ul>
+<h4 class="h4"><strong>A2. Người nói và mối quan hệ</strong></h4>
+<p>Câu hỏi thường gặp: <em>Who most likely are the speakers? / Who most likely is the man? / What department does the woman work in?</em></p>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[M]:</span> Good afternoon. Do you have a reservation with us?</p><p><span class="tag">[W]:</span> Yes, under the name Carter. Could I have a room on a higher floor?</p><p><span class="tag">[M]:</span> Certainly. I’ve put you in room 1204. Breakfast is served from six to ten in the dining hall.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> Who most likely is the man?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">A hotel receptionist</span></li><li data-opt="B"><span class="opt">B</span><span class="en">A travel agent</span></li><li data-opt="C"><span class="opt">C</span><span class="en">A restaurant chef</span></li><li data-opt="D"><span class="opt">D</span><span class="en">A taxi driver</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (A)</span></p><p><span class="tag">Giải thích:</span> Ba tín hiệu cùng hướng: <em>reservation</em> + <em>a room on a higher floor</em> + <em>room 1204</em>.</p><p><span class="tag">Bẫy:</span> (C) dựa vào <em>breakfast / dining hall</em> — chỉ là dịch vụ được nhắc đến, không phải nghề của người nam.</p></div></details></div></div></aside>
+<h4 class="h4"><strong>A3. Địa điểm</strong></h4>
+<p>Địa điểm thường được suy ra từ <strong>dịch vụ, đồ vật, hoạt động</strong> hoặc <strong>tên bộ phận</strong>, ít khi được nói thẳng.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Bẫy địa điểm</th><th>Cách loại</th></tr></thead><tbody><tr><td data-label="Bẫy địa điểm">Một địa điểm được nhắc đến nhưng hội thoại diễn ra ở nơi khác</td><td data-label="Cách loại">Hỏi: họ <strong>đang ở đâu</strong> hay chỉ <strong>đang nói về</strong> nơi đó?</td></tr><tr><td data-label="Bẫy địa điểm">Điểm đến tương lai bị nhầm với nơi hiện tại</td><td data-label="Cách loại">Đọc kỹ câu hỏi: <em>Where are…</em> hay <em>Where will…</em></td></tr><tr><td data-label="Bẫy địa điểm">Tên công ty bị hiểu thành địa điểm</td><td data-label="Cách loại">Xác định đó là <strong>tổ chức</strong> hay <strong>nơi chốn</strong></td></tr></tbody></table></div>
+<p><strong>Câu hỏi đầu tiên thường gặp và tín hiệu cần nghe</strong></p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Dạng câu hỏi</th><th>Nghe gì</th><th>Ví dụ audio → đáp án</th></tr></thead><tbody><tr><td data-label="Dạng câu hỏi"><em>Who most likely is the man?</em><br><em>Who is the woman?</em></td><td data-label="Nghe gì">Danh xưng (Mr., Ms., Dr.), chức danh (manager, assistant, customer, employee, driver…) hoặc công việc người nói nhắc đến; cụm gợi ý <em>I work for… / I’m a representative of… / I’m calling about…</em></td><td data-label="Ví dụ audio → đáp án"><em>[M] Hi, this is Tom from customer service. How may I assist you?</em><br><strong>→ A customer service representative</strong></td></tr><tr><td data-label="Dạng câu hỏi"><em>What is the conversation mainly about?</em></td><td data-label="Nghe gì">Câu nói đầu tiên hoặc nội dung chính được nhắc lại; từ vựng chủ đề (business meeting, travel, product issue, appointment…)</td><td data-label="Ví dụ audio → đáp án"><em>[M] I’m calling to confirm my flight booking for this weekend.</em><br><strong>→ Confirming a flight reservation</strong></td></tr><tr><td data-label="Dạng câu hỏi"><em>Where does this conversation most likely take place?</em></td><td data-label="Nghe gì">Từ vựng đặc trưng của địa điểm — nhà hàng: menu, order, waiter, bill; sân bay: boarding pass, gate, flight; văn phòng: meeting, report, deadline — và câu chào mở đầu <em>Welcome to… / Thank you for…</em></td><td data-label="Ví dụ audio → đáp án"><em>[W] Welcome to City Clinic! Do you have an appointment?</em><br><strong>→ At a medical clinic / At a doctor’s office</strong></td></tr><tr><td data-label="Dạng câu hỏi"><em>What problem does the man mention?</em><br><em>What are the speakers discussing?</em></td><td data-label="Nghe gì">Vấn đề một người nhấn mạnh; cụm <em>problem with, issue, concern, request</em>; nếu một người hỏi – người kia trả lời, phần trả lời thường là trọng tâm</td><td data-label="Ví dụ audio → đáp án"><em>[M] My order hasn’t arrived yet. It was supposed to be delivered yesterday.</em><br><strong>→ A delayed delivery</strong></td></tr></tbody></table></div>
+<p>Đáp án thường diễn đạt lại ý của audio: <em>confirm my flight booking</em> → <em>confirming a flight reservation</em>; <em>hasn’t arrived … supposed to be delivered yesterday</em> → <em>a delayed delivery</em>. Câu hỏi đầu tiên thường thuộc các dạng trên và thông tin thường nằm ở 1–2 lượt đầu; tuy vậy câu đầu đôi khi là câu chi tiết, và ý chính có thể chỉ rõ ở lượt sau (mục A1).</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.2 · Nhóm B – Chi tiết, con số, vấn đề và lý do</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-2-c"><span class="sub-num">4.2</span><span class="sub-t">Nhóm B – Chi tiết, con số, vấn đề và lý do</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-2-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4"><strong>B1. Chi tiết và con số</strong></h4>
+<p>Đọc đúng <strong>đối tượng được hỏi</strong> trước khi "săn" con số. Một đoạn có thể chứa nhiều giờ, giá, số chuyến bay hoặc ngày tháng; đáp án nhiễu thường là <strong>con số có thật</strong> nhưng <strong>gắn với sự kiện khác</strong>.</p>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[W]:</span> The safety workshop starts at nine, right?</p><p><span class="tag">[M]:</span> It was moved to ten. The trainer’s flight only arrives at eight thirty.</p><p><span class="tag">[W]:</span> Good to know. I’ll let the team know before eleven.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> When will the workshop begin?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">At 8:30</span></li><li data-opt="B"><span class="opt">B</span><span class="en">At 9:00</span></li><li data-opt="C"><span class="opt">C</span><span class="en">At 10:00</span></li><li data-opt="D"><span class="opt">D</span><span class="en">At 11:00</span></li></ol><details class="answer" data-key="C"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (C)</span></p><p><span class="tag">Giải thích:</span> 9:00 là kế hoạch cũ; <em>It was moved to ten</em> là lịch mới. 8:30 là giờ máy bay đến; 11:00 là mốc báo cho cả nhóm.</p><p><span class="tag">Bẫy:</span> Cả bốn con số đều có trong audio, nhưng chỉ 10:00 gắn với <em>the workshop begin</em>.</p></div></details></div></div></aside>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: gắn mỗi con số với danh từ đi kèm</strong></span></p><p>Bám <strong>từ khóa của câu hỏi</strong> (ví dụ <em>has been canceled</em>), rồi xem con số nào gắn với từ khóa đó. Khi nghe nhiều số hiệu liên tiếp, chú ý đuôi <strong>-s/-es</strong> và động từ <strong>is / are</strong> để biết đang nói về một hay nhiều đối tượng.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi When / How much / How many / số phòng, số chuyến bay, mã đơn hàng.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Có khi đáp án <strong>không phải con số được đọc ra</strong> mà là kết quả tính nhẩm hoặc cách nói khác (ví dụ <em>half an hour</em> → <em>30 minutes</em>, <em>next Tuesday</em> → một ngày cụ thể trên lịch).</p></div></aside>
+<h4 class="h4"><strong>B2. Vấn đề và lý do</strong></h4>
+<p>Các tín hiệu tiêu cực giúp khoanh vùng vấn đề. Tuy vậy, nghe <em>unfortunately</em> hay <em>but</em> không có nghĩa đáp án nằm ngay sau đó — hãy nghe <strong>trọn mệnh đề</strong> để biết điều gì thực sự bị ảnh hưởng.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Nhóm vấn đề</th><th>Cách nói thường gặp</th></tr></thead><tbody><tr><td data-label="Nhóm vấn đề">Thiết bị</td><td data-label="Cách nói thường gặp">isn’t working, out of order</td></tr><tr><td data-label="Nhóm vấn đề">Trì hoãn, chậm tiến độ</td><td data-label="Cách nói thường gặp">has been delayed, is behind schedule</td></tr><tr><td data-label="Nhóm vấn đề">Thiếu hàng, thiếu vật tư</td><td data-label="Cách nói thường gặp">out of stock, we’ve run out of…</td></tr><tr><td data-label="Nhóm vấn đề">Thay đổi lịch</td><td data-label="Cách nói thường gặp">has been rescheduled, has been pushed back</td></tr><tr><td data-label="Nhóm vấn đề">Thiếu nhân sự</td><td data-label="Cách nói thường gặp">understaffed, short-handed</td></tr><tr><td data-label="Nhóm vấn đề">Chi phí</td><td data-label="Cách nói thường gặp">over budget, more expensive than expected</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.3 · Nhóm C – Đề nghị, quyết định và hành động tiếp theo</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-3-c"><span class="sub-num">4.3</span><span class="sub-t">Nhóm C – Đề nghị, quyết định và hành động tiếp theo</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-3-c"><div class="collapse-in"><div class="sub-body">
+<p>Đây là một trong những nhóm dễ mất điểm nhất vì bốn tầng thông tin rất dễ bị trộn lẫn:</p>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Vấn đề</strong>  →  <strong>Đề nghị</strong>  →  <strong>Quyết định</strong>  →  <strong>Hành động tiếp theo</strong></p></div></aside>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Tầng</th><th>Câu hỏi thường gặp</th><th>Ví dụ trong audio</th></tr></thead><tbody><tr><td data-label="Tầng">Vấn đề</td><td data-label="Câu hỏi thường gặp">What problem is mentioned?</td><td data-label="Ví dụ trong audio">The projector isn’t working.</td></tr><tr><td data-label="Tầng">Đề nghị</td><td data-label="Câu hỏi thường gặp">What does the man suggest?</td><td data-label="Ví dụ trong audio">How about moving to Room C?</td></tr><tr><td data-label="Tầng">Quyết định</td><td data-label="Câu hỏi thường gặp">What do the speakers decide to do?</td><td data-label="Ví dụ trong audio">Let’s use the training room.</td></tr><tr><td data-label="Tầng">Hành động tiếp theo</td><td data-label="Câu hỏi thường gặp">What will the man do next?</td><td data-label="Ví dụ trong audio">I’ll update the invitation.</td></tr></tbody></table></div>
+<div class="tbl-wrap"><table class="tbl lab-all cols-2"><thead><tr><th>Người nói tự nhận việc</th><th>Người nói nhờ / yêu cầu người khác</th></tr></thead><tbody><tr><td data-label="Người nói tự nhận việc">I’ll… / I’m going to…</td><td data-label="Người nói nhờ / yêu cầu người khác">Could you…?</td></tr><tr><td data-label="Người nói tự nhận việc">Let me…</td><td data-label="Người nói nhờ / yêu cầu người khác">Please…</td></tr><tr><td data-label="Người nói tự nhận việc">I’ll make sure… / I’ll check…</td><td data-label="Người nói nhờ / yêu cầu người khác">Would you mind…?</td></tr><tr><td data-label="Người nói tự nhận việc">I’ll send… / I’ll call…</td><td data-label="Người nói nhờ / yêu cầu người khác">We need you to…</td></tr></tbody></table></div>
+<p><strong>Câu hỏi cuối (câu 3) thường gặp</strong></p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Dạng câu hỏi</th><th>Câu hỏi thường gặp</th><th>Cụm cần nghe</th></tr></thead><tbody><tr><td data-label="Dạng câu hỏi"><strong>Đề nghị / đề xuất</strong></td><td data-label="Câu hỏi thường gặp"><em>What does the man / woman suggest?</em><br><em>… recommend? / … advise? / … propose?</em></td><td data-label="Cụm cần nghe"><em>I suggest that we… / How about…? / Maybe we should… / It would be a good idea to…</em></td></tr><tr><td data-label="Dạng câu hỏi"><strong>Đồng ý làm gì</strong></td><td data-label="Câu hỏi thường gặp"><em>What does the man / woman agree to do?</em></td><td data-label="Cụm cần nghe"><em>That sounds good. / I can do that. / All right, I’ll take care of it. / Sure, no problem.</em><br>Nghe cả lời đề nghị ngay trước đó để biết việc được đồng ý là gì.</td></tr><tr><td data-label="Dạng câu hỏi"><strong>Làm gì tiếp theo</strong></td><td data-label="Câu hỏi thường gặp"><em>What will the man / woman do next?</em></td><td data-label="Cụm cần nghe"><em>I’ll take care of it now. / I’m going to call them. / I’ll send the document right away.</em></td></tr><tr><td data-label="Dạng câu hỏi"><strong>Đi đâu tiếp theo</strong></td><td data-label="Câu hỏi thường gặp"><em>Where will the man / woman go next?</em></td><td data-label="Cụm cần nghe"><em>I’m heading to… / I have a meeting at… / I’ll be at the airport soon.</em></td></tr></tbody></table></div>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: hành động tiếp theo thường nằm ở 1–2 lượt cuối</strong></span></p><p>Nghe kỹ lời hứa, lời nhờ và quyết định ở cuối đoạn. Kiểm tra <strong>đúng chủ thể</strong>: nếu câu hỏi là <em>What will the man do next?</em> mà câu <em>I’ll send it</em> do <strong>người nữ</strong> nói, đó là việc của người nữ, không phải của người nam. Ngược lại, nếu người nữ <strong>nhờ người nam</strong> (<em>Could you send it?</em>) và người nam đồng ý, việc đó thuộc về người nam.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi <em>do next / plan to do / asked to do / agree to do</em>.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Một đề nghị <strong>đã bị bác bỏ</strong> thường có thể loại, nhưng đôi khi nó được <strong>đưa trở lại</strong> ở lượt sau. Ngoài ra, hành động có thể được hứa ở giữa đoạn và không đổi đến cuối.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.4 · Nhóm D – Suy luận và hàm ý câu nói</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-4-c"><span class="sub-num">4.4</span><span class="sub-t">Nhóm D – Suy luận và hàm ý câu nói</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-4-c"><div class="collapse-in"><div class="sub-body">
+<h4 class="h4"><strong>D1. Suy luận</strong></h4>
+<p>Câu hỏi thường gặp: <em>What is implied about…? / What can be inferred about…? / What is most likely true?</em></p>
+<p>Suy luận <strong>không</strong> có nghĩa là đoán xa. Đáp án đúng phải có căn cứ trong hội thoại, có thể phải <strong>ghép hai chi tiết</strong> ở hai lượt nói khác nhau.</p>
+<ol class="steps">
+<li><span class="n">1</span><span>Xác định <strong>đối tượng được hỏi</strong> (about what / about whom).</span></li>
+<li><span class="n">2</span><span>Tìm những chi tiết <strong>trực tiếp liên quan</strong>.</span></li>
+<li><span class="n">3</span><span>Ghép các chi tiết theo logic <strong>tối thiểu</strong>.</span></li>
+<li><span class="n">4</span><span>Loại đáp án cần thêm <strong>giả định</strong> không có trong audio.</span></li>
+</ol>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[W]:</span> Are we still using the same printing company for the brochures?</p><p><span class="tag">[M]:</span> We looked at three other suppliers, but none of them could meet our deadline.</p><p><span class="tag">[W]:</span> I see. Then I’ll send them the final file this afternoon.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> What is implied about the printing company?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">It will continue working with the speakers.</span></li><li data-opt="B"><span class="opt">B</span><span class="en">It has raised its prices.</span></li><li data-opt="C"><span class="opt">C</span><span class="en">It has moved to a new location.</span></li><li data-opt="D"><span class="opt">D</span><span class="en">It missed an earlier deadline.</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (A)</span></p><p><span class="tag">Giải thích:</span> Các nhà cung cấp khác không kịp hạn chót, và người nữ vẫn gửi file cuối cho công ty cũ → hợp lý nhất là tiếp tục hợp tác.</p><p><span class="tag">Bẫy:</span> (D) đảo chủ thể: người không kịp hạn chót là <strong>các nhà cung cấp khác</strong>.</p></div></details></div></div></aside>
+<h4 class="h4"><strong>D2. Hàm ý của câu nói</strong></h4>
+<p>Dạng <em>What does the woman mean when she says, "…"?</em> / <em>Why does the man say, "…"?</em> yêu cầu xác định <strong>chức năng giao tiếp</strong> của câu, không chỉ dịch nghĩa đen.</p>
+<ol class="steps">
+<li><span class="n">1</span><span><strong>Đọc câu hỏi trước</strong> để biết câu trích nào sẽ xuất hiện.</span></li>
+<li><span class="n">2</span><span>Nghe <strong>câu trước và câu sau</strong> câu trích — chức năng thường lộ ra ở đó.</span></li>
+<li><span class="n">3</span><span>Tự hỏi: <strong>người nói muốn đạt điều gì</strong> khi nói câu này?</span></li>
+<li><span class="n">4</span><span>Chọn đáp án mô tả <strong>chức năng</strong>, không chọn đáp án chỉ lặp lại từ trong câu trích.</span></li>
+</ol>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Chức năng</th><th>Ví dụ câu nói</th></tr></thead><tbody><tr><td data-label="Chức năng">Từ chối gián tiếp</td><td data-label="Ví dụ câu nói">I’d love to, but I have to finish this report.</td></tr><tr><td data-label="Chức năng">Đồng ý, tán thành</td><td data-label="Ví dụ câu nói">You’ve got a point there.</td></tr><tr><td data-label="Chức năng">Bất ngờ</td><td data-label="Ví dụ câu nói">Already? I thought it was next week.</td></tr><tr><td data-label="Chức năng">Lo lắng</td><td data-label="Ví dụ câu nói">That doesn’t give us much time.</td></tr><tr><td data-label="Chức năng">Sửa thông tin</td><td data-label="Ví dụ câu nói">Actually, it’s on the third floor.</td></tr><tr><td data-label="Chức năng">Giải thích lý do</td><td data-label="Ví dụ câu nói">I only got the figures an hour ago.</td></tr><tr><td data-label="Chức năng">Việc đã được xử lý</td><td data-label="Ví dụ câu nói">I’ve already taken care of it.</td></tr><tr><td data-label="Chức năng">Báo hiệu kế hoạch cần đổi</td><td data-label="Ví dụ câu nói">Room C only has ten seats, though.</td></tr></tbody></table></div>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Ví dụ: đồng ý hay phản đối?</strong></p><p><strong>W:</strong> Ted, we are understaffed today.</p><p><strong>M:</strong> Don’t worry, Jenny. I already asked the trainee chefs to help us out. By the way, could you supervise and support them?</p><p><strong>W:</strong> No problem. I’m sure they will be helpful. Meanwhile, they will get hands-on experience in the kitchen.</p><p><strong>M:</strong> You got a point there. I will be around the hall to set up the chairs and tables.</p><p><em>You got a point there</em> là cách nói thân mật của <strong>You’ve got a point there</strong> = <strong>bạn nói có lý</strong>. Nếu không biết cụm này, em sẽ khó xác định người nam đang <strong>tán thành</strong> hay <strong>phản đối</strong>. Cách xử lý: nghe <strong>câu tiếp theo</strong> — người nam chuyển sang việc của mình, không phản bác → đây là sự tán thành.</p><p>Nên học thêm các cấu trúc thể hiện đồng ý / từ chối như <strong>I’d love to, but I have to…</strong>, <strong>We used to, but…</strong></p></div></aside>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[M]:</span> Have you finished the sales report for the regional meeting?</p><p><span class="tag">[W]:</span> I only got the figures from the finance team an hour ago.</p><p><span class="tag">[M]:</span> I see. I’ll let the manager know we may need more time.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> What does the woman mean when she says, "I only got the figures from the finance team an hour ago"?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">The report is not ready yet.</span></li><li data-opt="B"><span class="opt">B</span><span class="en">The finance team made a mistake.</span></li><li data-opt="C"><span class="opt">C</span><span class="en">She has already submitted the report.</span></li><li data-opt="D"><span class="opt">D</span><span class="en">She does not need the figures.</span></li></ol><details class="answer" data-key="A"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (A)</span></p><p><span class="tag">Giải thích:</span> Câu nói giải thích <strong>lý do chưa xong báo cáo</strong>; câu sau <em>we may need more time</em> xác nhận cách hiểu này.</p><p><span class="tag">Bẫy:</span> (B), (D) chỉ dựa vào nghĩa đen của <em>finance team / figures</em> → <strong>bẫy nghĩa đen</strong>.</p></div></details></div></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-4-5"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">4.5 · Nhóm E – Câu hỏi kết hợp graphic</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-4-5">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-4-5-c"><span class="sub-num">4.5</span><span class="sub-t">Nhóm E – Câu hỏi kết hợp graphic</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-4-5-c"><div class="collapse-in"><div class="sub-body">
+<p>Em phải ghép <strong>hai nguồn</strong>: điều kiện hoặc thay đổi nghe được + dữ liệu nhìn thấy trong graphic. Graphic có thể là lịch, lịch trình, bảng giá, danh sách sản phẩm, sơ đồ, bản đồ, phiếu đặt hàng hoặc biểu đồ đơn giản.</p>
+<ol class="steps">
+<li><span class="n">1</span><span>Đọc <strong>tiêu đề</strong> và <strong>tên cột / đơn vị</strong> của graphic.</span></li>
+<li><span class="n">2</span><span>Đọc câu hỏi để biết cần nhìn <strong>phần nào</strong> của graphic.</span></li>
+<li><span class="n">3</span><span>Nghe <strong>điều kiện, lựa chọn hoặc thay đổi</strong> trong hội thoại.</span></li>
+<li><span class="n">4</span><span>Đối chiếu với graphic rồi mới chọn.</span></li>
+</ol>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: thông tin đọc thẳng trong audio chưa chắc là đáp án</strong></span></p><p>Với câu graphic, đáp án thường là thông tin ở <strong>cột khác</strong> với thông tin được nghe. Ví dụ audio nói tên dịch vụ, câu hỏi lại hỏi giá.</p><p><span class="tag">Phạm vi áp dụng:</span> Câu hỏi bắt đầu bằng <em>Look at the graphic.</em></p><p><span class="tag">Ngoại lệ cần nhớ:</span> Có lúc thông tin được nói thẳng lại chính là đáp án (ví dụ câu hỏi hỏi tên dịch vụ, audio nói tên dịch vụ). Hãy đọc kỹ câu hỏi đang hỏi cột nào.</p></div></aside>
+<p><strong>Delivery Options</strong> (graphic đi kèm câu hỏi)</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Service</th><th>Delivery time</th><th>Price</th></tr></thead><tbody><tr><td data-label="Service">Standard</td><td data-label="Delivery time">5 business days</td><td data-label="Price">$10</td></tr><tr><td data-label="Service">Express</td><td data-label="Delivery time">2 business days</td><td data-label="Price">$25</td></tr><tr><td data-label="Service">Overnight</td><td data-label="Delivery time">1 business day</td><td data-label="Price">$40</td></tr><tr><td data-label="Service">Same-day</td><td data-label="Delivery time">Within 6 hours</td><td data-label="Price">$60</td></tr></tbody></table></div>
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Conversation</strong></p><p><span class="tag">[W]:</span> I need these contracts to reach our Da Nang office by tomorrow morning.</p><p><span class="tag">[M]:</span> Then overnight service would work. That would be forty dollars.</p><p><span class="tag">[W]:</span> Actually, the client just brought the meeting forward. Could you make it same-day instead?</p><p><span class="tag">[M]:</span> Of course. I’ll arrange that right now.</p><div class="qgroup"><p class="q-prompt"><strong>Question.</strong> Look at the graphic. How much will the woman most likely pay?</p><ol class="options"><li data-opt="A"><span class="opt">A</span><span class="en">$10</span></li><li data-opt="B"><span class="opt">B</span><span class="en">$25</span></li><li data-opt="C"><span class="opt">C</span><span class="en">$40</span></li><li data-opt="D"><span class="opt">D</span><span class="en">$60</span></li></ol><details class="answer" data-key="D"><summary><span class="s-closed">Xem đáp án và giải thích</span><span class="s-open">Ẩn đáp án</span></summary><div class="ans-body"><p><span class="tag tag-ok">Đáp án: (D)</span></p><p><span class="tag">Giải thích:</span> <em>Actually</em> cập nhật điều kiện: đổi sang <em>same-day</em>. Đối chiếu bảng → <strong>$60</strong>.</p><p><span class="tag">Bẫy:</span> $40 được nói thẳng trong audio nhưng thuộc phương án <em>overnight</em> đã bị thay đổi.</p></div></details></div></div></aside>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-5"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 5 · Paraphrase, từ chuyển ý và thông tin nằm rải ở nhiều lượt nói</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-5">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-5-c"><span class="part-num"><small>Phần</small> 5</span><span class="part-tt"><span class="part-t">Paraphrase, từ chuyển ý và thông tin nằm rải ở nhiều lượt nói</span><span class="part-meta">4 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-5-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-5-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-1-c"><span class="sub-num">5.1</span><span class="sub-t">Paraphrase: hiểu ý, không săn từ giống hệt</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-1-c"><div class="collapse-in"><div class="sub-body">
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: đáp án đúng thường diễn đạt lại ý của audio</strong></span></p><p>Từ trùng khớp chưa phải bằng chứng đủ; ngược lại, một đáp án dùng từ khác hoàn toàn vẫn có thể đúng nếu <strong>cùng nghĩa trong ngữ cảnh</strong>. Vì vậy, đừng chỉ nghe từ khóa — hãy hiểu từng ý.</p><p><span class="tag">Phạm vi áp dụng:</span> Đặc biệt với câu hỏi ý chính, vấn đề, suy luận, hành động tiếp theo.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> Với câu hỏi về <strong>tên riêng, con số, sản phẩm cụ thể</strong>, đáp án đúng có thể <strong>giữ nguyên từ</strong> trong audio. Từ trùng không tự động là bẫy — chỉ là chưa đủ để kết luận.</p></div></aside>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Cách nói trong audio</th><th>Cách diễn đạt trong đáp án</th></tr></thead><tbody><tr><td data-label="Cách nói trong audio">The shipment is still at our warehouse.</td><td data-label="Cách diễn đạt trong đáp án">An order has been delayed.</td></tr><tr><td data-label="Cách nói trong audio">We are understaffed today.</td><td data-label="Cách diễn đạt trong đáp án">The team needs more workers.</td></tr><tr><td data-label="Cách nói trong audio">Do you have the receipt?</td><td data-label="Cách diễn đạt trong đáp án">He asks for proof of purchase.</td></tr><tr><td data-label="Cách nói trong audio">I’ll send you the tracking number.</td><td data-label="Cách diễn đạt trong đáp án">He will provide shipping information.</td></tr><tr><td data-label="Cách nói trong audio">Could you update the calendar invitation?</td><td data-label="Cách diễn đạt trong đáp án">She asks him to change a schedule.</td></tr><tr><td data-label="Cách nói trong audio">The projector isn’t working.</td><td data-label="Cách diễn đạt trong đáp án">A piece of equipment is broken.</td></tr><tr><td data-label="Cách nói trong audio">We’ve run out of brochures.</td><td data-label="Cách diễn đạt trong đáp án">An item is no longer available.</td></tr><tr><td data-label="Cách nói trong audio">I’ll let the manager know.</td><td data-label="Cách diễn đạt trong đáp án">He will inform a supervisor.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.2 · Các cặp từ thường được thay thế — chỉ tương đương trong đúng ngữ cảnh</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-2-c"><span class="sub-num">5.2</span><span class="sub-t">Các cặp từ thường được thay thế — chỉ tương đương trong đúng ngữ cảnh</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-4"><thead><tr><th>Audio</th><th>Đáp án</th><th>Nghĩa</th><th>Ngữ cảnh tương đương</th></tr></thead><tbody><tr><td data-label="Audio">buy</td><td data-label="Đáp án">purchase</td><td data-label="Nghĩa">mua</td><td data-label="Ngữ cảnh tương đương">Mua hàng, mua sắm</td></tr><tr><td data-label="Audio">repair</td><td data-label="Đáp án">fix</td><td data-label="Nghĩa">sửa</td><td data-label="Ngữ cảnh tương đương">Sửa thiết bị, máy móc</td></tr><tr><td data-label="Audio">choose</td><td data-label="Đáp án">select</td><td data-label="Nghĩa">chọn</td><td data-label="Ngữ cảnh tương đương">Chọn sản phẩm, phương án</td></tr><tr><td data-label="Audio">reduce</td><td data-label="Đáp án">lower</td><td data-label="Nghĩa">giảm</td><td data-label="Ngữ cảnh tương đương">Giảm giá, giảm số lượng</td></tr><tr><td data-label="Audio">cancel</td><td data-label="Đáp án">call off</td><td data-label="Nghĩa">hủy</td><td data-label="Ngữ cảnh tương đương">Hủy sự kiện, kế hoạch</td></tr><tr><td data-label="Audio">contact</td><td data-label="Đáp án">get in touch with</td><td data-label="Nghĩa">liên lạc</td><td data-label="Ngữ cảnh tương đương">Liên hệ với người / bộ phận</td></tr><tr><td data-label="Audio">out of stock</td><td data-label="Đáp án">not available</td><td data-label="Nghĩa">không còn hàng</td><td data-label="Ngữ cảnh tương đương">Hàng hóa trong cửa hàng, kho</td></tr><tr><td data-label="Audio">fully booked</td><td data-label="Đáp án">no rooms / seats available</td><td data-label="Nghĩa">kín chỗ</td><td data-label="Ngữ cảnh tương đương">Khách sạn, nhà hàng, sự kiện</td></tr><tr><td data-label="Audio">reschedule</td><td data-label="Đáp án">arrange for a different time</td><td data-label="Nghĩa">dời lịch</td><td data-label="Ngữ cảnh tương đương">Lịch hẹn, cuộc họp</td></tr></tbody></table></div>
+<p><span class="tag">Lưu ý:</span> <em>available</em> không phải lúc nào cũng là "còn hàng". <em>Is Mr. Lee available?</em> nghĩa là "Ông Lee có rảnh không?". Hãy học cặp từ <strong>kèm ngữ cảnh</strong>.</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.3 · Từ chuyển ý: hiểu chức năng, không học như công thức</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-3-c"><span class="sub-num">5.3</span><span class="sub-t">Từ chuyển ý: hiểu chức năng, không học như công thức</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-3-c"><div class="collapse-in"><div class="sub-body">
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Ví dụ: từ khóa được lặp lại trong hai ngữ cảnh</strong></p><p>The new store was scheduled to open today, but there has been a delay. However, the doors will open to the public this Friday.</p><p><span class="tag">Question:</span> When will the new store open?</p><p>Từ khóa <em>open</em> xuất hiện với hai mốc: <em>today</em> và <em>this Friday</em>. Từ <strong>but</strong> cho biết kế hoạch <em>today</em> không còn hiệu lực, và câu sau xác nhận mốc mới → <strong>this Friday</strong>.</p></div></aside>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Tín hiệu</th><th>Chức năng thường gặp</th><th>Em cần làm gì</th></tr></thead><tbody><tr><td data-label="Tín hiệu">but / however / though / in contrast</td><td data-label="Chức năng thường gặp">Đối lập hoặc giới hạn thông tin trước</td><td data-label="Em cần làm gì">Xác định chính xác <strong>phần nào</strong> bị thay đổi; đừng mặc định toàn bộ ý trước đều sai</td></tr><tr><td data-label="Tín hiệu">actually</td><td data-label="Chức năng thường gặp">Sửa, cập nhật hoặc làm rõ</td><td data-label="Em cần làm gì">Nếu nó sửa trực tiếp chi tiết cũ, bám theo thông tin mới</td></tr><tr><td data-label="Tín hiệu">instead</td><td data-label="Chức năng thường gặp">Thay phương án</td><td data-label="Em cần làm gì">Theo dõi lựa chọn mới</td></tr><tr><td data-label="Tín hiệu">in that case</td><td data-label="Chức năng thường gặp">Ra quyết định dựa trên điều kiện vừa nghe</td><td data-label="Em cần làm gì">Nghe giải pháp / hành động ngay sau đó</td></tr><tr><td data-label="Tín hiệu">so / then</td><td data-label="Chức năng thường gặp">Kết quả hoặc bước tiếp theo</td><td data-label="Em cần làm gì">Nối vấn đề với quyết định</td></tr><tr><td data-label="Tín hiệu">because / since / due to</td><td data-label="Chức năng thường gặp">Lý do</td><td data-label="Em cần làm gì">Gắn nguyên nhân với đúng sự việc</td></tr><tr><td data-label="Tín hiệu">and / also / plus / as well as / by the way</td><td data-label="Chức năng thường gặp">Bổ sung hoặc chuyển sang chi tiết khác</td><td data-label="Em cần làm gì">Kiểm tra câu hỏi đang hỏi ý nào</td></tr></tbody></table></div>
+<aside class="callout c-tip no-head"><div class="c-body"><p><span class="c-amb"><strong>Lưu ý: từ chuyển ý là tín hiệu cần kiểm tra kỹ</strong></span></p><p>Khi nghe các từ trên, hãy chú ý hơn vì thông tin phía sau <strong>thường</strong> bổ sung, sửa hoặc chốt lại điều vừa nói.</p><p><span class="tag">Phạm vi áp dụng:</span> Mọi dạng câu hỏi, đặc biệt câu hỏi chi tiết, quyết định và graphic.</p><p><span class="tag">Ngoại lệ cần nhớ:</span> <em>but</em> có thể chỉ thêm một ý đối lập nhỏ mà <strong>không thay đổi</strong> thông tin được hỏi (ví dụ "The room is small, but it has a projector" — số chỗ ngồi vẫn không đổi). Hãy đối chiếu lại với câu hỏi.</p></div></aside>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-5-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">5.4 · Thông tin nằm rải ở nhiều lượt nói</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-5-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-5-4-c"><span class="sub-num">5.4</span><span class="sub-t">Thông tin nằm rải ở nhiều lượt nói</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-5-4-c"><div class="collapse-in"><div class="sub-body">
+<p>Một câu hỏi không phải lúc nào cũng được trả lời bởi một câu duy nhất. Với câu suy luận, graphic hoặc quyết định, em thường phải ghép: <strong>người A nêu điều kiện → người B nêu phương án → người A sửa điều kiện → người B chốt hành động</strong>.</p>
+<p>Khi chưa thấy câu nào trong audio "khớp" với đáp án, hãy tự hỏi: <em>đáp án này có phải là kết quả của hai chi tiết ghép lại không?</em></p>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-6"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 6 · Hệ thống bẫy và chiến thuật loại trừ</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-6">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-6-c"><span class="part-num"><small>Phần</small> 6</span><span class="part-tt"><span class="part-t">Hệ thống bẫy và chiến thuật loại trừ</span><span class="part-meta">1 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-6-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><p>Đáp án nhiễu trong Part 3 thường <strong>không vô lý</strong>. Nó hay lấy một chi tiết <strong>có thật</strong> trong audio rồi gắn sai chủ thể, sai thời điểm, sai chức năng hoặc sai giai đoạn của hội thoại.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Loại bẫy</th><th>Bản chất</th><th>Cách loại</th></tr></thead><tbody><tr><td data-label="Loại bẫy">Lặp từ khóa</td><td data-label="Bản chất">Từ trong đáp án có trong audio nhưng sai ý</td><td data-label="Cách loại">So nghĩa cả câu; không chọn chỉ vì trùng từ</td></tr><tr><td data-label="Loại bẫy">Thông tin ban đầu</td><td data-label="Bản chất">Kế hoạch cũ đã bị thay đổi phía sau</td><td data-label="Cách loại">Theo dõi từ chuyển ý và quyết định cuối</td></tr><tr><td data-label="Loại bẫy">Sai người nói</td><td data-label="Bản chất">Gán hành động của người A cho người B</td><td data-label="Cách loại">Xác định đúng chủ thể trước khi chọn</td></tr><tr><td data-label="Loại bẫy">Sai con số / thời gian</td><td data-label="Bản chất">Số có thật nhưng gắn với sự việc khác</td><td data-label="Cách loại">Gắn mỗi số với danh từ đi kèm</td></tr><tr><td data-label="Loại bẫy">Sai địa điểm</td><td data-label="Bản chất">Nhầm nơi hiện tại với nơi sẽ đến</td><td data-label="Cách loại">Đọc kỹ <em>Where are…</em> hay <em>Where will…</em></td></tr><tr><td data-label="Loại bẫy">Sai nguyên nhân</td><td data-label="Bản chất">Vấn đề có liên quan nhưng không phải lý do trực tiếp</td><td data-label="Cách loại">Tìm quan hệ nguyên nhân rõ (because, since, due to…)</td></tr><tr><td data-label="Loại bẫy">Thông tin thừa</td><td data-label="Bản chất">Nhiều chi tiết mô tả không liên quan câu hỏi</td><td data-label="Cách loại">Đọc trước câu hỏi, chỉ tập trung vào điều được hỏi</td></tr><tr><td data-label="Loại bẫy">Nghĩa đen</td><td data-label="Bản chất">Dịch đúng câu nhưng sai hàm ý</td><td data-label="Cách loại">Xác định chức năng giao tiếp của câu</td></tr><tr><td data-label="Loại bẫy">Suy luận quá mức</td><td data-label="Bản chất">Nghe hợp lý ngoài đời nhưng thiếu căn cứ</td><td data-label="Cách loại">Chỉ giữ đáp án có căn cứ trong audio</td></tr><tr><td data-label="Loại bẫy">Phủ định</td><td data-label="Bản chất">Bỏ sót not / no longer / unavailable / unless / until</td><td data-label="Cách loại">Nghe trọn cụm động từ</td></tr><tr><td data-label="Loại bẫy">Graphic</td><td data-label="Bản chất">Chỉ nhìn bảng hoặc chỉ nghe audio</td><td data-label="Cách loại">Ghép cả hai nguồn trước khi chọn</td></tr><tr><td data-label="Loại bẫy">Hội thoại ba người</td><td data-label="Bản chất">Nhầm vai trò, ý kiến hoặc việc của từng người</td><td data-label="Cách loại">Gán nhãn M1 / M2 / W và theo dõi ai nhận việc</td></tr></tbody></table></div></div>
+<section class="sub" id="muc-6-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-6-1-c"><span class="sub-num">6.1</span><span class="sub-t">Bốn câu hỏi kiểm tra trước khi chốt đáp án</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-6-1-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Đáp án có trả lời đúng <strong>ai / cái gì / khi nào / ở đâu</strong> mà câu hỏi hỏi không?</span></li>
+<li><span class="n">2</span><span>Thông tin đó <strong>còn hiệu lực</strong> ở cuối hội thoại không, hay đã bị sửa?</span></li>
+<li><span class="n">3</span><span>Đáp án có <strong>căn cứ trong audio</strong>, hay chỉ "nghe có vẻ hợp lý"?</span></li>
+<li><span class="n">4</span><span>Đáp án là <strong>paraphrase đúng</strong>, hay chỉ lặp lại từ khóa?</span></li>
+</ol>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-7"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 7 · Kỹ thuật ghi chú – công cụ luyện tập</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-7">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-7-c"><span class="part-num"><small>Phần</small> 7</span><span class="part-tt"><span class="part-t">Kỹ thuật ghi chú – công cụ luyện tập</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-7-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><aside class="callout c-warn no-head"><div class="c-body"><p><strong>Lưu ý quan trọng về phòng thi</strong></p><p>Khi thi trên máy tính, thí sinh <strong>không được dùng giấy nháp</strong>; khi thi trên giấy, không được ghi chú, gạch chân hay đánh dấu bất kỳ điều gì vào đề thi và answer sheet, kể cả một dấu chấm. Vì vậy, kỹ thuật ghi chú dưới đây là <strong>công cụ luyện tập ở nhà</strong>: nó rèn cho em thói quen tách "ai nói gì", để khi vào phòng thi em làm việc đó <strong>trong đầu</strong>.</p></div></aside></div>
+<section class="sub" id="muc-7-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-7-1-c"><span class="sub-num">7.1</span><span class="sub-t">Chia đôi trang giấy khi mới tập nghe</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-7-1-c"><div class="collapse-in"><div class="sub-body">
+<p>Với hội thoại hai người, kẻ một đường chia đôi trang giấy: <strong>bên trái</strong> ghi những gì người nam nói, <strong>bên phải</strong> ghi những gì người nữ nói. Cách này giúp em vừa hiểu nội dung, vừa nắm được <strong>ý nào do ai nói</strong>. Với hội thoại ba người, chia <strong>ba cột</strong>.</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>[M] Người nam</th><th>[W] Người nữ</th></tr></thead><tbody><tr><td data-label="[M] Người nam">shipment still at warehouse</td><td data-label="[W] Người nữ">chairs late, need before Fri</td></tr><tr><td data-label="[M] Người nam">→ express delivery + tracking number</td><td data-label="[W] Người nữ">new staff start Mon</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-7-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">7.2 · Ký hiệu gợi ý</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-7-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-7-2-c"><span class="sub-num">7.2</span><span class="sub-t">Ký hiệu gợi ý</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-7-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-4"><thead><tr><th>Ký hiệu</th><th>Ý nghĩa</th><th>Ký hiệu</th><th>Ý nghĩa</th></tr></thead><tbody><tr><td data-label="Ký hiệu">M / W</td><td data-label="Ý nghĩa">người nam / người nữ</td><td data-label="Ký hiệu">T</td><td data-label="Ý nghĩa">thời gian</td></tr><tr><td data-label="Ký hiệu">M1 / M2 / W1 / W2</td><td data-label="Ý nghĩa">phân biệt nhiều giọng</td><td data-label="Ký hiệu">L</td><td data-label="Ý nghĩa">địa điểm</td></tr><tr><td data-label="Ký hiệu">P</td><td data-label="Ý nghĩa">vấn đề (problem)</td><td data-label="Ký hiệu">N</td><td data-label="Ý nghĩa">hành động tiếp theo</td></tr><tr><td data-label="Ký hiệu">S</td><td data-label="Ý nghĩa">giải pháp (solution)</td><td data-label="Ký hiệu">→</td><td data-label="Ý nghĩa">dẫn đến / chuyển sang</td></tr><tr><td data-label="Ký hiệu">old → new</td><td data-label="Ý nghĩa">thông tin bị thay đổi</td><td data-label="Ký hiệu">?</td><td data-label="Ý nghĩa">chưa chắc</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-7-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">7.3 · Ghi gì và không ghi gì</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-7-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-7-3-c"><span class="sub-num">7.3</span><span class="sub-t">Ghi gì và không ghi gì</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-7-3-c"><div class="collapse-in"><div class="sub-body">
+<ul class="bullets"><li>Ghi: <strong>người nói + thay đổi quan trọng + hành động tiếp theo</strong>.</li><li>Không chép nguyên câu; chỉ 1–3 từ khóa cho mỗi ý.</li><li>Với ba người, ghi <strong>nhãn người nói trước</strong>, nội dung sau.</li><li>Nếu việc viết làm em bỏ lỡ audio, <strong>dừng ghi</strong> — nghe quan trọng hơn viết.</li><li>Sau vài tuần, giảm dần ghi chú và tập <strong>giữ thông tin trong đầu</strong> như trong phòng thi.</li></ul>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-8"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 8 · Bối cảnh, cụm từ và mẫu câu trọng tâm</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-8">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-8-c"><span class="part-num"><small>Phần</small> 8</span><span class="part-tt"><span class="part-t">Bối cảnh, cụm từ và mẫu câu trọng tâm</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-8-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-8-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-8-1-c"><span class="sub-num">8.1</span><span class="sub-t">Bối cảnh thường gặp</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-8-1-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Bối cảnh</th><th>Vai trò thường gặp</th><th>Chủ đề thường gặp</th></tr></thead><tbody><tr><td data-label="Bối cảnh">Văn phòng, cuộc họp</td><td data-label="Vai trò thường gặp">Đồng nghiệp, quản lý – nhân viên</td><td data-label="Chủ đề thường gặp">Hạn chót, phân công, đổi phòng họp, đổi lịch</td></tr><tr><td data-label="Bối cảnh">Tuyển dụng, đào tạo</td><td data-label="Vai trò thường gặp">Bộ phận nhân sự, ứng viên, nhân viên mới</td><td data-label="Chủ đề thường gặp">Phỏng vấn, buổi định hướng, tập huấn</td></tr><tr><td data-label="Bối cảnh">Bán lẻ, mua hàng</td><td data-label="Vai trò thường gặp">Khách hàng – nhân viên bán hàng</td><td data-label="Chủ đề thường gặp">Đổi trả, hết hàng, giảm giá</td></tr><tr><td data-label="Bối cảnh">Giao hàng, kho hàng</td><td data-label="Vai trò thường gặp">Nhà cung cấp – khách hàng</td><td data-label="Chủ đề thường gặp">Đơn hàng trễ, theo dõi lô hàng</td></tr><tr><td data-label="Bối cảnh">Nhà hàng, khách sạn</td><td data-label="Vai trò thường gặp">Lễ tân, quản lý, khách</td><td data-label="Chủ đề thường gặp">Đặt chỗ, nhận phòng, thiếu nhân sự</td></tr><tr><td data-label="Bối cảnh">Sân bay, đi lại</td><td data-label="Vai trò thường gặp">Nhân viên hãng bay, hành khách</td><td data-label="Chủ đề thường gặp">Hoãn, hủy, đổi chuyến</td></tr><tr><td data-label="Bối cảnh">Bảo trì, thiết bị</td><td data-label="Vai trò thường gặp">Kỹ thuật viên, nhân viên văn phòng</td><td data-label="Chủ đề thường gặp">Máy hỏng, hẹn lịch sửa</td></tr><tr><td data-label="Bối cảnh">Dịch vụ khách hàng</td><td data-label="Vai trò thường gặp">Tổng đài viên, khách hàng</td><td data-label="Chủ đề thường gặp">Khiếu nại, hoàn tiền, phản hồi sau</td></tr><tr><td data-label="Bối cảnh">Sự kiện, tiếp thị</td><td data-label="Vai trò thường gặp">Ban tổ chức, nhân viên marketing</td><td data-label="Chủ đề thường gặp">Hội nghị, ra mắt sản phẩm, chiến dịch quảng cáo</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-8-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">8.2 · Cụm từ trọng tâm</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-8-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-8-2-c"><span class="sub-num">8.2</span><span class="sub-t">Cụm từ trọng tâm</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-8-2-c"><div class="collapse-in"><div class="sub-body">
+<p>Học theo <strong>cụm</strong>, không học từ đơn. Nghe ra cụm nghĩa là nghe ra ý.</p>
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Cụm từ</th><th>Nghĩa</th><th>Ví dụ trong ngữ cảnh</th></tr></thead><tbody><tr><td data-label="Cụm từ">be in charge of</td><td data-label="Nghĩa">phụ trách, chịu trách nhiệm về</td><td data-label="Ví dụ trong ngữ cảnh">Who will be in charge of the new project?</td></tr><tr><td data-label="Cụm từ">go over something</td><td data-label="Nghĩa">xem kỹ, rà soát lại</td><td data-label="Ví dụ trong ngữ cảnh">Let’s go over the budget before the meeting.</td></tr><tr><td data-label="Cụm từ">push back (a meeting)</td><td data-label="Nghĩa">lùi sang thời điểm muộn hơn</td><td data-label="Ví dụ trong ngữ cảnh">The meeting has been pushed back to 3 p.m.</td></tr><tr><td data-label="Cụm từ">bring forward (a meeting)</td><td data-label="Nghĩa">dời lên sớm hơn dự kiến</td><td data-label="Ví dụ trong ngữ cảnh">The client brought the meeting forward to Monday.</td></tr><tr><td data-label="Cụm từ">be tied up</td><td data-label="Nghĩa">đang bận, không rảnh</td><td data-label="Ví dụ trong ngữ cảnh">I’m tied up all morning.</td></tr><tr><td data-label="Cụm từ">hands-on experience</td><td data-label="Nghĩa">kinh nghiệm thực tế</td><td data-label="Ví dụ trong ngữ cảnh">Trainees will get hands-on experience.</td></tr><tr><td data-label="Cụm từ">understaffed / short-handed</td><td data-label="Nghĩa">thiếu nhân sự</td><td data-label="Ví dụ trong ngữ cảnh">We’re short-handed in the kitchen today.</td></tr><tr><td data-label="Cụm từ">behind schedule</td><td data-label="Nghĩa">chậm tiến độ</td><td data-label="Ví dụ trong ngữ cảnh">The renovation is behind schedule.</td></tr><tr><td data-label="Cụm từ">over budget / within budget</td><td data-label="Nghĩa">vượt ngân sách / trong ngân sách</td><td data-label="Ví dụ trong ngữ cảnh">The project is already over budget.</td></tr><tr><td data-label="Cụm từ">place an order</td><td data-label="Nghĩa">đặt hàng</td><td data-label="Ví dụ trong ngữ cảnh">I’d like to place an order for printer paper.</td></tr><tr><td data-label="Cụm từ">out of stock</td><td data-label="Nghĩa">hết hàng</td><td data-label="Ví dụ trong ngữ cảnh">That model is out of stock.</td></tr><tr><td data-label="Cụm từ">run out of</td><td data-label="Nghĩa">hết, cạn (vật tư, thời gian)</td><td data-label="Ví dụ trong ngữ cảnh">We’ve run out of brochures.</td></tr><tr><td data-label="Cụm từ">tracking number</td><td data-label="Nghĩa">mã vận đơn (mã theo dõi đơn hàng)</td><td data-label="Ví dụ trong ngữ cảnh">I’ll e-mail you the tracking number.</td></tr><tr><td data-label="Cụm từ">exchange (an item)</td><td data-label="Nghĩa">đổi (món hàng) lấy món khác</td><td data-label="Ví dụ trong ngữ cảnh">Could I exchange it for a larger size?</td></tr><tr><td data-label="Cụm từ">proof of purchase</td><td data-label="Nghĩa">bằng chứng mua hàng (hóa đơn, biên lai)</td><td data-label="Ví dụ trong ngữ cảnh">Please bring proof of purchase.</td></tr><tr><td data-label="Cụm từ">receive a (full) refund</td><td data-label="Nghĩa">được hoàn tiền (toàn bộ)</td><td data-label="Ví dụ trong ngữ cảnh">You’ll receive a full refund.</td></tr><tr><td data-label="Cụm từ">make a reservation</td><td data-label="Nghĩa">đặt chỗ trước</td><td data-label="Ví dụ trong ngữ cảnh">I’d like to make a reservation for four.</td></tr><tr><td data-label="Cụm từ">fully booked</td><td data-label="Nghĩa">kín chỗ, hết chỗ</td><td data-label="Ví dụ trong ngữ cảnh">The hotel is fully booked this weekend.</td></tr><tr><td data-label="Cụm từ">out of order</td><td data-label="Nghĩa">bị hỏng, không hoạt động</td><td data-label="Ví dụ trong ngữ cảnh">The copier is out of order again.</td></tr><tr><td data-label="Cụm từ">file / make a complaint</td><td data-label="Nghĩa">gửi / đưa ra khiếu nại</td><td data-label="Ví dụ trong ngữ cảnh">A customer filed a complaint yesterday.</td></tr><tr><td data-label="Cụm từ">look into something</td><td data-label="Nghĩa">xem xét, tìm hiểu (vấn đề)</td><td data-label="Ví dụ trong ngữ cảnh">I’ll look into the problem right away.</td></tr><tr><td data-label="Cụm từ">follow up (on something)</td><td data-label="Nghĩa">theo dõi tiếp, xử lý tiếp</td><td data-label="Ví dụ trong ngữ cảnh">I’ll follow up on your request tomorrow.</td></tr><tr><td data-label="Cụm từ">take care of something</td><td data-label="Nghĩa">lo liệu, xử lý (việc gì)</td><td data-label="Ví dụ trong ngữ cảnh">Don’t worry, I’ll take care of it.</td></tr><tr><td data-label="Cụm từ">get in touch with</td><td data-label="Nghĩa">liên lạc với</td><td data-label="Ví dụ trong ngữ cảnh">Please get in touch with the supplier.</td></tr><tr><td data-label="Cụm từ">get back to someone</td><td data-label="Nghĩa">phản hồi lại (ai) sau</td><td data-label="Ví dụ trong ngữ cảnh">I’ll get back to you this afternoon.</td></tr><tr><td data-label="Cụm từ">call off</td><td data-label="Nghĩa">hủy (sự kiện, kế hoạch)</td><td data-label="Ví dụ trong ngữ cảnh">They called off the outdoor event.</td></tr><tr><td data-label="Cụm từ">keynote speech</td><td data-label="Nghĩa">bài phát biểu chính (của sự kiện)</td><td data-label="Ví dụ trong ngữ cảnh">The keynote speech starts at 9 a.m.</td></tr><tr><td data-label="Cụm từ">launch a campaign</td><td data-label="Nghĩa">phát động một chiến dịch</td><td data-label="Ví dụ trong ngữ cảnh">We’ll launch a new advertising campaign.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-8-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">8.3 · Mẫu câu nên nhận ra nhanh</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-8-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-8-3-c"><span class="sub-num">8.3</span><span class="sub-t">Mẫu câu nên nhận ra nhanh</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-8-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Mẫu câu</th><th>Chức năng</th><th>Dạng câu hỏi dễ liên quan</th></tr></thead><tbody><tr><td data-label="Mẫu câu">I’m calling about…</td><td data-label="Chức năng">Nêu mục đích cuộc gọi</td><td data-label="Dạng câu hỏi dễ liên quan">Why is the woman calling?</td></tr><tr><td data-label="Mẫu câu">I’d like to…</td><td data-label="Chức năng">Nêu yêu cầu</td><td data-label="Dạng câu hỏi dễ liên quan">What does the woman want to do?</td></tr><tr><td data-label="Mẫu câu">I’m afraid…</td><td data-label="Chức năng">Báo tin không thuận lợi</td><td data-label="Dạng câu hỏi dễ liên quan">What problem is mentioned?</td></tr><tr><td data-label="Mẫu câu">There seems to be a problem with…</td><td data-label="Chức năng">Nêu vấn đề một cách lịch sự</td><td data-label="Dạng câu hỏi dễ liên quan">What problem is mentioned?</td></tr><tr><td data-label="Mẫu câu">I was wondering if…</td><td data-label="Chức năng">Đề nghị, hỏi một cách lịch sự</td><td data-label="Dạng câu hỏi dễ liên quan">What does the man ask about?</td></tr><tr><td data-label="Mẫu câu">Would it be possible to…?</td><td data-label="Chức năng">Xin phép, đề nghị</td><td data-label="Dạng câu hỏi dễ liên quan">What does the woman request?</td></tr><tr><td data-label="Mẫu câu">Why don’t we…? / How about…?</td><td data-label="Chức năng">Gợi ý phương án</td><td data-label="Dạng câu hỏi dễ liên quan">What does the man suggest?</td></tr><tr><td data-label="Mẫu câu">Let me check…</td><td data-label="Chức năng">Nhận việc kiểm tra</td><td data-label="Dạng câu hỏi dễ liên quan">What will the man do next?</td></tr><tr><td data-label="Mẫu câu">I’ll take care of it.</td><td data-label="Chức năng">Nhận xử lý việc</td><td data-label="Dạng câu hỏi dễ liên quan">What does the man offer to do?</td></tr><tr><td data-label="Mẫu câu">I’ll get back to you.</td><td data-label="Chức năng">Hứa phản hồi sau</td><td data-label="Dạng câu hỏi dễ liên quan">What will the woman do next?</td></tr><tr><td data-label="Mẫu câu">It turns out that…</td><td data-label="Chức năng">Nêu thông tin mới phát hiện</td><td data-label="Dạng câu hỏi dễ liên quan">What is implied? / What problem…?</td></tr><tr><td data-label="Mẫu câu">In that case…</td><td data-label="Chức năng">Quyết định theo điều kiện vừa nghe</td><td data-label="Dạng câu hỏi dễ liên quan">What will the speakers do?</td></tr><tr><td data-label="Mẫu câu">I’d rather…</td><td data-label="Chức năng">Nêu lựa chọn mình thích hơn</td><td data-label="Dạng câu hỏi dễ liên quan">What does the woman prefer?</td></tr><tr><td data-label="Mẫu câu">Could you make sure…?</td><td data-label="Chức năng">Yêu cầu người khác làm</td><td data-label="Dạng câu hỏi dễ liên quan">What is the man asked to do?</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-9"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 9 · Lỗi học viên thường mắc</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-9">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-9-c"><span class="part-num"><small>Phần</small> 9</span><span class="part-tt"><span class="part-t">Lỗi học viên thường mắc</span><span class="part-meta">Bấm để đọc</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-9-c"><div class="collapse-in"><div class="part-body">
+<div class="part-intro"><div class="tbl-wrap"><table class="tbl cols-3"><thead><tr><th>Lỗi</th><th>Vì sao mất điểm</th><th>Cách sửa</th></tr></thead><tbody><tr><td data-label="Lỗi">Không đọc trước câu hỏi</td><td data-label="Vì sao mất điểm">Không biết cần bắt thông tin gì</td><td data-label="Cách sửa">Đọc ngay 3 câu hỏi khi màn hình hiện, trong khoảng ngắn trước khi audio phát</td></tr><tr><td data-label="Lỗi">Đọc quá kỹ đáp án</td><td data-label="Vì sao mất điểm">Mắt còn bận khi audio đã chạy</td><td data-label="Cách sửa">Chỉ lướt để thấy điểm khác nhau</td></tr><tr><td data-label="Lỗi">Cố dịch từng từ</td><td data-label="Vì sao mất điểm">Chậm hơn audio, mất lượt nói sau</td><td data-label="Cách sửa">Nghe theo cụm ý và chức năng câu</td></tr><tr><td data-label="Lỗi">Chỉ bắt từ khóa</td><td data-label="Vì sao mất điểm">Dính bẫy lặp từ</td><td data-label="Cách sửa">Nghe trọn mệnh đề, kiểm tra paraphrase</td></tr><tr><td data-label="Lỗi">Không theo dõi ai đang nói</td><td data-label="Vì sao mất điểm">Gán sai hành động</td><td data-label="Cách sửa">Theo dõi vai trò và lượt nói</td></tr><tr><td data-label="Lỗi">Chốt thông tin đầu tiên</td><td data-label="Vì sao mất điểm">Bỏ qua thay đổi phía sau</td><td data-label="Cách sửa">Giữ tai đến hết đoạn; chọn lại nếu thông tin bị sửa</td></tr><tr><td data-label="Lỗi">Coi "câu 1 = đầu, câu 2 = giữa, câu 3 = cuối" là quy luật</td><td data-label="Vì sao mất điểm">Bỏ lỡ câu hỏi cần cả đoạn</td><td data-label="Cách sửa">Coi vị trí thông tin là xu hướng</td></tr><tr><td data-label="Lỗi">Không nghe phần cuối</td><td data-label="Vì sao mất điểm">Mất câu quyết định / hành động tiếp theo</td><td data-label="Cách sửa">Giữ tập trung đến lượt nói cuối</td></tr><tr><td data-label="Lỗi">Suy luận quá mức</td><td data-label="Vì sao mất điểm">Chọn đáp án hợp lý nhưng thiếu căn cứ</td><td data-label="Cách sửa">Tìm căn cứ trực tiếp hoặc gián tiếp</td></tr><tr><td data-label="Lỗi">Bỏ trống câu graphic / hàm ý vì nghĩ "khó"</td><td data-label="Vì sao mất điểm">Câu bỏ trống không được điểm, trong khi audio vẫn chạy</td><td data-label="Cách sửa">Luyện riêng quy trình; khi thi vẫn chọn một đáp án</td></tr><tr><td data-label="Lỗi">Để trống câu chưa chắc</td><td data-label="Vì sao mất điểm">Câu bỏ trống không được điểm</td><td data-label="Cách sửa">Loại trừ rồi chọn đáp án hợp lý nhất</td></tr><tr><td data-label="Lỗi">Không phân tích lại câu sai</td><td data-label="Vì sao mất điểm">Lặp lại cùng một lỗi</td><td data-label="Cách sửa">Ghi sổ lỗi sai (Phần 10)</td></tr></tbody></table></div>
+<aside class="callout c-remember"><div class="c-head"><span class="c-ico" aria-hidden="true">📌</span><span class="c-title">NẾU THI TRÊN GIẤY</span></div><div class="c-body"><ul class="bullets"><li>Không đọc trước câu hỏi: tận dụng lúc audio đọc Directions và lúc audio đọc câu hỏi để <strong>đọc trước nhóm câu kế tiếp</strong>.</li><li>Thông tin bị sửa sau khi đã tô: <strong>tẩy sạch rồi tô lại</strong>.</li></ul></div></aside></div>
+
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-10"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 10 · Cách luyện Part 3 hiệu quả</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+<section class="part" id="phan-10">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-10-c"><span class="part-num"><small>Phần</small> 10</span><span class="part-tt"><span class="part-t">Cách luyện Part 3 hiệu quả</span><span class="part-meta">4 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-10-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-10-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-1-c"><span class="sub-num">10.1</span><span class="sub-t">Năm bước luyện nghe chủ động</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-1-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span><strong>Nghe để bắt ý chính:</strong> đoạn nghe nói về chủ đề gì?</span></li>
+<li><span class="n">2</span><span><strong>Nghe cụm từ:</strong> ví dụ <em>make a reservation, file a complaint, place an order</em>.</span></li>
+<li><span class="n">3</span><span><strong>Shadowing:</strong> dừng audio, nhại lại 1–2 câu theo giọng người đọc để cải thiện phát âm và phản xạ.</span></li>
+<li><span class="n">4</span><span><strong>Đặt câu hỏi trong đầu:</strong> Ai đang nói? Họ muốn gì? Tiếp theo sẽ làm gì?</span></li>
+<li><span class="n">5</span><span><strong>Đối chiếu transcript:</strong> tìm chỗ nghe nhầm, rồi nghe lại đoạn đó đến khi hiểu mà không cần dịch sang tiếng Việt.</span></li>
+</ol>
+<p>Gợi ý thời lượng (kinh nghiệm luyện tập): <strong>30–60 phút mỗi ngày</strong>, duy trì đều đặn. Luyện đều theo cách này giúp em quen tốc độ, nhớ cụm từ lâu hơn và bớt cảm giác bị ngợp trong phòng thi.</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-10-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">10.2 · Một vòng luyện với mỗi đoạn hội thoại</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-10-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-2-c"><span class="sub-num">10.2</span><span class="sub-t">Một vòng luyện với mỗi đoạn hội thoại</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-2-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Làm 3 câu ở <strong>tốc độ thật</strong>, không dừng audio.</span></li>
+<li><span class="n">2</span><span>Chấm và <strong>phân loại lỗi</strong>: không nghe ra từ, không hiểu nghĩa, nhầm người, không nhận ra paraphrase, chốt sớm hay suy luận quá mức.</span></li>
+<li><span class="n">3</span><span>Đọc transcript <strong>đúng đoạn sai</strong>, đánh dấu cụm từ và từ chuyển ý.</span></li>
+<li><span class="n">4</span><span>Nghe lại <strong>không nhìn transcript</strong>; shadow 1–2 câu khó.</span></li>
+<li><span class="n">5</span><span>Ghi một dòng <strong>"lần sau tránh gì"</strong> vào sổ lỗi sai.</span></li>
+</ol>
+<p>Khi luyện đề, nên làm theo điều kiện thi trên máy tính: <strong>chỉ đọc câu hỏi của đoạn đang nghe</strong>, không đọc trước câu hỏi của đoạn kế tiếp, và tập đọc hiểu 3 câu hỏi trong vài giây trước khi bật audio.</p>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-10-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">10.3 · Mẫu sổ lỗi sai</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-10-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-3-c"><span class="sub-num">10.3</span><span class="sub-t">Mẫu sổ lỗi sai</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-3-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Mục ghi</th><th>Ví dụ</th></tr></thead><tbody><tr><td data-label="Mục ghi">Bối cảnh</td><td data-label="Ví dụ" class="en">Cửa hàng bán lẻ – đổi trả hàng</td></tr><tr><td data-label="Mục ghi">Vai trò người nói</td><td data-label="Ví dụ" class="en">[W] khách hàng – [M] nhân viên</td></tr><tr><td data-label="Mục ghi">Dạng câu sai</td><td data-label="Ví dụ" class="en">Hành động tiếp theo</td></tr><tr><td data-label="Mục ghi">Cụm từ bỏ lỡ</td><td data-label="Ví dụ" class="en">in that case</td></tr><tr><td data-label="Mục ghi">Loại bẫy</td><td data-label="Ví dụ" class="en">Thông tin ban đầu</td></tr><tr><td data-label="Mục ghi">Paraphrase của đáp án đúng</td><td data-label="Ví dụ" class="en">exchange it → get a different size</td></tr><tr><td data-label="Mục ghi">Lý do chọn sai</td><td data-label="Ví dụ" class="en">Chốt đáp án trước khi nghe thông tin bị thay đổi</td></tr><tr><td data-label="Mục ghi">Cách tránh lần sau</td><td data-label="Ví dụ" class="en">Giữ tai đến hết đoạn khi có từ chuyển ý</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-10-4"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">10.4 · Xoay vòng theo kỹ năng</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-10-4">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-10-4-c"><span class="sub-num">10.4</span><span class="sub-t">Xoay vòng theo kỹ năng</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-10-4-c"><div class="collapse-in"><div class="sub-body">
+<p>Không cần ép theo số ngày cố định. Hãy luyện theo <strong>điểm yếu</strong> thể hiện trong sổ lỗi sai:</p>
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Kỹ năng</th><th>Sản phẩm sau buổi luyện</th></tr></thead><tbody><tr><td data-label="Kỹ năng">Đọc trước câu hỏi, dự đoán bối cảnh</td><td data-label="Sản phẩm sau buổi luyện">Dự đoán bối cảnh cho 10 nhóm câu hỏi rồi kiểm tra lại</td></tr><tr><td data-label="Kỹ năng">Vai trò người nói, hội thoại ba người</td><td data-label="Sản phẩm sau buổi luyện">Bảng người nói – vai trò – hành động cho 5 đoạn</td></tr><tr><td data-label="Kỹ năng">Con số, thông tin bị thay đổi</td><td data-label="Sản phẩm sau buổi luyện">Phân tích 10 câu sai về số liệu / kế hoạch cũ</td></tr><tr><td data-label="Kỹ năng">Paraphrase, bẫy lặp từ</td><td data-label="Sản phẩm sau buổi luyện">Bổ sung 20 cặp paraphrase vào sổ tay</td></tr><tr><td data-label="Kỹ năng">Suy luận, hàm ý</td><td data-label="Sản phẩm sau buổi luyện">Ghi chức năng giao tiếp của 10 câu trích</td></tr><tr><td data-label="Kỹ năng">Graphic</td><td data-label="Sản phẩm sau buổi luyện">Luyện 5 đoạn có bảng biểu</td></tr><tr><td data-label="Kỹ năng">Làm trọn Part 3 ở tốc độ thật</td><td data-label="Sản phẩm sau buổi luyện">Giữ nhịp đọc câu hỏi trước khi nghe từ đoạn 1 đến đoạn 13</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn is-part" data-next="phan-11"><span class="nx-l">Phần tiếp theo</span><span class="nx-t">Phần 11 · Tổng kết nhanh trước khi thi</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+<section class="part" id="phan-11">
+<h2 class="part-h"><button type="button" class="part-btn" aria-expanded="false" aria-controls="phan-11-c"><span class="part-num"><small>Phần</small> 11</span><span class="part-tt"><span class="part-t">Tổng kết nhanh trước khi thi</span><span class="part-meta">3 mục</span></span><span class="chev" aria-hidden="true"></span></button></h2>
+<div class="collapse" id="phan-11-c"><div class="collapse-in"><div class="part-body">
+
+<section class="sub" id="muc-11-1">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-11-1-c"><span class="sub-num">11.1</span><span class="sub-t">Tám nguyên tắc cần nhớ</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-11-1-c"><div class="collapse-in"><div class="sub-body">
+<ol class="steps">
+<li><span class="n">1</span><span>Đọc trước để biết <strong>cần nghe gì</strong>, nhưng không đọc quá tải.</span></li>
+<li><span class="n">2</span><span>Nghe <strong>bối cảnh và vai trò</strong> trước; đừng săn đáp án ngay từ từ đầu tiên.</span></li>
+<li><span class="n">3</span><span>Theo dõi <strong>vấn đề → thay đổi → quyết định → hành động</strong>.</span></li>
+<li><span class="n">4</span><span>Đáp án đúng <strong>thường</strong> là paraphrase; từ trùng không bảo đảm đúng, cũng không tự động là sai.</span></li>
+<li><span class="n">5</span><span>Với con số và thời gian, gắn <strong>mỗi số với đúng sự việc</strong>.</span></li>
+<li><span class="n">6</span><span>Với ba người, ưu tiên <strong>ai nói gì – ai làm gì</strong>.</span></li>
+<li><span class="n">7</span><span>Với suy luận và hàm ý, chỉ chọn khi có <strong>căn cứ trong hội thoại</strong>.</span></li>
+<li><span class="n">8</span><span>Chọn khi đủ căn cứ, <strong>sửa khi có thay đổi</strong>, không để trống câu nào, rồi chuyển ngay sang nhóm sau.</span></li>
+</ol>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-11-2"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">11.2 · Checklist cho mỗi đoạn hội thoại</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-11-2">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-11-2-c"><span class="sub-num">11.2</span><span class="sub-t">Checklist cho mỗi đoạn hội thoại</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-11-2-c"><div class="collapse-in"><div class="sub-body">
+<div class="tbl-wrap"><table class="tbl cols-2"><thead><tr><th>Thời điểm</th><th>Tự hỏi</th></tr></thead><tbody><tr><td data-label="Thời điểm"><strong>Trước audio</strong></td><td data-label="Tự hỏi">3 câu hỏi hỏi gì? • Đáp án khác nhau ở đâu? • Có graphic không?</td></tr><tr><td data-label="Thời điểm"><strong>Trong audio</strong></td><td data-label="Tự hỏi">Ai nói? • Bối cảnh gì? • Vấn đề gì? • Có thông tin bị thay đổi không? • Ai sẽ làm gì tiếp?</td></tr><tr><td data-label="Thời điểm"><strong>Sau audio</strong></td><td data-label="Tự hỏi">Đáp án có đúng chủ thể, thời gian, địa điểm? • Có dính bẫy lặp từ? • Đã chọn đủ 3 câu? • Chuyển sang nhóm sau.</td></tr></tbody></table></div>
+<div class="next-row"><button type="button" class="next-btn" data-next="muc-11-3"><span class="nx-l">Mục tiếp theo</span><span class="nx-t">11.3 · Bản đồ tư duy một dòng</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section><section class="sub" id="muc-11-3">
+<h3 class="sub-h"><button type="button" class="sub-btn" aria-expanded="false" aria-controls="muc-11-3-c"><span class="sub-num">11.3</span><span class="sub-t">Bản đồ tư duy một dòng</span><span class="chev" aria-hidden="true"></span></button></h3>
+<div class="collapse" id="muc-11-3-c"><div class="collapse-in"><div class="sub-body">
+<aside class="callout c-info no-head"><div class="c-body"><p><strong>Đọc trước</strong>  →  <strong>Bối cảnh &amp; vai trò</strong>  →  <strong>Vấn đề</strong>  →  <strong>Thay đổi</strong>  →  <strong>Quyết định</strong>  →  <strong>Hành động</strong>  →  <strong>Kiểm tra paraphrase</strong></p></div></aside>
+<p>Em không cần nghe được mọi từ để làm tốt Part 3. Em cần <strong>giữ được mạch</strong>, biết câu hỏi đang nhắm vào đâu và không để đáp án nhiễu kéo mình khỏi thông tin thực sự được hỏi.</p>
+<div class="next-row"><button type="button" class="next-btn is-end" data-act="top"><span class="nx-l">Em đã đọc hết bài</span><span class="nx-t">Về đầu trang</span><span class="nx-arrow" aria-hidden="true"></span></button></div>
+</div></div></div>
+</section>
+
+</div></div></div>
+</section>
+
+    <p class="foot"><a class="home-link" href="index.html">← Xem tất cả 7 Part</a><br><b>TOEIC Thầy Khuê</b> · Tài liệu ôn tập dành cho học viên</p>
+  </main>
+</div>
+
+<button class="totop" type="button" aria-label="Lên đầu trang" data-act="top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 14l6-6 6 6"/></svg>
+</button>
+<div class="lightbox" role="dialog" aria-label="Ảnh phóng to"><img alt=""></div>
+
+<script>
+(function(){
+  var lastJump = 0, pinned = null, pinnedSub = null;
+  var $ = function(s,r){return (r||document).querySelector(s)};
+  var $$ = function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  var body = document.body;
+
+  function setOpen(sec, open){
+    sec.classList.toggle('open', open);
+    var btn = sec.querySelector(':scope > h2 > button, :scope > h3 > button');
+    var c = sec.querySelector(':scope > .collapse');
+    if(btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    if(c){ if(open) c.removeAttribute('inert'); else c.setAttribute('inert',''); }
+  }
+  $$('.part, .sub').forEach(function(s){ setOpen(s,false); });
+
+  $$('.part-btn, .sub-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var sec = btn.closest('.part, .sub');
+      var open = !sec.classList.contains('open');
+      setOpen(sec, open);
+      if(open && sec.classList.contains('part')){
+        // mở phần: nếu phần chỉ có 1-2 mục thì mở luôn mục đầu
+        var subs = $$(':scope .sub', sec);
+        if(subs.length && subs.length <= 1) setOpen(subs[0], true);
+      }
+      updateAllBtn();
+    });
+  });
+
+  // Mở tất cả / thu gọn tất cả
+  var allBtn = $('[data-act="all"]');
+  function updateAllBtn(){
+    var all = $$('.part, .sub'); var opened = all.filter(function(s){return s.classList.contains('open')}).length;
+    var full = opened === all.length;
+    allBtn.querySelector('span').textContent = full ? 'Thu gọn tất cả' : 'Mở tất cả';
+    allBtn.setAttribute('aria-pressed', full ? 'true' : 'false');
+    allBtn.querySelector('svg').style.transform = full ? 'rotate(180deg)' : '';
+  }
+  allBtn.addEventListener('click', function(){
+    var full = allBtn.getAttribute('aria-pressed') === 'true';
+    $$('.part, .sub').forEach(function(s){ setOpen(s, !full); });
+    updateAllBtn();
+  });
+
+  // Mở tới đúng mục theo #id
+  function reveal(id, smooth){
+    var el = document.getElementById(id); if(!el) return;
+    lastJump = Date.now(); pinned = el.closest('.part'); pinnedSub = el.classList.contains('sub') ? el : null; setTimeout(onScroll, 1300);
+    body.classList.add('no-anim');
+    var n = el; while(n){ if(n.classList && (n.classList.contains('part')||n.classList.contains('sub'))) setOpen(n,true); n = n.parentElement; }
+    updateAllBtn();
+    void document.body.offsetHeight;
+    requestAnimationFrame(function(){
+      var y = el.getBoundingClientRect().top + window.pageYOffset - ($('.bar').offsetHeight + 12);
+      window.scrollTo({top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto'});
+      setTimeout(function(){ body.classList.remove('no-anim'); }, 50);
+    });
+  }
+  $$('.toc a').forEach(function(a){
+    a.addEventListener('click', function(e){
+      e.preventDefault(); var id = a.getAttribute('href').slice(1);
+      var isPart = a.classList.contains('toc-p');
+      if(isPart){
+        var li = a.parentElement;
+        $$('.toc li.expanded').forEach(function(x){ if(x!==li) x.classList.remove('expanded'); });
+        li.classList.add('expanded');
+      }
+      var drawer = window.matchMedia('(max-width:1023.98px)').matches;
+      if(!(isPart && drawer)) body.classList.remove('toc-open');
+      history.replaceState(null,'','#'+id);
+      reveal(id, true);
+    });
+  });
+  if(location.hash){ reveal(decodeURIComponent(location.hash.slice(1)), false); }
+  window.addEventListener('hashchange', function(){ reveal(decodeURIComponent(location.hash.slice(1)), true); });
+
+  // Mục lục trên điện thoại
+  document.addEventListener('click', function(e){
+    var t = e.target.closest('[data-act]'); if(!t) return;
+    var act = t.getAttribute('data-act');
+    if(act==='toc'){ body.classList.add('toc-open'); var a = $('.toc li.active'); if(a) a.scrollIntoView({block:'center'}); }
+    if(act==='toc-close') body.classList.remove('toc-open');
+    if(act==='top') window.scrollTo({top:0,behavior:'smooth'});
+  });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ body.classList.remove('toc-open'); lb.classList.remove('show'); } });
+
+  // Thanh tiến độ, nút lên đầu, đánh dấu phần đang đọc
+  var bar = $('.progress'), top = $('.totop'), parts = $$('.part'), tocItems = $$('.toc .toc-p'), tocSubs = $$('.toc li ul a'), pctEl = $('.toc-pct'), pctBar = $('.toc-prog-bar i');
+  var ticking = false;
+  function onScroll(){
+    var h = document.documentElement; var max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? (h.scrollTop / max * 100) : 0) + '%';
+    top.classList.toggle('show', h.scrollTop > 600);
+    if(Date.now() - lastJump < 1200){ ticking = false; return; }
+    var cur = -1;
+    parts.forEach(function(p,i){ if(p.getBoundingClientRect().top < 140) cur = i; });
+    if(pinned){
+      var pr = pinned.getBoundingClientRect();
+      if(pr.top < window.innerHeight * 0.6 && pr.bottom > 140) cur = parts.indexOf(pinned); else pinned = null;
+    }
+    tocItems.forEach(function(a,i){ a.parentElement.classList.toggle('active', i===cur); });
+    if(!body.classList.contains('toc-open')) $$('.toc li.expanded').forEach(function(x){ if(!x.classList.contains('active')) x.classList.remove('expanded'); });
+    var pct = Math.round(max > 0 ? Math.min(100, h.scrollTop / max * 100) : 0);
+    pctEl.textContent = pct + '%'; pctBar.style.width = pct + '%';
+    var curSub = null;
+    if(cur >= 0){ $$('.sub', parts[cur]).forEach(function(s){ if(s.getBoundingClientRect().top < 160 && s.offsetParent) curSub = s.id; }); }
+    if(pinnedSub){
+      var sr = pinnedSub.getBoundingClientRect();
+      if(cur >= 0 && parts[cur].contains(pinnedSub) && sr.top < window.innerHeight * 0.6 && sr.bottom > 140) curSub = pinnedSub.id; else pinnedSub = null;
+    }
+    tocSubs.forEach(function(a){ a.classList.toggle('current', a.getAttribute('href') === '#' + curSub); });
+    if(curSub) saveSpot(curSub);
+    ticking = false;
+  }
+  window.addEventListener('scroll', function(){ if(!ticking){ ticking = true; requestAnimationFrame(onScroll); } }, {passive:true});
+  onScroll();
+
+  // Phóng to ảnh
+  var lb = $('.lightbox'), lbImg = $('img', lb);
+  $$('.zoom').forEach(function(b){
+    b.addEventListener('click', function(){ var im = $('img', b); lbImg.src = im.src; lbImg.alt = im.alt; lb.classList.add('show'); });
+  });
+  lb.addEventListener('click', function(){ lb.classList.remove('show'); });
+
+  // Nút "Mục tiếp theo"
+  $$('.next-btn[data-next]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var cur = btn.closest('.sub'), curPart = btn.closest('.part');
+      var id = btn.getAttribute('data-next'), target = document.getElementById(id);
+      body.classList.add('no-anim');
+      if(cur) setOpen(cur, false);
+      if(target.classList.contains('part')){
+        if(curPart) setOpen(curPart, false);
+        setOpen(target, true);
+        var intro = target.querySelector('.part-intro'), first = target.querySelector('.sub');
+        if(!intro && first) setOpen(first, true);
+      }
+      history.replaceState(null,'','#'+id);
+      reveal(id, false);
+    });
+  });
+
+  // Ghi nhớ chỗ đang đọc
+  var KEY = 'tk-read:' + location.pathname;
+  function saveSpot(id){ try{ localStorage.setItem(KEY, id); }catch(e){} }
+  var resume = $('.resume');
+  (function(){
+    if(location.hash) return;
+    var id = null; try{ id = localStorage.getItem(KEY); }catch(e){}
+    var el = id && document.getElementById(id); if(!el || !el.classList.contains('sub')) return;
+    var num = $('.sub-num', el).textContent, title = $('.sub-t', el).textContent;
+    $('.resume-txt', resume).innerHTML = 'Lần trước em đang đọc: <b></b>';
+    $('.resume-txt b', resume).textContent = num + ' · ' + title;
+    resume.classList.add('show');
+    $('.resume-go', resume).addEventListener('click', function(){ resume.classList.remove('show'); history.replaceState(null,'','#'+id); reveal(id, true); });
+    $('.resume-x', resume).addEventListener('click', function(){ resume.classList.remove('show'); });
+  })();
+
+  // Mở đáp án → tô xanh phương án đúng
+  $$('details.answer').forEach(function(d){
+    d.addEventListener('toggle', function(){
+      var keys = (d.getAttribute('data-key') || '').split(' ').filter(Boolean); if(!keys.length) return;
+      var g = d.closest('.qgroup'), lists = g ? $$('.options', g) : [d.previousElementSibling];
+      lists.forEach(function(ol, k){
+        if(!ol || !ol.classList.contains('options') || !keys[k]) return;
+        var li = ol.querySelector('[data-opt="'+keys[k]+'"]'); if(li) li.classList.toggle('is-key', d.open);
+      });
+    });
+  });
+  // In: mở hết nội dung
+  window.addEventListener('beforeprint', function(){ $$('.part, .sub').forEach(function(s){ setOpen(s,true); }); $$('details').forEach(function(d){ d.open = true; }); });
+})();
+</script>
+</body>
+</html>
